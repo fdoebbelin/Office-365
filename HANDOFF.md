@@ -25,7 +25,7 @@ Fehlende Teilnehmermaterialien für den Grundkurs schreiben, beginnend mit den H
 
 ## Offene Entscheidungen
 
-- **GitHub Pages aktivieren:** nach dem Push unter Settings → Pages „Deploy from a branch“, `main`, `/ (root)`. Der Jekyll-Build mit `_resources` ist lokal nicht getestet – nach dem ersten Push mit einer echten Übungsdatei prüfen, ob sie auf der Seite erscheint und sich herunterladen lässt.
+- **Erste Übungsdatei prüfen:** GitHub Pages ist aktiv (<https://fdoebbelin.github.io/Office-365/>, Branch `main`, `/`), Handouts erscheinen, `_resources/` wird veröffentlicht. Die Download-Tabelle ist noch ungetestet, weil es keine Office-Datei gibt – nach dem ersten Push einer Übungsdatei prüfen, ob sie im richtigen Block erscheint und sich herunterladen lässt.
 - **Sichtbarkeit:** Das Repository ist auf GitHub öffentlich (Stand 2026-11-27), früher hieß es hier „privat“. Damit sind auch Leitfäden und Lösungen öffentlich. Bleibt das so?
 - **Präsentationen:** Folientexte als Markdown (wie Block 01) für alle Blöcke, oder echte Präsentationsdateien?
 - **Nummerierung der Übungen:** Nummer 07 ist doppelt (Quiz Block 07, Wartungsprotokoll Block 05) – neu durchnummerieren?
