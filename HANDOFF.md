@@ -9,15 +9,14 @@
 
 Der Kurs ist auf Microsoft 365 mit dem neuen Outlook umgestellt und für **Selbststudium und Einzelcoaching ohne festen Zeitplan** ausgerichtet. Jeder Grundkurs-Block ist eine Lerneinheit (Leitfaden, Handout und Folien gebündelt, Folien als SVG, farbige Kästen) mit eigenem Übungsblatt (Seite und `.docx`) und echten Übungsdateien. Regeln in `AGENTS.md`.
 
-**Committet:** Block 01 bis 06 und 08 bis 12.
-**Fertig, aber nicht committet:** Block 07 – liegt im Arbeitsverzeichnis (siehe „Nächster Schritt“).
+**Alle zwölf Blöcke sind umgestellt und committet.**
 
 ## Erledigt
 
 - Struktur, Umstellung auf Microsoft 365, Website mit Just the Docs, Downloads, Kästen (frühere Sitzungen)
 - **Block 01** als Muster
 - **Block 02–05** (Outlook E-Mail, Kalender, Word Texte, Word Struktur) und **Block 08–12** (Excel-Grundlagen, Rechnen und Auswerten, Diagramme, Programme verknüpfen, Abschluss mit Kurzreferenz): je Lerneinheit, Folien, Übungsblatt, Übungsdateien mit Lösungen; Skripte `_werkzeuge/folien-block-NN.py`, `block-NN-docx.js`, `block-NN-xlsx.py`
-- **Block 06 „Praxis Outlook und Word“** statt Tagesrückblick (Entscheidung 2026-11-27): durchgehender Fall „Heizung im 3. OG“
+- **Block 06 „Praxis Outlook und Word“** statt Tagesrückblick und **Block 07 „Selbsttest Outlook und Word“** statt Wiederholung (Entscheidung 2026-11-27): Praxisfall „Heizung im 3. OG“ bzw. Quiz, Trainingsdokument und Outlook-Kurzaufgaben
 - Eigene Dateien der Lernenden liegen jetzt in `Dokumente\Haus-Lichtblick` statt `C:\Kurs\Uebungen` (README nachgeführt)
 - Excel-Lösungsdateien: Formeln mit englischen Funktionsnamen in der Datei, Ergebnisse vorberechnet und als zwischengespeicherte Werte eingetragen (`cache_values`), im Skript per `assert` gegen die Lösungen geprüft – Regel in `AGENTS.md`
 - `AGENTS.md`: Prüfbefehle für Liquid-Zeichen und Zeitangaben geschärft
@@ -25,12 +24,11 @@ Der Kurs ist auf Microsoft 365 mit dem neuen Outlook umgestellt und für **Selbs
 
 ## Nächster Schritt
 
-1. **Block 07 „Selbsttest Outlook und Word“ durchsehen und committen** (Entscheidung 2026-11-27: Übungsblock statt Wiederholung). Uncommittet im Arbeitsverzeichnis: `Grundkurs/Block-07.md`, `Block-07-Uebungsblatt.md`, `_resources/Grundkurs/Block-07/`, `assets/folien/block-07/`, `_werkzeuge/*-block-07.*`, Löschung `Block-07-Leitfaden.md`, dazu angepasste Titel in `Grundkurs/index.md`, `index.md`, `README.md` und „Weiter“ in `Block-05.md`. Vorher die Prüfbefehle aus `AGENTS.md` laufen lassen.
-2. Alle Word- und Excel-Dateien einmal in Microsoft 365 öffnen (lokal nur gegen das Schema geprüft bzw. ausgelesen, nicht angesehen), besonders die Diagramme in `Block-10-Loesung-Diagramme.xlsx` und `Block-11-Strom.xlsx`.
-3. Die Punkte unter „Vor dem ersten Kurs prüfen“ in `README.md` an einem PC kontrollieren (viele neue Menünamen aus Block 02–11).
-4. Push nach Freigabe; danach unter „Actions“ den Pages-Build prüfen.
-5. `AGENTS.md` aufräumen: Abschnitte zu „noch nicht umgestellten Blöcken“ betreffen im Grundkurs nichts mehr.
-6. Später: Aufbaumodule und Materialien mit Kopfzeilen in die Navigation holen (`defaults` mit `nav_exclude` in `_config.yml` entfernen).
+1. Alle Word- und Excel-Dateien einmal in Microsoft 365 öffnen (lokal nur gegen das Schema geprüft bzw. ausgelesen, nicht angesehen), besonders die Diagramme in `Block-10-Loesung-Diagramme.xlsx` und `Block-11-Strom.xlsx`.
+2. Die Punkte unter „Vor dem ersten Kurs prüfen“ in `README.md` an einem PC kontrollieren (viele neue Menünamen aus Block 02–11).
+3. Push nach Freigabe; danach unter „Actions“ den Pages-Build prüfen.
+4. `AGENTS.md` aufräumen: Abschnitte zu „noch nicht umgestellten Blöcken“ betreffen im Grundkurs nichts mehr.
+5. Später: Aufbaumodule und Materialien mit Kopfzeilen in die Navigation holen (`defaults` mit `nav_exclude` in `_config.yml` entfernen).
 
 ## Offene Entscheidungen
 
