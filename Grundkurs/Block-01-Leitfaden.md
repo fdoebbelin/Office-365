@@ -1,3 +1,10 @@
+---
+title: "Leitfaden"
+parent: "Block 01 – Ankommen und Orientierung"
+grand_parent: "Grundkurs"
+nav_order: 1
+---
+
 # Block 1: Ankommen und Orientierung
 
 **Programm:** Übergreifend  

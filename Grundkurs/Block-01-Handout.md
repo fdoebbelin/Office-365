@@ -1,3 +1,10 @@
+---
+title: "Handout"
+parent: "Block 01 – Ankommen und Orientierung"
+grand_parent: "Grundkurs"
+nav_order: 2
+---
+
 # Block 1: Ankommen und Orientierung
 
 **Programm:** Übergreifend

@@ -1,3 +1,10 @@
+---
+title: "Leitfaden"
+parent: "Block 12 – Abschluss und Ausblick"
+grand_parent: "Grundkurs"
+nav_order: 1
+---
+
 # Block 12 – Abschluss und Ausblick
 
 | | |

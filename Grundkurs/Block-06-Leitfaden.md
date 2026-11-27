@@ -1,3 +1,10 @@
+---
+title: "Leitfaden"
+parent: "Block 06 – Tagesrückblick und Fragen"
+grand_parent: "Grundkurs"
+nav_order: 1
+---
+
 # Block 06 – Tagesrückblick und Fragen
 
 | Merkmal | Details |

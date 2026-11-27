@@ -1,3 +1,10 @@
+---
+title: "Leitfaden"
+parent: "Block 02 – E-Mail-Grundlagen"
+grand_parent: "Grundkurs"
+nav_order: 1
+---
+
 # Block 02 – E-Mail-Grundlagen
 
 | Merkmal | Details |

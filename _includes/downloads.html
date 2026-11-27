@@ -1,0 +1,25 @@
+{%- comment -%}
+Listet alle Dateien aus _resources/<ordner>/ als Tabelle.
+Aufruf: include downloads.html ordner="Grundkurs/Block-05"
+Unterordner (z. B. Block-05) erscheinen in der ersten Spalte.
+Dateien mit „Loesung-“ am Anfang werden als Lösung markiert.
+{%- endcomment -%}
+{%- assign prefix = "_resources/" | append: include.ordner | append: "/" -%}
+{%- assign dateien = site.static_files | where_exp: "f", "f.path contains prefix" | sort: "path" -%}
+{%- if dateien.size > 0 -%}
+{%- assign gruppen = dateien | group_by_exp: "f", "f.path | split: prefix | last | split: '/' | first" -%}
+<table>
+<thead><tr><th>Block / Thema</th><th>Datei</th><th>Programm</th></tr></thead>
+<tbody>
+{%- for g in gruppen -%}{%- for f in g.items -%}
+{%- assign teile = f.path | split: prefix | last | split: "/" -%}
+{%- if teile.size > 1 -%}{%- assign gruppe = teile.first | replace: "-", " " -%}{%- else -%}{%- assign gruppe = "" -%}{%- endif -%}
+{%- case f.extname -%}{%- when ".docx" -%}{%- assign art = "Word" -%}{%- when ".dotx" -%}{%- assign art = "Word-Vorlage" -%}{%- when ".xlsx" -%}{%- assign art = "Excel" -%}{%- when ".xltx" -%}{%- assign art = "Excel-Vorlage" -%}{%- else -%}{%- assign art = f.extname | remove: "." -%}{%- endcase -%}
+{%- assign anfang = f.basename | slice: 0, 7 %}
+<tr><td>{% if forloop.first %}{{ gruppe }}{% endif %}</td><td><a href="{{ f.path | relative_url }}" download>{{ f.name }}</a>{% if anfang == "Loesung" %} <em>(Lösung)</em>{% endif %}</td><td>{{ art }}</td></tr>
+{%- endfor -%}{%- endfor %}
+</tbody>
+</table>
+{%- else %}
+<p><em>Noch keine Übungsdateien.</em></p>
+{%- endif %}

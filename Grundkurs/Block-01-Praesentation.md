@@ -1,3 +1,10 @@
+---
+title: "Folientexte"
+parent: "Block 01 – Ankommen und Orientierung"
+grand_parent: "Grundkurs"
+nav_order: 3
+---
+
 # Block 1 – Präsentation
 
 Folientexte der Präsentation zu Block 1. Jede Folie ist durch eine Trennlinie abgesetzt; die Fußzeile aller Folien lautet „Block 1 • Haus Lichtblick – Microsoft 365 Grundkurs“.

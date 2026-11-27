@@ -1,3 +1,10 @@
+---
+title: "Leitfaden"
+parent: "Block 11 – Programme verknüpfen"
+grand_parent: "Grundkurs"
+nav_order: 1
+---
+
 # Block 11 – Programme verknüpfen
 
 | Merkmal | Details |

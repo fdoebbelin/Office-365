@@ -1,3 +1,10 @@
+---
+title: "Leitfaden"
+parent: "Block 09 – Rechnen und Auswerten"
+grand_parent: "Grundkurs"
+nav_order: 1
+---
+
 # Block 09 – Rechnen und Auswerten
 
 | Merkmal | Details |

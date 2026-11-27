@@ -1,3 +1,10 @@
+---
+title: "Leitfaden"
+parent: "Block 04 – Texte erstellen, formatieren und speichern"
+grand_parent: "Grundkurs"
+nav_order: 1
+---
+
 # Block 4: Microsoft Word – Erste Schritte
 
 ## Übersicht

@@ -1,3 +1,10 @@
+---
+title: "Handout"
+parent: "Block 03 – Kalender und Termine"
+grand_parent: "Grundkurs"
+nav_order: 2
+---
+
 # Block 03: Kalender und Termine
 
 **Microsoft Outlook (neues Outlook für Windows)**

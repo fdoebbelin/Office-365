@@ -1,3 +1,10 @@
+---
+title: "Leitfaden"
+parent: "Block 08 – Excel-Grundlagen"
+grand_parent: "Grundkurs"
+nav_order: 1
+---
+
 # Block 08 – Leitfaden für den Dozenten
 
 | Merkmal | Details |

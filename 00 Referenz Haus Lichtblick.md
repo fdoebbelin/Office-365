@@ -1,3 +1,9 @@
+---
+title: "Szenario Haus Lichtblick"
+nav_order: 90
+permalink: "/referenz/"
+---
+
 # Referenzliste: Szenario "Haus Lichtblick"
 
 ## Gebäudedaten

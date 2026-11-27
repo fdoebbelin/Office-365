@@ -1,3 +1,10 @@
+---
+title: "Leitfaden"
+parent: "Block 05 – Vorlagen und Struktur"
+grand_parent: "Grundkurs"
+nav_order: 1
+---
+
 # Block 5 – Dozentenleitfaden
 
 | Merkmal | Details |

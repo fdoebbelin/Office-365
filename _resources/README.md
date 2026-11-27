@@ -1,6 +1,6 @@
 # Übungsdateien zum Download
 
-In diesem Ordner liegen die Word- und Excel-Dateien, die die Teilnehmenden über GitHub Pages herunterladen. Die Downloadseite (`index.md`) listet alles hier automatisch auf – eine Datei ablegen, committen, pushen, fertig.
+In diesem Ordner liegen die Word- und Excel-Dateien, die die Teilnehmenden über GitHub Pages herunterladen. Die Startseite der Website (`index.md`) und die Blockseiten im Grundkurs listen alles hier automatisch auf – eine Datei ablegen, committen, pushen, fertig.
 
 ## Ordner
 

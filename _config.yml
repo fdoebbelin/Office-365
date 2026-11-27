@@ -1,23 +1,67 @@
-# GitHub Pages – Downloadseite für die Teilnehmenden
+# GitHub Pages – Kursseite mit Navigation
 # Veröffentlicht aus dem Branch main, Ordner / (klassisches Jekyll von GitHub Pages).
+# Theme: Just the Docs, fest auf eine Version gepinnt.
 
 title: "Microsoft 365 im Facility Management"
-description: "Handouts und Übungsdateien zum Kurs – Szenario Haus Lichtblick"
+description: "Kursunterlagen, Handouts und Übungsdateien – Szenario Haus Lichtblick"
 lang: de
-theme: jekyll-theme-primer
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+plugins:
+  - jekyll-remote-theme
 
 # Jekyll lässt Ordner mit „_“ am Anfang sonst weg.
 include:
   - _resources
 
-# Regeln und Übergabe für Agenten gehören nicht auf die Seite.
+# Nicht auf die Seite: Regeln für Agenten, Übergabe, README (die Startseite ist index.md).
 exclude:
   - AGENTS.md
   - CLAUDE.md
   - HANDOFF.md
+  - README.md
 
-# Module in der Reihenfolge der Downloadseite.
-# ordner = Unterordner in _resources/ und Ordner der Kursdateien.
+# Just the Docs
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  button: false
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Nach oben"
+nav_sort: case_insensitive
+aux_links:
+  "Kurs auf GitHub": "https://github.com/fdoebbelin/Office-365"
+gh_edit_link: false
+color_scheme: light
+
+defaults:
+  # Hinweis- und Hilfsdateien nicht in Navigation und Suche
+  - scope:
+      path: "_resources"
+    values:
+      nav_exclude: true
+      search_exclude: true
+  # Übergangsweise, bis die Dateien eigene Kopfzeilen (Front Matter) haben
+  - scope:
+      path: "Aufbau-Word"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Aufbau-Excel"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Aufbau-Verknüpfung"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Materialien"
+    values:
+      nav_exclude: true
+
+# Module in der Reihenfolge der Startseite.
+# ordner = Modulordner im Repository und Unterordner in _resources/.
 module:
   - ordner: Grundkurs
     titel: Grundkurs

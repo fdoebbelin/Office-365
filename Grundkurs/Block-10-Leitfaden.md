@@ -1,3 +1,10 @@
+---
+title: "Leitfaden"
+parent: "Block 10 – Diagramme erstellen"
+grand_parent: "Grundkurs"
+nav_order: 1
+---
+
 # Block 10 – Diagramme erstellen
 
 | Merkmal | Details |
