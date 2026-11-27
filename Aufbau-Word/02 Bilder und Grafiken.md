@@ -1,47 +1,52 @@
+# 2. Bilder und Grafiken
+
+**Dauer:** 30 Minuten · **Übung:** Aushang „Aufzug außer Betrieb“
+
 ## Einführung
-- Bilder und Grafiken sind wesentliche Elemente in Dokumenten, die dazu beitragen, Informationen visuell ansprechend und verständlich darzustellen. 
-- Dieser Abschnitt behandelt das Einfügen und Bearbeiten von Bildern und Grafiken in Microsoft Word, um die Qualität und Wirkung von Dokumenten zu verbessern.
 
-## Einfügen von Bildern
-- **Bilder aus Dateien einfügen**:
-  - **Menübefehl**: 
-    - Registerkarte „Einfügen“ > Gruppe „Illustrationen“ > Schaltfläche „Bilder“ > „Dieses Gerät…“.
-  - Auswahl eines Bildes vom Computer und Einfügen in das Dokument.
+Bilder und Grafiken machen Aushänge auf einen Blick verständlich: ein Foto des betroffenen Aufzugs, ein Symbol, eine kleine Ablaufgrafik. Dieser Abschnitt zeigt, wie man sie einfügt, anpasst und im Text platziert.
 
-- **Bilder aus dem Web einfügen**:
-  - **Menübefehl**: 
-    - Registerkarte „Einfügen“ > Gruppe „Illustrationen“ > Schaltfläche „Onlinebilder…“.
-  - Suche nach einem Bild und Einfügen in das Dokument.
+## Bilder einfügen
 
-## Bearbeiten von Bildern
-- **Größenänderung von Bildern**:
-  - **Menübefehl**: 
-    - Markieren des Bildes und Ziehen der Ecken zur Größenänderung.
-  - Alternativ: Registerkarte „Bildformat“ (erscheint bei Auswahl des Bildes) > Gruppe „Größe“ zur Eingabe der gewünschten Maße.
+| Quelle | Menüband |
+|---|---|
+| Datei vom Computer | „Einfügen“ → „Bilder“ → „Dieses Gerät…“ |
+| Lizenzfreie Bilder und Symbole von Microsoft | „Einfügen“ → „Bilder“ → „Stockbilder…“ |
+| Bildersuche im Web | „Einfügen“ → „Bilder“ → „Onlinebilder…“ |
+| Symbole (Piktogramme) | „Einfügen“ → „Piktogramme“ |
 
-- **Zuschneiden von Bildern**:
-  - **Menübefehl**: 
-    - Markieren des Bildes und Registerkarte „Bildformat“ > Schaltfläche „Zuschneiden“.
-  - Ziehen der Zuschneidegriffe zur Auswahl des gewünschten Bereichs.
+Hinweis für die Praxis: Bei Onlinebildern auf die Lizenz achten. Für Aushänge sind die Stockbilder und Piktogramme von Microsoft die sichere Wahl.
 
-- **Positionierung von Bildern**:
-  - **Menübefehl**: 
-    - Markieren des Bildes und Registerkarte „Format“ > Gruppe „Anordnen“.
-  - Auswahl einer Option für den Textumbruch (z. B. „Quadratisch“, „Hinter den Text“).
-  - Auswahl einer Positionierung (z. B. „Mitte“, „Links außen“).
+## Bilder bearbeiten
 
-## Einfügen und Anpassen von Formen und SmartArt
-- **Einfügen und Anpassen von Formen**:
-  - **Menübefehl**: 
-    - Registerkarte „Einfügen“ > Gruppe „Illustrationen“ > Schaltfläche „Formen“.
-  - Auswahl einer Form und Zeichnen im Dokument.
-  - Formatierung der Form mit der Registerkarte „Format“.
+Sobald ein Bild markiert ist, erscheint die Registerkarte **„Bildformat“**.
 
-- **Einfügen und Anpassen von SmartArt**:
-  - **Menübefehl**: Registerkarte „Einfügen“ > Gruppe „Illustrationen“ > Schaltfläche „SmartArt“.
-  - Auswahl einer SmartArt-Grafik und Anpassung über die Registerkarte „SmartArt-Tools Design“.
+- **Größe ändern:** an einem Eckpunkt ziehen (dann bleiben die Proportionen erhalten) oder in „Bildformat“ → Gruppe „Größe“ Höhe und Breite eingeben.
+- **Zuschneiden:** „Bildformat“ → „Zuschneiden“ → schwarze Griffe ziehen → Esc oder erneut „Zuschneiden“.
+- **Textumbruch:** „Bildformat“ → „Zeilenumbruch“ bzw. die Schaltfläche „Layoutoptionen“ rechts neben dem Bild: „Mit Text in Zeile“, „Quadrat“, „Oben und unten“, „Hinter den Text“ …
+- **Position:** „Bildformat“ → „Position“ → z. B. „Oben rechts“.
 
-## Praktische Übung
-- **Übung zum Einfügen und Bearbeiten von Bildern**:
-	- Einfügen eines Bildes in das Dokument und Experimentieren mit verschiedenen Formatierungsoptionen (Größenänderung, Zuschneiden, Positionierung).
-	- Anpassung von Formen und SmartArt-Grafiken gemäß den Anweisungen.
+## Formen und SmartArt
+
+- **Formen:** „Einfügen“ → „Formen“ → Form wählen und mit gedrückter Maustaste aufziehen; gestalten über die Registerkarte **„Formformat“**.
+- **SmartArt:** „Einfügen“ → „SmartArt“ → Kategorie „Prozess“ → z. B. „Einfacher Prozess“. Text im Textbereich links eingeben; Farben und Stil über die Registerkarte **„SmartArt-Design“**.
+
+## Befehle im Überblick
+
+| Aufgabe | Weg |
+|---|---|
+| Bild einfügen | Einfügen → Bilder → Dieses Gerät… / Stockbilder… / Onlinebilder… |
+| Größe genau | Bildformat → Gruppe Größe → Höhe, Breite |
+| Zuschneiden | Bildformat → Zuschneiden |
+| Textumbruch | Bildformat → Zeilenumbruch, oder Schaltfläche „Layoutoptionen“ |
+| Form einfügen | Einfügen → Formen; gestalten in Formformat |
+| SmartArt | Einfügen → SmartArt; gestalten in SmartArt-Design |
+
+## Übung: Aushang „Aufzug außer Betrieb“
+
+1. Neues Dokument, Überschrift „Personenaufzug außer Betrieb“ (zentriert, 28 pt, fett).
+2. Fügen Sie ein passendes Bild ein (Stockbild oder Piktogramm „Aufzug“) und setzen Sie es mittig unter die Überschrift, Breite 6 cm.
+3. Text darunter: „Wegen Wartung durch Lift-Service Nord ist der Personenaufzug am Montag von 8:00 bis 12:00 Uhr gesperrt. Bitte nutzen Sie den Lastenaufzug oder das Treppenhaus.“
+4. Fügen Sie eine SmartArt „Einfacher Prozess“ ein: „Störung bemerken“ → „Ort notieren“ → „Hausmeister informieren“.
+5. Ändern Sie Farbe und Stil der SmartArt über „SmartArt-Design“.
+6. Prüfen Sie das Ergebnis in der Druckvorschau (Datei → Drucken): Passt alles auf eine Seite?

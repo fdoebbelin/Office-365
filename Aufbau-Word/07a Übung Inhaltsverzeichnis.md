@@ -1,38 +1,44 @@
-# Überschrift 1: Einführung
+# Übung: Betriebshandbuch Haus Lichtblick
 
-Der folgende Text bietet einen Überblick über die grundlegenden Aspekte unseres Sonnensystems. Sie werden Informationen über die Sonne, die Planeten und andere Himmelskörper finden.
-
-## Überschrift 2: Die Sonne
-
-Die Sonne ist der Stern im Zentrum unseres Sonnensystems. Sie enthält mehr als 99,8% der gesamten Masse des Sonnensystems und ist damit dessen mit Abstand größtes Objekt.
-
-### Überschrift 3: Merkmale der Sonne
-
-Die Sonne ist eine nahezu perfekte Kugel aus heißem Plasma, durchsetzt von magnetischen Feldern.
-
-# Überschrift 1: Die Planeten
-
-Unser Sonnensystem umfasst acht bekannte Planeten, die in der Reihenfolge ihrer Entfernung zur Sonne wie folgt sind: Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus und Neptun.
-
-## Überschrift 2: Inneren Planeten
-
-Die inneren Planeten sind die vier erdähnlichen Planeten, die sich am nächsten zur Sonne befinden: Merkur, Venus, Erde und Mars.
-
-### Überschrift 3: Merkur
-
-Merkur ist der Planet, der der Sonne am nächsten ist und keine natürlichen Satelliten hat.
-
-# Überschrift 1: Fazit
-
-Das Studium unseres Sonnensystems hilft uns, die Prozesse, die andere Sternensysteme formen, besser zu verstehen.
+Geben Sie den folgenden Text ein oder öffnen Sie `Uebung-A7-Betriebshandbuch.docx`. Die Hinweise in eckigen Klammern sagen, welche Formatvorlage der Absatz bekommt; sie werden nicht mit abgetippt.
 
 ---
-### Anleitung zum Erstellen des Inhaltsverzeichnisses
 
-1. Stellen Sie sicher, dass alle Überschriften korrekt formatiert sind, wie oben beschrieben.
-2. Platzieren Sie den Cursor am Anfang des Dokuments, wo das Inhaltsverzeichnis eingefügt werden soll.
-3. Gehen Sie zur Registerkarte „Referenzen“ in Word.
-4. Klicken Sie auf „Inhaltsverzeichnis“ und wählen Sie einen geeigneten automatischen Stil.
-5. Überprüfen Sie, ob alle Überschriften im Inhaltsverzeichnis korrekt angezeigt werden. Wenn nicht, aktualisieren Sie das Inhaltsverzeichnis, indem Sie darauf klicken und „Inhaltsverzeichnis aktualisieren“ auswählen.
-6. Prüfen Sie die Seitenzahlen, da das Inhaltsverzeichnis am den Beginn des Dokumentes eingesetzt wird, ist beim ersten Durchlauf die Seitenzahlzuordnung oft nicht korrekt, da das Inhaltsverzeichnis den Dokumententext verdrängt.
-	- besser das Inhaltverzeichnis gleich auf eine neue Seite platzieren
+[Überschrift 1] Das Gebäude
+
+Haus Lichtblick ist ein Bürogebäude in der Sonnenallee 45 in Berlin, erbaut 2010. Auf fünf Geschossen mit rund 3.200 m² Nutzfläche arbeiten zwölf Mietfirmen.
+
+[Überschrift 2] Geschosse und Räume
+
+Im Erdgeschoss liegen Eingangshalle, Empfang, Briefkastenraum, ein Technikraum für die Heizung und der Lagerraum EG-01. Das 1. bis 3. Obergeschoss enthält Büros, je einen Besprechungsraum und eine Teeküche. Im 4. Obergeschoss befinden sich Archiv, Serverraum und der Technikraum für die Lüftung.
+
+[Überschrift 1] Technik
+
+Die Gebäudetechnik wird teils vom eigenen Team, teils von externen Firmen gewartet.
+
+[Überschrift 2] Heizung
+
+Ein Gas-Brennwertkessel versorgt das Haus. Die Wartung findet jeden ersten Montag im Monat von 8:00 bis 9:30 Uhr statt.
+
+[Überschrift 3] Störung der Heizung
+
+Bleibt ein Heizkörper kalt, zuerst entlüften. Hilft das nicht, Heizungstechnik Berlin informieren.
+
+[Überschrift 2] Aufzüge
+
+Es gibt einen Personen- und einen Lastenaufzug. Lift-Service Nord wartet beide quartalsweise.
+
+[Überschrift 1] Sicherheit
+
+Fluchtwege, Feuerlöscher, Rauchmelder und Notbeleuchtung werden bei der jährlichen Sicherheitsbegehung geprüft. Die Checkliste steht in der Referenzliste.
+
+---
+
+## Anweisungen
+
+1. Weisen Sie die Formatvorlagen zu, wie in den eckigen Klammern angegeben, und löschen Sie die Klammerhinweise.
+2. Öffnen Sie den Navigationsbereich und prüfen Sie die Gliederung.
+3. Setzen Sie den Cursor an den Anfang, fügen Sie mit Strg+Enter eine neue Seite ein und erstellen Sie dort das Inhaltsverzeichnis („Referenzen“ → „Inhaltsverzeichnis“ → „Automatische Tabelle 1“).
+4. Fügen Sie vor „Sicherheit“ einen Seitenumbruch ein und aktualisieren Sie das Verzeichnis („Nur Seitenzahlen aktualisieren“).
+5. Ergänzen Sie unter „Sicherheit“ eine Überschrift 2 „Brandschutz“ mit einem Satz Text und aktualisieren Sie das gesamte Verzeichnis.
+6. Ändern Sie die Formatvorlage „Überschrift 1“ (Rechtsklick → „Ändern…“) auf eine andere Farbe und beobachten Sie, dass sich alle Hauptüberschriften ändern.

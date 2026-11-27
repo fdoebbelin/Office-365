@@ -1,54 +1,58 @@
-## Wichtige Feldfunktionen und ihre Anwendungsfälle
+# 5. Feldfunktionen
 
-### 1. Seitenzahlen
-- **Beschreibung**: Fügt die aktuelle Seitenzahl in das Dokument ein.
-- **Feld**: `{ PAGE }`
-- **Anwendung**: Häufig verwendet in Kopf- und Fußzeilen für fortlaufende Seitennummerierung.
+**Dauer:** 30 Minuten
 
-### 2. Anzahl der Seiten
-- **Beschreibung**: Zeigt die Gesamtzahl der Seiten im Dokument.
-- **Feld**: `{ NUMPAGES }`
-- **Anwendung**: Nützlich in Ausdrücken wie „Seite X von Y“.
+Felder sind Platzhalter, die Word selbst ausfüllt: das heutige Datum, die Seitenzahl, die Zahl der Seiten, ein Inhaltsverzeichnis. Jedes Feld hat zwei Gesichter – den **Feldcode** (die Anweisung) und das **Feldergebnis** (was man sieht).
 
-### 3. Aktuelles Datum
-- **Beschreibung**: Fügt das aktuelle Datum ein.
-- **Feld**: `{ DATE }`
-- **Anwendung**: Wird oft in Briefköpfen, Fußzeilen oder Dokumenttiteln verwendet.
+## Wichtige Felder
 
-### 4. Inhaltsverzeichnis
-- **Beschreibung**: Erstellt oder aktualisiert ein automatisches Inhaltsverzeichnis basierend auf Überschriften.
-- **Feld**: `{ TOC }`
-- **Anwendung**: Unverzichtbar in umfangreichen Dokumenten wie Berichten, Handbüchern und Büchern.
+| Feld | Feldcode | Verwendung |
+|---|---|---|
+| Seitenzahl | `{ PAGE }` | Kopf- und Fußzeilen |
+| Anzahl der Seiten | `{ NUMPAGES }` | „Seite X von Y“ |
+| Aktuelles Datum | `{ DATE }` | Briefe, Aushänge |
+| Inhaltsverzeichnis | `{ TOC }` | Berichte, Handbücher |
+| Titel des Dokuments | `{ TITLE }` | Kopfzeile, Titelseite |
+| Autor | `{ AUTHOR }` | Fußzeile |
+| Querverweis | `{ REF }` | Verweise auf Abbildungen, Tabellen, Überschriften |
 
-### 5. Dokumenttitel
-- **Beschreibung**: Fügt den in den Dokumenteigenschaften festgelegten Titel ein.
-- **Feld**: `{ TITLE }`
-- **Anwendung**: Nützlich für die automatische Einbindung des Dokumenttitels in Kopfzeilen oder Titelseiten.
+## Felder über Menüs einfügen
 
-### 6. Dokumentautor
-- **Beschreibung**: Zeigt den Namen des Autors an, wie in den Dokumenteigenschaften festgelegt.
-- **Feld**: `{ AUTHOR }`
-- **Anwendung**: Einsatz in Dokumentfußzeilen oder im Impressum.
+Meist entsteht ein Feld, ohne dass man es merkt:
 
-### 7. Kreuzverweise
-- **Beschreibung**: Erstellt Verweise auf andere Teile des Dokuments, wie Abbildungen, Tabellen oder Überschriften.
-- **Feld**: `{ REF }`
-- **Anwendung**: Wichtig für die Verknüpfung von Textstellen in wissenschaftlichen Arbeiten und Berichten.
+- **Seitenzahl:** „Einfügen“ → „Seitenzahl“ → Position und Format wählen.
+- **Datum:** „Einfügen“ → „Datum und Uhrzeit“ → Format wählen und **„Automatisch aktualisieren“** anhaken. Ohne Häkchen wird das Datum als fester Text eingefügt.
+- **Inhaltsverzeichnis:** „Referenzen“ → „Inhaltsverzeichnis“.
+- **Dokumenteigenschaften (Titel, Autor):** „Einfügen“ → „Schnellbausteine“ → „Dokumenteigenschaft“.
+- **Jedes andere Feld:** „Einfügen“ → „Schnellbausteine“ → **„Feld…“** → Feldname wählen.
 
-## Hotkeys zur Verwendung von Feldfunktionen
+## Tasten für Felder
 
-- **Feldfunktionen anzeigen/ausblenden**: `Alt + F9`
-  - Wechselt zwischen der Anzeige von Feldergebnissen und Feldcodes.
+| Tasten | Wirkung |
+|---|---|
+| **Alt+F9** | Feldcodes im ganzen Dokument zeigen bzw. wieder Ergebnisse zeigen |
+| **Umschalt+F9** | Feldcode nur des markierten Feldes umschalten |
+| **F9** | Markierte Felder aktualisieren |
+| **Strg+A**, dann **F9** | Alle Felder im Dokumenttext aktualisieren |
+| **Strg+F9** | Leere Feldklammer `{ }` einfügen, um einen Feldcode von Hand zu schreiben |
 
-- **Aktualisieren ausgewählter Felder**: `F9`
-  - Aktualisiert die Daten in den Feldern, um Änderungen zu reflektieren.
+Die geschweiften Klammern eines Feldes lassen sich nicht eintippen – nur mit Strg+F9 entsteht ein echtes Feld.
 
-- **Alle Felder im Dokument aktualisieren**: `Ctrl + A` (alles auswählen), dann `F9`
-  - Aktualisiert alle Felder im gesamten Dokument.
+Felder in Kopf- und Fußzeilen erfasst Strg+A nicht; sie werden beim Drucken bzw. in der Druckvorschau aktualisiert.
 
-- **Feldfunktion in Auswahl einfügen**: `Ctrl + F9`
-  - Fügt eine neue Feldklammer ein, in die ein Feldcode manuell eingegeben werden kann.
+## Standardanzeige festlegen
+
+Ob Word beim Öffnen Feldcodes oder Ergebnisse zeigt, ist eine Einstellung:
+
+1. „Datei“ → „Optionen“ → „Erweitert“.
+2. Abschnitt „Dokumentinhalt anzeigen“ → **„Feldfunktionen anstelle von Werten anzeigen“**.
+3. Häkchen setzen = Feldcodes; Häkchen entfernen = Ergebnisse (empfohlen).
+4. Mit „OK“ bestätigen.
+
+Unabhängig davon schaltet Alt+F9 jederzeit um.
 
 ## Praxistipps
-- Verwenden Sie Felder für dynamische Inhalte, die sich automatisch aktualisieren, wie Datumsangaben, Seitenzahlen und Inhaltsverzeichnisse, um die Konsistenz und Effizienz Ihrer Dokumenterstellung zu erhöhen.
-- Prüfen Sie regelmäßig, ob Felder korrekt aktualisiert werden, insbesondere vor dem Drucken oder Verteilen eines wichtigen Dokuments.
+
+- Feld zeigt Unsinn oder Fehlermeldung? Mit Alt+F9 den Feldcode prüfen.
+- Vor dem Drucken oder Versenden: Strg+A, F9 – damit Datum, Verzeichnisse und Querverweise stimmen.
+- Felder sind grau hinterlegt, sobald man hineinklickt – daran erkennt man sie im Text.

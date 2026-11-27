@@ -1,31 +1,35 @@
-Vorlagen sind vorgefertigte Dokumente, die als Ausgangspunkt für neue Dokumente dienen und helfen, Zeit zu sparen und Konsistenz in der Dokumentengestaltung zu gewährleisten.
+# 8. Dokumentvorlagen
 
-## Was ist eine Dokumentvorlage?
-Dokumentvorlagen in Word sind voreingestellte Formate, die bereits eine Reihe von Design-Elementen, Layouts und manchmal auch Text enthalten, die als Grundlage für das Erstellen neuer Dokumente dienen. Sie sind besonders nützlich für häufig verwendete Dokumenttypen wie Briefe, Berichte, Lebensläufe und mehr.
+**Dauer:** 30 Minuten · **Übung:** Vorlage „Aushang Haus Lichtblick“
 
-## Zugriff auf Vorlagen
-### Schritte zum Zugriff auf Vorlagen
-1. **Öffnen Sie Microsoft Word und gehen Sie zum Tab „Datei“.**
-2. **Klicken Sie auf „Neu“.** Hier sehen Sie eine Auswahl an verfügbaren Vorlagen.
-   - Sie können entweder eine der hervorgehobenen Vorlagen wählen oder einen spezifischen Dokumenttyp in das Suchfeld eingeben, um eine breitere Auswahl an Vorlagen zu durchsuchen.
+Eine Dokumentvorlage ist ein Muster für neue Dokumente: Seitenränder, Formatvorlagen, Kopf- und Fußzeilen, Logo und fester Text sind schon da. Aus einer Vorlage entsteht immer ein **neues** Dokument – die Vorlage selbst bleibt unverändert.
 
-## Eine Vorlage verwenden
-### Schritte zur Verwendung einer Vorlage
-1. **Wählen Sie aus der Liste der Vorlagen eine aus, die Ihren Anforderungen entspricht.**
-   - Klicken Sie auf die Vorlage, um eine Vorschau und eine Beschreibung der Vorlage zu sehen.
-2. **Klicken Sie auf „Erstellen“, um ein neues Dokument basierend auf der gewählten Vorlage zu öffnen.**
-   - Das neue Dokument, das sich öffnet, enthält bereits alle Formatierungen und Texte, die in der Vorlage definiert sind.
+## Vorlagen von Microsoft verwenden
+
+1. „Datei“ → „Neu“.
+2. Eine der angezeigten Vorlagen wählen oder einen Begriff ins Suchfeld eingeben (z. B. „Protokoll“, „Aushang“, „Brief“).
+3. Vorschau ansehen, dann **„Erstellen“**.
 
 ## Vorlagen anpassen
-### Anpassungsmöglichkeiten
-- **Text bearbeiten**: Sie können den vordefinierten Text in der Vorlage ändern, um ihn auf Ihre spezifischen Bedürfnisse zuzuschneiden.
-- **Design-Elemente anpassen**: Ändern Sie Designelemente wie Farbschemata, Schriftarten und Layouts über die Design-Tools in Word.
-- **Seitenlayout ändern**: Passen Sie das Seitenlayout an, indem Sie Ränder, Ausrichtung und andere Layoutoptionen unter dem Tab „Layout“ anpassen.
 
-## Vorlage speichern
-Wenn Sie eine Vorlage angepasst haben und diese Anpassungen für zukünftige Dokumente bewahren möchten, können Sie die angepasste Vorlage speichern:
-1. **Gehen Sie zu „Datei“ > „Speichern unter“.**
-2. **Wählen Sie „Word-Vorlage“ (*.dotx) im Dropdown-Menü bei „Dateityp“.**
-3. **Geben Sie der Vorlage einen Namen und speichern Sie sie an einem gewünschten Ort.**
+- **Text:** Platzhaltertext anklicken und überschreiben.
+- **Gestaltung:** Registerkarte „Entwurf“ → Designs, Farben, Schriftarten.
+- **Seite:** Registerkarte „Layout“ → Seitenränder, Ausrichtung, Format.
 
-Durch die Verwendung von Dokumentvorlagen können Sie die Effizienz Ihrer Arbeit verbessern und sicherstellen, dass Ihre Dokumente professionell gestaltet sind. Vorlagen bieten einen schnellen Startpunkt für eine Vielzahl von Dokumenten und helfen, ein konsistentes Erscheinungsbild zu wahren.
+## Eigene Vorlage speichern
+
+1. Dokument so vorbereiten, wie jedes neue Dokument aussehen soll – ohne den wechselnden Inhalt.
+2. „Datei“ → „Speichern unter“ (bei eingeschaltetem AutoSpeichern: „Kopie speichern“).
+3. Dateityp **„Word-Vorlage (*.dotx)“** wählen.
+4. Word wechselt dabei in den Ordner für eigene Vorlagen („Benutzerdefinierte Office-Vorlagen“ unter „Dokumente“). Dort speichern.
+5. Neue Dokumente aus der Vorlage: „Datei“ → „Neu“ → Reiter **„Persönlich“**.
+
+Hinweis: Erscheint der Reiter „Persönlich“ nicht, ist kein Standardordner für persönliche Vorlagen eingetragen. Prüfen unter „Datei“ → „Optionen“ → „Speichern“ → „Standardspeicherort für persönliche Vorlagen“.
+
+## Übung: Vorlage „Aushang Haus Lichtblick“
+
+1. Neues leeres Dokument; Seitenränder „Schmal“.
+2. Kopfzeile: „Haus Lichtblick · Sonnenallee 45 · 10115 Berlin“, zentriert; Fußzeile: „Facility Management – Rückfragen an thomas.weber@haus-lichtblick.de“.
+3. Platzhalter im Text: Überschrift „[Titel des Aushangs]“ (Überschrift 1, zentriert) und darunter „[Text]“.
+4. Als Word-Vorlage „Aushang Haus Lichtblick.dotx“ speichern und schließen.
+5. Über „Datei“ → „Neu“ → „Persönlich“ einen Aushang „Teeküche 2. OG gesperrt“ aus der Vorlage erstellen.

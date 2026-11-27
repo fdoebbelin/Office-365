@@ -1,19 +1,48 @@
+# 3. Tabellen
+
+**Dauer:** 30 Minuten · **Übung:** Telefonliste der Dienstleister
+
 ## Eine Tabelle einfügen
-1. **Öffnen Sie ein neues Dokument in Microsoft Word.**
-2. **Gehen Sie zur Registerkarte "Einfügen" in der Menüleiste.**
-3. **Klicken Sie auf "Tabelle".** 
-   - Sie sehen ein Dropdown-Menü, das verschiedene Möglichkeiten zum Einfügen einer Tabelle bietet. Wählen Sie "Tabelle einfügen" für spezifische Maße oder ziehen Sie das Mauszeiger-Raster, um die gewünschte Anzahl von Zeilen und Spalten auszuwählen.
 
-## Tabellen formatieren
-### Formatierungsoptionen:
-- **Tabellenstile**: Wählen Sie aus einer Reihe von vordefinierten Tabellenstilen für ein professionelles Aussehen.
-- **Ränder und Schattierungen**: Passen Sie Ränder und Schattierungen an, um die Lesbarkeit der Tabelle zu verbessern.
+1. Cursor an die Stelle setzen, an der die Tabelle stehen soll.
+2. „Einfügen“ → „Tabelle“.
+3. Im Raster die gewünschte Anzahl von Spalten und Zeilen überstreichen und klicken – oder „Tabelle einfügen…“ für genaue Werte.
 
-### Schritte zur Formatierung:
-1. **Wählen Sie die Tabelle aus.** Dies aktiviert zwei neue Registerkarten im Ribbon: "Entwurf" und "Layout" unter "Tabellentools".
-2. **Entwurfsregisterkarte**: 
-   - Wählen Sie aus dem Bereich "Tabellenstile" einen Stil, der zu Ihrem Dokument passt.
-   - Verwenden Sie die Optionen im Bereich "Ränder", um die Linienstärke und Farbe zu ändern.
-3. **Layoutregisterkarte**: 
-   - Ändern Sie die Zeilenhöhe und Spaltenbreite, um den Inhalt entsprechend anzuzeigen.
-   - Nutzen Sie die Optionen in der Gruppe "Ausrichtung", um die Ausrichtung des Textes in den Zellen anzupassen.
+Mit der Tab-Taste springt man zur nächsten Zelle; in der letzten Zelle legt Tab eine neue Zeile an.
+
+## Tabellen gestalten
+
+Klickt man in eine Tabelle, erscheinen zwei Registerkarten: **„Tabellenentwurf“** und **„Layout“** (rechts neben „Tabellenentwurf“, nicht zu verwechseln mit der allgemeinen Registerkarte „Layout“ für die Seite).
+
+**Registerkarte „Tabellenentwurf“:**
+
+- Gruppe „Tabellenformatvorlagen“: fertige Gestaltung mit einem Klick.
+- „Optionen für Tabellenformat“: Kopfzeile, Ergebniszeile, gebänderte Zeilen ein- oder ausschalten.
+- Gruppe „Rahmen“: Linienart, -stärke und -farbe, dann „Rahmen“ für die markierten Zellen.
+
+**Registerkarte „Layout“ (Tabelle):**
+
+- Zeilen und Spalten einfügen oder löschen.
+- Zellen verbinden oder teilen.
+- Zeilenhöhe und Spaltenbreite; „AutoAnpassen“ → „Inhalt automatisch anpassen“.
+- Gruppe „Ausrichtung“: Text in den Zellen ausrichten (siehe unten).
+
+## Text in Zellen vertikal ausrichten
+
+In höheren Zellen sitzt Text sonst oben. So wird er vertikal ausgerichtet:
+
+1. Zellen markieren – eine Zelle, eine Zeile oder die ganze Tabelle.
+2. Registerkarte „Layout“ (Tabelle) → Gruppe „Ausrichtung“.
+3. Eines der neun Symbole wählen: Sie kombinieren oben/zentriert/unten mit links/mitte/rechts. Das Symbol in der Mitte richtet in beide Richtungen zentriert aus.
+
+Tipp: Mit der Maus über die Symbole fahren – Word zeigt das Ergebnis sofort als Vorschau.
+
+## Übung: Telefonliste der Dienstleister
+
+Erstellen Sie aus den Angaben der Referenzliste (`00 Referenz Haus Lichtblick.md`, Abschnitt „Externe Dienstleister“) eine Telefonliste:
+
+1. Tabelle mit den Spalten **Gewerk**, **Firma**, **Ansprechpartner**, **E-Mail**.
+2. Je eine Zeile für Hausverwaltung, Gebäudereinigung, Heizungswartung, Elektriker, Aufzugswartung.
+3. Wenden Sie eine Tabellenformatvorlage an, die die Kopfzeile hervorhebt.
+4. Stellen Sie die Zeilenhöhe der Kopfzeile auf 1 cm und richten Sie ihren Text vertikal zentriert aus.
+5. Passen Sie die Spaltenbreiten an den Inhalt an („AutoAnpassen“).

@@ -1,36 +1,58 @@
-In Microsoft Word können Sie innerhalb der Formelfunktion in Tabellen ähnlich wie in Excel Feldbezüge verwenden, jedoch sind die Möglichkeiten und Funktionen in Word deutlich begrenzter als in Excel. In Word sind die Formeln hauptsächlich auf die Verarbeitung und Berechnung von Daten innerhalb von Tabellen beschränkt.
+# 4. Rechnen in Word-Tabellen
 
-### Verwendung von Feldbezügen in Word-Tabellenformeln
+**Dauer:** 20 Minuten · **Übung:** Materialbestellung
 
-1. **Einfügen einer Tabelle**: Beginnen Sie mit dem Einfügen einer Tabelle in Ihr Dokument, indem Sie auf „Einfügen“ > „Tabelle“ klicken und die gewünschte Größe der Tabelle auswählen.
+Word kann in Tabellen einfache Berechnungen ausführen – Summen, Durchschnitte, Produkte. Die Möglichkeiten sind deutlich kleiner als in Excel; für mehr als eine Summenzeile gehört die Tabelle nach Excel (siehe Aufbaumodul „Programme verknüpfen“).
 
-2. **Eingabe von Daten**: Füllen Sie die Tabelle mit Daten, die Sie in Ihren Berechnungen verwenden möchten.
+## Eine Formel einfügen
 
-3. **Formel einfügen**:
-   - Klicken Sie in die Zelle, in der Sie die Formel anzeigen möchten.
-   - Gehen Sie zur Registerkarte „Layout“ unter „Tabellentools“.
-   - Klicken Sie im Bereich „Daten“ auf „Formel“.
+1. In die Zelle klicken, in der das Ergebnis stehen soll.
+2. Registerkarte „Layout“ (Tabelle) → Gruppe „Daten“ → **„Formel“**.
+3. Im Dialog „Formel“ die Berechnung eingeben und mit „OK“ bestätigen.
 
-4. **Verwenden von Feldbezügen**:
-   - In dem sich öffnenden Dialogfenster „Formel“ können Sie Ihre Berechnung eingeben.
-   - Für Feldbezüge innerhalb der Tabelle verwenden Sie `ABOVE`, `BELOW`, `LEFT`, oder `RIGHT` um Werte aus Zellen oberhalb, unterhalb, links oder rechts von der Formelzelle zu referenzieren. Diese Schlüsselwörter beziehen sich auf alle Zellen in der entsprechenden Richtung in derselben Spalte oder Zeile bis zum ersten leeren Feld oder Ende des Bereiches.
-   - Beispiel: Um die Summe aller Zahlen oberhalb der aktuellen Zelle zu berechnen, könnten Sie die Formel `=SUM(ABOVE)` eingeben.
+Word schlägt oft schon `=SUM(ABOVE)` vor. Die Funktionsnamen in Word-Formeln sind englisch – auch im deutschen Word.
 
-1. **Formeloptionen anpassen**:
-   - Word bietet auch die Möglichkeit, bestimmte Zellen direkt zu referenzieren, indem Sie die Zelle wie in Excel mit dem Spaltenbuchstaben und der Zeilennummer ansprechen:
+## Bezüge auf Zellen
+
+**Richtungsangaben** beziehen sich auf alle Zahlen in einer Richtung, bis zur ersten leeren Zelle oder zum Tabellenrand:
+
+| Angabe | Bedeutung | Beispiel |
+|---|---|---|
+| `ABOVE` | Zellen darüber | `=SUM(ABOVE)` |
+| `BELOW` | Zellen darunter | `=SUM(BELOW)` |
+| `LEFT` | Zellen links | `=SUM(LEFT)` |
+| `RIGHT` | Zellen rechts | `=SUM(RIGHT)` |
+
+**Zelladressen wie in Excel:** Spalten heißen A, B, C …, Zeilen 1, 2, 3 …; die erste Zelle oben links ist A1.
 
 ```
-=SUM(D1;D2;D3;D4)
-oder
-=SUM(D1:D4)
+=SUM(D2;D3;D4)
+=SUM(D2:D4)
+=B2*C2
 ```
 
-6. **Formel bestätigen**:
-   - Klicken Sie auf „OK“, um die Formel zu bestätigen und die Berechnung in der Zelle durchzuführen.
+Einzelne Zellen werden im deutschen Word mit Semikolon getrennt, Bereiche mit Doppelpunkt gebildet.
 
-### Einschränkungen und Unterschiede zu Excel
-- **Komplexität**: Word-Formeln sind nicht so mächtig und flexibel wie Excel-Formeln. Sie sind hauptsächlich darauf ausgelegt, einfache Berechnungen wie Summen, Durchschnitte oder Produkte durchzuführen.
-- **Dynamik**: Änderungen in den Zellwerten aktualisieren nicht automatisch die Ergebnisse von Formeln. Sie müssen die Formeln manuell aktualisieren, indem Sie die Zelle mit der Formel auswählen und `F9` drücken.
-- **Funktionen**: Die Anzahl der verfügbaren Funktionen in Word ist begrenzt im Vergleich zu Excel.
+## Unterschiede zu Excel
 
-Obwohl Word einige grundlegende tabellenbasierte Berechnungen ermöglicht, empfiehlt es sich, für umfangreiche und komplexe Datenanalysen oder Berechnungen Excel zu verwenden, da es hierfür speziell ausgelegt ist.
+- **Keine automatische Aktualisierung:** Ändert sich eine Zahl, bleibt das Ergebnis stehen. Formel markieren und **F9** drücken; für alle Formeln: Strg+A, dann F9.
+- **Wenige Funktionen:** u. a. SUM, AVERAGE, MIN, MAX, PRODUCT, COUNT.
+- **Formeln lassen sich nicht kopieren** und passen sich nicht an wie in Excel.
+
+Die Formel ist ein Feld – mit **Alt+F9** sieht man den Feldcode, z. B. `{ =SUM(ABOVE) }` (siehe `05 Feldfunktionen.md`).
+
+## Übung: Materialbestellung
+
+Legen Sie eine Bestellung für den Lagerraum EG-01 an:
+
+| Artikel | Menge | Einzelpreis € | Gesamt € |
+|---|---|---|---|
+| Glasreiniger | 10 | 3,20 | |
+| Einweghandschuhe (Paket) | 8 | 6,50 | |
+| Allzweckreiniger | 5 | 2,80 | |
+| **Summe** | | | |
+
+1. Berechnen Sie „Gesamt“ in jeder Zeile mit einer Formel (z. B. `=B2*C2`).
+2. Berechnen Sie die Summe mit `=SUM(ABOVE)`.
+3. Ändern Sie die Menge Glasreiniger auf 12 und aktualisieren Sie die Ergebnisse mit F9.
+4. Wählen Sie im Dialog „Formel“ unter „Zahlenformat“ ein Format mit zwei Nachkommastellen.

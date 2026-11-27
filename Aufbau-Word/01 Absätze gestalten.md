@@ -1,76 +1,104 @@
-## 1. Einführung
-- Begrüßen Sie die Teilnehmer:innen und erklären Sie die Bedeutung der Absatzformatierung:
-  - *„Die Absatzformatierung ist entscheidend, um Text logisch zu strukturieren und die Lesbarkeit zu erhöhen. Wir werden lernen, wie man Absätze ausrichtet, Abstände anpasst und Listen mit Aufzählungszeichen oder Nummerierungen erstellt.“*
-- Zeigen Sie ein Beispiel-Dokument mit unterschiedlich formatierten Absätzen (z. B. ein Dokument mit verschiedenen Textblöcken, Überschriften, Listen), um die Relevanz zu verdeutlichen.
+# 1. Absätze gestalten
 
----
+**Dauer:** 30 Minuten · **Übung:** Hausordnung Haus Lichtblick
 
-## 2. Demonstration
+## Einführung
 
-##### **Schritt 1: Vorbereitung – Text eingeben oder einfügen**
-- Geben Sie live einen kurzen Beispieltext ein oder fügen Sie einen vorbereiteten Text ein, der mehrere Absätze enthält. Zum Beispiel:
-  ```
-  Dies ist der erste Absatz. Er dient als Beispiel für die Absatzformatierung.
+> „Die Absatzformatierung ist entscheidend, um Text logisch zu strukturieren und die Lesbarkeit zu erhöhen. Wir lernen, wie man Absätze ausrichtet, Abstände einstellt, Einzüge setzt und Listen anlegt.“
 
-  Dies ist der zweite Absatz. Wir werden ihn anders formatieren als den ersten.
+Zeigen Sie zum Einstieg die fertige Hausordnung (Lösung) neben dem unformatierten Text.
 
-  Dies ist der dritte Absatz. Er wird in einer Liste verwendet.
-  ```
+## Demonstration
+
+### Schritt 1: Steuerzeichen einblenden
+
+- „Start“ → Gruppe „Absatz“ → Symbol ¶
+- Jetzt ist sichtbar, wo ein Absatz endet. Leere Absätze als Abstandshalter werden als eigene ¶-Zeilen erkennbar – genau die wollen wir loswerden.
 
 ### Schritt 2: Ausrichtung
-- Erklären und demonstrieren Sie die verschiedenen Ausrichtungsoptionen:
-  - Markieren Sie einen Absatz.
-  - Im Menüband unter *Start > Gruppe Absatz*:
-    - *Linksbündig*: Symbol für linksbündige Ausrichtung.
-    - *Zentriert*: Symbol für zentrierte Ausrichtung.
-    - *Rechtsbündig*: Symbol für rechtsbündige Ausrichtung.
-    - *Blocksatz*: Symbol für Blocksatz.
-  - Demonstrieren Sie, wie sich die Ausrichtung auf das Erscheinungsbild des Absatzes auswirkt.
-  - Hinweis: *„Die Wahl der Ausrichtung hängt vom Dokumenttyp und dem gewünschten Erscheinungsbild ab. Blocksatz eignet sich gut für längere Texte, während zentriert oft für Überschriften oder kurze Texte verwendet wird.“*
+
+- Absatz markieren (es genügt, den Cursor hineinzusetzen).
+- „Start“ → Gruppe „Absatz“: Linksbündig, Zentriert, Rechtsbündig, Blocksatz.
+- Hinweis: *„Blocksatz eignet sich für längere Texte in schmalen Spalten, zentriert für Überschriften und Aushänge. Für Fließtext ist linksbündig am besten lesbar.“*
 
 ### Schritt 3: Zeilenabstand
-- Erklären und demonstrieren Sie die Anpassung des Zeilenabstands:
-  - Markieren Sie einen Absatz.
-  - Im Menüband unter *Start > Gruppe Absatz*:
-    - Klicken Sie auf das Symbol *Zeilen- und Absatzabstand*.
-    - Wählen Sie einen vordefinierten Wert (z. B. 1,0; 1,15; 1,5; 2,0) oder wählen Sie *„Zeilenabstandsoptionen…“*, um detailliertere Einstellungen vorzunehmen.
-  - Zeigen Sie, wie sich der Zeilenabstand auf die Lesbarkeit des Textes auswirkt.
-  - Hinweis: *„Ein größerer Zeilenabstand kann die Lesbarkeit erhöhen, besonders bei längeren Texten.“*
 
-### Schritt 4: Absatzabstand
-- Erklären und demonstrieren Sie die Anpassung des Abstands vor und nach Absätzen:
-  - Markieren Sie einen Absatz.
-  - Im Menüband unter *Start > Gruppe Absatz*:
-    - Klicken Sie auf das Symbol *Zeilen- und Absatzabstand* und wählen Sie *„Abstand vor Absatz hinzufügen“* oder *„Abstand nach Absatz hinzufügen“*.
-    - Alternativ können Sie *„Zeilenabstandsoptionen…“* wählen und die Werte für *„Abstand vor“* und *„Abstand nach“* manuell einstellen.
-  - Demonstrieren Sie, wie sich der Absatzabstand auf die Gliederung des Dokuments auswirkt.
-  - Hinweis: *„Absatzabstände helfen, Textblöcke visuell voneinander zu trennen und die Struktur des Dokuments zu verdeutlichen.“*
+- „Start“ → Gruppe „Absatz“ → Symbol „Zeilen- und Absatzabstand“ → Wert wählen (1,0; 1,15; 1,5; 2,0).
+- Für genaue Werte: „Zeilenabstandsoptionen…“.
+- Hinweis: *„Ein etwas größerer Zeilenabstand erhöht die Lesbarkeit, besonders bei Aushängen.“*
 
-### Schritt 5: Aufzählungszeichen und Nummerierungen
-- Erklären und demonstrieren Sie das Erstellen von Listen:
-  - Markieren Sie die Absätze, die in einer Liste dargestellt werden sollen.
-  - Im Menüband unter *Start > Gruppe Absatz*:
-    - *Aufzählungszeichen*: Klicken Sie auf das Symbol für Aufzählungszeichen und wählen Sie einen Stil aus.
-    - *Nummerierung*: Klicken Sie auf das Symbol für Nummerierung und wählen Sie ein Format aus (z. B. 1, 2, 3 oder a, b, c).
-  - Zeigen Sie, wie man die Listen anpassen kann (z. B. durch Ändern der Aufzählungszeichen oder Nummerierungsformate).
-  - Hinweis: *„Listen sind nützlich, um Informationen übersichtlich darzustellen und wichtige Punkte hervorzuheben.“*
+### Schritt 4: Abstand vor und nach Absätzen
+
+- Im selben Menü: „Abstand vor Absatz hinzufügen/entfernen“, „Abstand nach Absatz hinzufügen/entfernen“.
+- Genau: „Zeilenabstandsoptionen…“ → Felder „Vor“ und „Nach“ (z. B. 6 pt nach jedem Absatz).
+- Hinweis: *„Abstände sorgen für Luft zwischen Textblöcken – ohne leere Absätze, die beim Umbruch stören.“*
+
+### Schritt 5: Einzüge
+
+- Lineal einblenden: „Ansicht“ → „Lineal“.
+- Einzug links/rechts und Sondereinzug („Erste Zeile“, „Hängend“) im Dialog „Absatz“ (kleiner Pfeil unten rechts in der Gruppe „Absatz“) oder durch Ziehen der Dreiecke im Lineal.
+
+### Schritt 6: Aufzählungen und Nummerierungen
+
+- Absätze markieren → „Start“ → Gruppe „Absatz“ → „Aufzählungszeichen“ oder „Nummerierung“; über den kleinen Pfeil daneben einen anderen Stil wählen.
+- Listenebene ändern: Tab (eine Ebene tiefer) und Umschalt+Tab (eine Ebene höher).
+- Liste beenden: zweimal Enter oder Enter und Rücktaste.
+
+## Befehle und Tastenkürzel
+
+| Aufgabe | Menüband | Tastenkürzel (deutsches Word) |
+|---|---|---|
+| Linksbündig | Start → Absatz → Linksbündig | Strg+L |
+| Zentriert | Start → Absatz → Zentriert | Strg+E |
+| Rechtsbündig | Start → Absatz → Rechtsbündig | Strg+R |
+| Blocksatz | Start → Absatz → Blocksatz | Strg+B |
+| Zeilenabstand einfach / 1,5 / doppelt | Start → Absatz → Zeilen- und Absatzabstand | Strg+1 / Strg+5 / Strg+2 |
+| Einzug, Abstände genau | Dialog „Absatz“ (Pfeil unten rechts in der Gruppe) | – |
+| Steuerzeichen ein/aus | Start → Absatz → ¶ | – |
+
+Achtung: Anleitungen aus dem Internet nennen oft die englischen Kürzel (z. B. Strg+J für Blocksatz). Im deutschen Word ist Strg+B der Blocksatz – nicht Fett.
+
+## Übung: Hausordnung Haus Lichtblick
+
+Geben Sie den folgenden Text ein (oder öffnen Sie `Uebung-A1-Hausordnung.docx`) und formatieren Sie ihn nach den Anweisungen.
 
 ---
 
-## 3. Praktische Übung
-- Geben Sie den Teilnehmer:innen einen vorgegebenen Text mit mehreren Absätzen.
-- Aufgabe:
-  - Formatieren Sie die Absätze unterschiedlich (z. B. linksbündig, zentriert, Blocksatz).
-  - Ändern Sie den Zeilenabstand für einige Absätze auf 1,5.
-  - Fügen Sie vor und nach einigen Absätzen Abstände hinzu.
-  - Erstellen Sie eine nummerierte Liste und eine Liste mit Aufzählungszeichen.
+**Hausordnung Haus Lichtblick**
+
+Damit sich alle Mieterinnen und Mieter im Haus Lichtblick wohlfühlen, gelten die folgenden Regeln. Sie ergänzen die Mietverträge und werden von der Hausverwaltung Immobilien Fischer GmbH regelmäßig überprüft.
+
+**Ruhezeiten**
+
+Montag bis Freitag
+von 13:00 bis 15:00 Uhr
+ab 20:00 Uhr
+
+**Was bei einer Störung zu tun ist**
+
+Störung genau beschreiben
+Ort angeben (Etage, Raum)
+Hausmeister per E-Mail informieren
+Bei Gefahr sofort telefonisch melden
+
+**Allgemeine Hinweise**
+
+Fluchtwege freihalten.
+Müll nur in die gekennzeichneten Behälter.
+Teeküchen nach Benutzung aufräumen.
 
 ---
 
-### 4. Abschluss und Zusammenfassung
-- Wiederholen Sie die wichtigsten Punkte:
-  - Ausrichtung, Zeilenabstand, Absatzabstand und Listen sind wichtige Werkzeuge zur Strukturierung von Text.
-  - Die Funktionen zur Absatzformatierung sind im Menüband unter *Start > Gruppe Absatz* zu finden.
-- Fragenrunde: *„Gibt es noch Unklarheiten?“*
-- Übergang zum nächsten Punkt:
-  - *„Jetzt, da wir Absätze formatieren können, schauen wir uns an, wie man Bilder und Grafiken in ein Dokument einfügt.“*
+**Anweisungen:**
+
+1. Zentrieren Sie die Überschrift „Hausordnung Haus Lichtblick“, alles andere bleibt linksbündig.
+2. Setzen Sie den Zeilenabstand des gesamten Textes auf 1,15 und den Abstand nach jedem Absatz auf 6 pt. Löschen Sie dafür alle leeren Absätze.
+3. Formatieren Sie die Punkte unter „Was bei einer Störung zu tun ist“ als nummerierte Liste.
+4. Formatieren Sie die Punkte unter „Allgemeine Hinweise“ als Aufzählung.
+5. Rücken Sie die Zeilen unter „Ruhezeiten“ links um 1 cm ein.
+6. Kontrollieren Sie mit eingeblendeten Steuerzeichen (¶), dass keine leeren Absätze übrig sind.
+
+## Abschluss
+
+- Ausrichtung, Zeilenabstand, Absatzabstand, Einzug und Listen sind die Werkzeuge der Absatzformatierung; alle stehen unter „Start“ → Gruppe „Absatz“.
+- Überleitung: *„Jetzt, da unsere Texte sauber stehen, holen wir Bilder und Grafiken ins Dokument.“*

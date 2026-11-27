@@ -1,20 +1,40 @@
- In Microsoft Word können Kopf- und Fußzeilen effektiv benutzt werden, um professionelle Dokumente zu gestalten. Kopf- und Fußzeilen sind wesentliche Bestandteile vieler Dokumentarten und bieten eine Möglichkeit, wiederkehrende Informationen wie Seitenzahlen, Dokumententitel, Datum oder Kapitelnamen automatisch auf jeder Seite Ihres Dokuments zu platzieren.
+# 6. Kopf- und Fußzeilen
 
-## Kopf- und Fußzeilen einfügen
-### Schritt-für-Schritt-Anleitung:
-1. **Öffnen Sie Ihr Word-Dokument.**
-2. **Doppelklicken Sie auf den oberen oder unteren Rand einer Seite**, um direkt in die Kopf- oder Fußzeile zu gelangen. Alternativ können Sie auch zur Registerkarte „Einfügen“ gehen und dort auf „Kopfzeile“ oder „Fußzeile“ klicken.
-3. **Wählen Sie aus den vorgegebenen Designs** oder erstellen Sie eine benutzerdefinierte Kopf- bzw. Fußzeile.
+**Dauer:** 30 Minuten · **Übung:** Protokollvorlage Hausmeisterrunde
 
-## Anpassen von Kopf- und Fußzeilen
-### Elemente hinzufügen und formatieren:
-- **Seitenzahlen**: Wählen Sie „Seitenzahl“ und entscheiden Sie, wo die Seitenzahl positioniert werden soll (z.B. oben, unten, Seitenmitte).
-- **Datum einfügen**: Wählen Sie „Datum & Uhrzeit“ und fügen Sie das aktuelle Datum ein, das automatisch aktualisiert wird.
-- **Dokumenttitel oder Kapitelnamen**: Fügen Sie Textfelder ein und formatieren Sie sie nach Bedarf.
+Kopf- und Fußzeilen enthalten, was auf jeder Seite wiederkehrt: Logo, Dokumenttitel, Datum, Seitenzahl. Man trägt es einmal ein, Word wiederholt es auf allen Seiten.
 
-### Text und Felder formatieren:
-- Nutzen Sie die Formatierungsoptionen in der Menüleiste, um Schriftarten, Größe und Ausrichtung anzupassen.
+## Kopf- und Fußzeile, Kopf- und Fußzeilenbereich
 
-## Kopf- und Fußzeilenoptionen
-- **Verschiedene Kopf- und Fußzeilen für unterschiedliche Dokumentbereiche**:
-  - Um unterschiedliche Kopf- und Fußzeilen für z.B. das erste Blatt oder für gerade/ungerade Seiten zu haben, nutzen Sie die Optionen in den „Kopf- und Fußzeilentools“, die erscheinen, wenn Sie eine Kopf- oder Fußzeile bearbeiten.
+- **Kopfzeile / Fußzeile** ist der *Inhalt* am oberen bzw. unteren Seitenrand.
+- Der **Kopf- und Fußzeilenbereich** ist der *Bearbeitungsmodus*, in dem man diesen Inhalt anlegt. Solange er aktiv ist, ist der Haupttext blass; dafür erscheint die Registerkarte **„Kopf- und Fußzeile“** mit den passenden Werkzeugen.
+
+Ein Doppelklick in den Haupttext oder „Kopf- und Fußzeile schließen“ beendet den Modus; dann ist die Kopfzeile blass und der Text wieder bearbeitbar.
+
+## Einfügen
+
+1. Doppelklick auf den oberen oder unteren Seitenrand – oder „Einfügen“ → „Kopfzeile“ bzw. „Fußzeile“.
+2. Eine vorgegebene Gestaltung wählen oder „Kopfzeile bearbeiten“ für eine leere.
+3. Inhalt eingeben; mit Tab springt man zur Mitte und zum rechten Rand.
+
+## Inhalte
+
+- **Seitenzahl:** Registerkarte „Kopf- und Fußzeile“ → „Seitenzahl“ → „Aktuelle Position“ → z. B. „Seite X von Y“.
+- **Datum:** „Datum und Uhrzeit“ → „Automatisch aktualisieren“.
+- **Logo:** „Bilder“ → „Dieses Gerät…“ → Größe anpassen.
+- **Dokumenttitel:** „Dokumentinfo“ → „Dokumenttitel“ (aus den Dateieigenschaften).
+
+## Optionen
+
+Auf der Registerkarte „Kopf- und Fußzeile“:
+
+- **„Erste Seite anders“:** keine oder eine eigene Kopfzeile auf der Titelseite.
+- **„Untersch. gerade ungerade Seiten“:** für doppelseitigen Druck, Seitenzahl jeweils außen.
+- **Abstand** der Kopf- und Fußzeile vom Seitenrand in der Gruppe „Position“.
+
+## Übung: Protokollvorlage Hausmeisterrunde
+
+1. Kopfzeile: links „Haus Lichtblick – Protokoll Hausmeisterrunde“, rechts ein Logo oder Piktogramm (Höhe 1 cm).
+2. Fußzeile: links das Datum (automatisch aktualisieren), rechts „Seite X von Y“.
+3. Setzen Sie „Erste Seite anders“ und lassen Sie die Kopfzeile auf Seite 1 leer.
+4. Fügen Sie mit Strg+Enter zwei Seitenumbrüche ein und prüfen Sie in der Druckvorschau, ob die Seitenzahlen stimmen.

@@ -1,25 +1,54 @@
-## Tabellen einfügen und formatieren
-- **Tabellen erstellen**: Gehen Sie zur Registerkarte "Einfügen" und wählen Sie "Tabelle". Sie können die Tabelle nach Bedarf anpassen.
-- **Tabellenformatierung**: Nutzen Sie das "Tabellentools Design"-Menü, um Farben, Rahmen und Stile anzupassen.
+# Aufbaumodul Word – Handout
 
-## Kopf- und Fußzeilen, Seitenzahlen
-- **Kopf- und Fußzeilen**: Öffnen Sie das Menü "Einfügen" und wählen Sie "Kopfzeile" oder "Fußzeile". Sie können aus vordefinierten Stilen wählen oder eigene erstellen.
-- **Seitenzahlen**: Unter "Einfügen" finden Sie die Option "Seitenzahlen". Wählen Sie Position und Format, um die Seitenzahlen Ihrem Dokument hinzuzufügen.
+*Haus Lichtblick – Microsoft 365*
 
-## Stile und Inhaltsverzeichnisse
-- **Stile verwenden**: Auf der Registerkarte "Start" finden Sie im Abschnitt "Stile" verschiedene vordefinierte Formate, die Sie auf Ihren Text anwenden können.
-- **Inhaltsverzeichnis erstellen**: Nachdem Sie Stile angewendet haben, gehen Sie zu "Referenzen" und wählen "Inhaltsverzeichnis". Wählen Sie ein passendes Format aus den Optionen.
+## Absätze
+
+- **Ausrichtung, Abstände, Einzüge:** Registerkarte „Start“ → Gruppe „Absatz“; alle Werte auf einen Blick im Dialog „Absatz“ (kleiner Pfeil unten rechts in der Gruppe).
+- **Abstand zwischen Absätzen** über „Abstand vor/nach“ einstellen – nicht mit leeren Absätzen.
+
+## Bilder und Grafiken
+
+- **Einfügen:** „Einfügen“ → „Bilder“ → „Dieses Gerät…“, „Stockbilder…“ oder „Onlinebilder…“.
+- **Bearbeiten:** Bild anklicken → Registerkarte „Bildformat“ (Größe, Zuschneiden, Textumbruch).
+- **SmartArt:** „Einfügen“ → „SmartArt“ → Registerkarte „SmartArt-Design“.
+
+## Tabellen
+
+- **Einfügen:** „Einfügen“ → „Tabelle“ → Raster ziehen oder „Tabelle einfügen…“.
+- **Gestalten:** In die Tabelle klicken → Registerkarte „Tabellenentwurf“ (Formatvorlagen, Rahmen).
+- **Ordnen:** Registerkarte „Layout“ neben „Tabellenentwurf“ (Zeilen/Spalten, Ausrichtung, Formel).
+
+## Felder
+
+- **Einfügen:** „Einfügen“ → „Schnellbausteine“ → „Feld…“
+- **Alt+F9** alle Feldcodes zeigen/verbergen · **F9** markierte Felder aktualisieren · **Strg+F9** leeres Feld
+
+## Kopf- und Fußzeilen
+
+- **Einfügen:** „Einfügen“ → „Kopfzeile“ / „Fußzeile“ / „Seitenzahl“, oder Doppelklick auf den oberen bzw. unteren Seitenrand.
+- **Optionen:** Registerkarte „Kopf- und Fußzeile“ (erste Seite anders, gerade/ungerade Seiten).
+
+## Formatvorlagen und Inhaltsverzeichnis
+
+- **Formatvorlagen:** „Start“ → Gruppe „Formatvorlagen“ → „Überschrift 1“, „Überschrift 2“ …
+- **Inhaltsverzeichnis:** „Referenzen“ → „Inhaltsverzeichnis“; nach Änderungen „Tabelle aktualisieren“ → „Gesamtes Verzeichnis aktualisieren“.
 
 ## Dokumentvorlagen
-- **Vorlagen verwenden**: Auf der Startseite von Word oder unter "Datei" > "Neu" können Sie aus einer Vielzahl von Vorlagen wählen.
-- **Vorlagen anpassen**: Sobald Sie eine Vorlage ausgewählt haben, können Sie diese nach Ihren Wünschen anpassen, indem Sie Texte, Bilder und Stile ändern.
 
-## Praktische Übungen
-- **Tabelle erstellen**: Erstellen Sie eine Tabelle für ein Veranstaltungsprogramm und passen Sie das Design an.
-- **Dokumentformatierung**: Wenden Sie verschiedene Kopf- und Fußzeilen sowie Seitenzahlen auf ein Beispiel-Dokument an.
-- **Inhaltsverzeichnis und Stile**: Formatieren Sie ein kurzes Dokument mit verschiedenen Stilen und fügen Sie ein Inhaltsverzeichnis hinzu.
+- **Verwenden:** „Datei“ → „Neu“ → Vorlage wählen → „Erstellen“.
+- **Eigene Vorlage:** „Datei“ → „Speichern unter“ (bzw. „Kopie speichern“) → Dateityp „Word-Vorlage (*.dotx)“.
+
+## Übungen
+
+- Hausordnung mit Absatzformaten und Listen gestalten
+- Aushang mit Bild und SmartArt
+- Telefonliste der Dienstleister als Tabelle
+- Betriebshandbuch mit Formatvorlagen und Inhaltsverzeichnis
+- Brief an die Mieter nach DIN 5008
 
 ## Nützliche Tipps
-- **Speichern Sie Ihre Änderungen regelmäßig**, um den Verlust von Daten zu vermeiden.
-- **Verwenden Sie die Formatpinsel**, um schnell und einfach Stile von einem Textteil auf einen anderen zu übertragen.
-- **Üben Sie das Anwenden von Tabellenformatierungen**, um Informationen ansprechend zu präsentieren.
+
+- **AutoSpeichern** sichert Dateien in OneDrive automatisch; lokale Dateien regelmäßig mit Strg+S speichern.
+- **Format übertragen** (Pinsel-Symbol auf „Start“): Formatierung einer Stelle auf eine andere übertragen; Doppelklick auf den Pinsel lässt ihn aktiv, bis man Esc drückt.
+- **Suchfeld** oben in der Titelleiste: Befehl eintippen, wenn man ihn im Menüband nicht findet.
