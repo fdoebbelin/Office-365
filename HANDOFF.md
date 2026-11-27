@@ -18,11 +18,13 @@ Der Kurs ist aus zwei älteren Kursen der Wissensbasis entstanden (*Office-Short
 - Mieterliste in der Referenzliste ergänzt
 - `AGENTS.md`, `CLAUDE.md`, `HANDOFF.md` für die Arbeit mit Agenten
 - Repository und Seite sind öffentlich – so gewollt (bestätigt 2026-11-27), Leitfäden und Lösungen eingeschlossen
-- GitHub Pages vorbereitet: `_config.yml`, Downloadseite `index.md` (füllt sich selbst aus den Handouts und `_resources/`), Ordner `_resources/` für Word- und Excel-Dateien je Modul; Regeln in `AGENTS.md` unter „Downloads über GitHub Pages“
+- GitHub Pages aktiv mit Theme Just the Docs: Startseite `index.md` (Kursaufbau, alle Handouts und Übungsdateien), Ordner `_resources/` für Word- und Excel-Dateien je Modul; Regeln in `AGENTS.md` unter „Website über GitHub Pages“
+- Grundkurs auf der Website: Übersicht `Grundkurs/index.md` mit Tagesplan, je Block eine Seite `Block-NN.md`, Kopfzeilen in Leitfäden, Handouts, Folientexten und der Referenzliste
 
 ## Nächster Schritt
 
-Fehlende Teilnehmermaterialien für den Grundkurs schreiben, beginnend mit den Handouts für Block 02, 04 und 05 nach dem Muster von `Grundkurs/Block-03-Handout.md`. Liste aller fehlenden Dateien: `README.md`, Abschnitt „Fehlende Dateien“.
+1. Website ansehen (Grundkurs). Passt die Navigation, folgen **Aufbaumodule und Materialien**: je Modul `index.md` als Modulseite, Kopfzeilen in allen Einheiten, Modulseiten auf der Startseite verlinken, die übergangsweisen `defaults` mit `nav_exclude` in `_config.yml` und die Ausnahmen im Kopfzeilen-Check in `AGENTS.md` entfernen.
+2. Danach fehlende Teilnehmermaterialien, beginnend mit den Handouts für Block 02, 04 und 05 nach dem Muster von `Grundkurs/Block-03-Handout.md` (Kopfzeile wie dort). Liste: `README.md`, „Fehlende Dateien“.
 
 ## Offene Entscheidungen
 
