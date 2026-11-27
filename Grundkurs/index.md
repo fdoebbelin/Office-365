@@ -10,7 +10,7 @@ has_toc: false
 Zwölf Blöcke, die aufeinander aufbauen – zum Selbststudium oder im Einzelcoaching, in Ihrem eigenen Tempo. Jeder Block ist eine Lerneinheit mit Erklärungen, Abbildungen, Selbstcheck und Hinweisen für Coaching; dazu gehören ein **Übungsblatt** und **Übungsdateien** zum Herunterladen.
 
 {: .merke }
-Umgestellt ist bisher Block 01. Die übrigen Blöcke haben noch einen Leitfaden mit Zeitplan für Gruppenkurse und zum Teil ein Handout; sie werden nach und nach umgestellt.
+Umgestellt sind bisher Block 01 und 02. Die übrigen Blöcke haben noch einen Leitfaden mit Zeitplan für Gruppenkurse und zum Teil ein Handout; sie werden nach und nach umgestellt.
 
 | Block | Programm |
 |---|---|
