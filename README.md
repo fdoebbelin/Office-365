@@ -43,6 +43,10 @@ Die Leitfäden verweisen auf Übungs- und Lösungsdateien, Präsentationen und H
 - **Übungen Aufbau-Word:** `Uebung-A1-Hausordnung.docx`, `Uebung-A7-Betriebshandbuch.docx` – der Text steht jeweils in der Einheit und lässt sich auch abtippen
 - **Bild** der früheren Briefvorlage nach DIN 5008
 
+## Arbeiten mit KI-Agenten
+
+Regeln für Coding-Agenten stehen in [`AGENTS.md`](AGENTS.md) (Claude Code liest sie über `CLAUDE.md`), der Stand für die nächste Sitzung in [`HANDOFF.md`](HANDOFF.md).
+
 ## Herkunft
 
 Zusammengeführt aus zwei Kursen der früheren Wissensbasis: *Office-Short* (Grundkurs, Office 2019) und *Office-Basics* (Word- und Excel-Sitzungen ohne Versionsbezug). Die Historie beider Ordner ist in diesem Repository erhalten.
