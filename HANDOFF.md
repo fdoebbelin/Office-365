@@ -17,6 +17,7 @@ Der Kurs ist aus zwei älteren Kursen der Wissensbasis entstanden (*Office-Short
 - Aufbaumodule zusammengeführt, ins Szenario Haus Lichtblick übertragen, fachliche Fehler korrigiert (Tastenkürzel, DIN 5008, Pivot, Blattschutz)
 - Mieterliste in der Referenzliste ergänzt
 - `AGENTS.md`, `CLAUDE.md`, `HANDOFF.md` für die Arbeit mit Agenten
+- GitHub Pages vorbereitet: `_config.yml`, Downloadseite `index.md` (füllt sich selbst aus den Handouts und `_resources/`), Ordner `_resources/` für Word- und Excel-Dateien je Modul; Regeln in `AGENTS.md` unter „Downloads über GitHub Pages“
 
 ## Nächster Schritt
 
@@ -24,9 +25,10 @@ Fehlende Teilnehmermaterialien für den Grundkurs schreiben, beginnend mit den H
 
 ## Offene Entscheidungen
 
-- **Übungsdateien:** Sollen `.docx`/`.xlsx` ins Repository (dann Regel „nur Markdown“ in `AGENTS.md` ändern), oder werden die Übungen als Markdown beschrieben und von der Lehrkraft erzeugt?
+- **GitHub Pages aktivieren:** nach dem Push unter Settings → Pages „Deploy from a branch“, `main`, `/ (root)`. Der Jekyll-Build mit `_resources` ist lokal nicht getestet – nach dem ersten Push mit einer echten Übungsdatei prüfen, ob sie auf der Seite erscheint und sich herunterladen lässt.
+- **Sichtbarkeit:** Das Repository ist auf GitHub öffentlich (Stand 2026-11-27), früher hieß es hier „privat“. Damit sind auch Leitfäden und Lösungen öffentlich. Bleibt das so?
 - **Präsentationen:** Folientexte als Markdown (wie Block 01) für alle Blöcke, oder echte Präsentationsdateien?
 - **Nummerierung der Übungen:** Nummer 07 ist doppelt (Quiz Block 07, Wartungsprotokoll Block 05) – neu durchnummerieren?
 - **Materialien:** Zellbezüge (TechVision) und Pivot-Leitfaden (Online-Shop) ins Szenario Haus Lichtblick übertragen?
 - **Vor dem ersten Kurs** an einem Kurs-PC prüfen, was `README.md` unter „Vor dem ersten Kurs prüfen“ aufführt (Bezeichnungen im neuen Outlook, Serien-E-Mail über das neue Outlook, Startmenü-Position).
-- **Veröffentlichung:** Repository bleibt privat; in der Wissensbasis `fdoebbelin/Knowledge` trägt die Quelle „Microsoft 365 im Facility Management – Grundkurs und Aufbaumodule“ `draft: true`. Wird der Kurs öffentlich, dort `draft` entfernen.
+- **Veröffentlichung:** In der Wissensbasis `fdoebbelin/Knowledge` trägt die Quelle „Microsoft 365 im Facility Management – Grundkurs und Aufbaumodule“ `draft: true`. Wird der Kurs öffentlich, dort `draft` entfernen.
