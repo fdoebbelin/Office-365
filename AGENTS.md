@@ -15,7 +15,7 @@ Diese Datei ist die **einzige Quelle** für die Regeln. Claude Code liest sie ü
 - **Erst lesen, dann schreiben.** Vor jeder Änderung den betroffenen Block bzw. die Einheit, die Nachbarblöcke (Verweise „Weiter“!) und `00 Referenz Haus Lichtblick.md` lesen.
 - **Nachfragen statt raten.** Neue Blöcke, Umbauten der Struktur oder des Szenarios erst vorschlagen und bestätigen lassen.
 - **Nichts erfinden.** Keine Menübefehle, Tastenkürzel oder Funktionen angeben, die nicht sicher stimmen. Ungeprüfte Angaben kennzeichnen und in `README.md` unter „Vor dem ersten Kurs prüfen“ eintragen.
-- **Nicht löschen** ohne ausdrückliche Freigabe. Zusammenführen ist erlaubt, wenn es vereinbart ist; die Historie bewahrt das Alte. Vereinbart ist: Beim Umstellen eines Blocks gehen Leitfaden, Handout und Folientexte in der Lerneinheit auf und werden danach entfernt.
+- **Nicht löschen** ohne ausdrückliche Freigabe. Zusammenführen ist erlaubt, wenn es vereinbart ist; die Historie bewahrt das Alte. Vereinbart war: Beim Umstellen der Grundkurs-Blöcke gingen Leitfaden, Handout und Folientexte in der Lerneinheit auf und wurden danach entfernt (abgeschlossen).
 - **Kein Push** ohne Freigabe.
 
 ## Aufbau
@@ -24,7 +24,7 @@ Diese Datei ist die **einzige Quelle** für die Regeln. Claude Code liest sie ü
 |---|---|
 | `README.md` | Kursübersicht, Version und Umgebung, ungeprüfte Angaben, fehlende Dateien, Herkunft |
 | `00 Referenz Haus Lichtblick.md` | **Szenario-Daten**: Gebäude, Räume, Personen, Dienstleister, Mieterliste, Inventar, Energieverbrauch, Wartungsprotokoll, Checklisten |
-| `Grundkurs/` | `index.md` (Übersicht), je Block die Lerneinheit `Block-NN.md` und das Übungsblatt `Block-NN-Uebungsblatt.md`; noch nicht umgestellte Blöcke haben stattdessen `Block-NN-Leitfaden.md` und zum Teil `Block-NN-Handout.md` |
+| `Grundkurs/` | `index.md` (Übersicht), je Block die Lerneinheit `Block-NN.md` und das Übungsblatt `Block-NN-Uebungsblatt.md`; Block 06 und 07 sind Übungsblöcke (Praxisfall, Selbsttest) ohne neuen Stoff |
 | `Aufbau-Word/`, `Aufbau-Excel/`, `Aufbau-Verknüpfung/` | je `00 Ablauf.md` und nummerierte Einheiten `NN Thema.md`, Ergänzungen als `NNa Thema.md` |
 | `Materialien/Word/`, `Materialien/Excel/` | Nachschlage- und Vertiefungsmaterial ohne festen Platz im Ablauf |
 | `assets/folien/block-NN/` | Folien als SVG-Abbildungen, eingebunden in die Lerneinheit |
@@ -107,11 +107,10 @@ Sparsam einsetzen: höchstens ein, zwei Kästen je Abschnitt.
 - Excel-Dateien für Lese- oder Einstiegsübungen mit festen Werten. Formeln nur, wo die Übung sie braucht – heruntergeladene Dateien öffnen in der „Geschützten Ansicht“, ungerechnete Formeln zeigen dort nichts an.
 - Lösungsdateien mit Formeln: In der Datei stehen Funktionsnamen englisch (`SUM`, `AVERAGE` – Vorgabe des Dateiformats, Excel zeigt sie deutsch an). Ergebnisse im Skript berechnen, mit `assert` gegen die Lösungen im Übungsblatt prüfen und als zwischengespeicherte Werte in die Datei schreiben (Funktion `cache_values` in `_werkzeuge/block-08-xlsx.py`). So zeigt die Datei auch in der „Geschützten Ansicht“ Ergebnisse.
 - Erzeugt mit `_werkzeuge/` (`block-NN-docx.js` mit dem npm-Paket `docx`, `block-NN-xlsx.py` mit `openpyxl`). Nach dem Erzeugen prüfen: Word-Dateien gegen das Schema validieren, Excel-Werte auslesen und mit den Lösungen vergleichen.
-- Ältere Leitfäden nennen noch Dateien wie `Uebung-11-Energieverbrauch.xlsx`; beim Umstellen des Blocks auf das neue Namensschema wechseln und `README.md` („Fehlende Dateien“) nachführen.
+- Die Aufbaumodule nennen zum Teil noch Dateien nach altem Schema (`Uebung-A1-…`); beim Erstellen auf das neue Namensschema wechseln und `README.md` („Fehlende Dateien“) nachführen.
 
-### Noch nicht umgestellte Blöcke und Aufbaumodule
+### Aufbaumodule
 
-- Blöcke ohne Lerneinheit behalten vorerst Leitfaden (mit Zeitplan) und Handout. Beim Umstellen nach dem Muster von Block 01 vorgehen und den Block in `Grundkurs/index.md` und `HANDOFF.md` als umgestellt vermerken.
 - **Einheiten der Aufbaumodule:** Kopfzeile mit Übung → Erklärung mit Menüwegen → Übung im Szenario. Neue Einheiten in `00 Ablauf.md` eintragen. Zeitangaben entfallen beim Umstellen.
 
 ### Form
@@ -139,7 +138,7 @@ nav_order: 1
 
 - `parent` ist der **Titel** der übergeordneten Seite, wörtlich gleich. Titel von Seiten mit Unterseiten müssen eindeutig sein.
 - `nav_order` als Zahl; sie legt die Reihenfolge unter derselben übergeordneten Seite fest.
-- Grundkurs: `Grundkurs/index.md` → Lerneinheit `Block-NN.md` (Titel „Block NN – Thema“, `has_children: true`) → Übungsblatt (1); bei nicht umgestellten Blöcken Leitfaden (1), Handout (2).
+- Grundkurs: `Grundkurs/index.md` → Lerneinheit `Block-NN.md` (Titel „Block NN – Thema“, `has_children: true`) → Übungsblatt (1).
 - Ändert sich Titel oder Programm eines Blocks, auch die Tabelle in `Grundkurs/index.md` und die Verweise „Weiter“ der Nachbarblöcke anpassen.
 - `AGENTS.md`, `CLAUDE.md`, `HANDOFF.md`, `README.md` haben keine Kopfzeile und stehen in `_config.yml` unter `exclude`.
 - Übergangsweise blendet `_config.yml` (`defaults`) Aufbaumodule und Materialien noch aus der Navigation aus, bis sie Kopfzeilen haben.

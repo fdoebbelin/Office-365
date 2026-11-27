@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | Stand | 2026-11-27 |
-| Branch | main (nicht gepusht) |
+| Branch | main (gepusht) |
 
 ## Stand
 
@@ -19,16 +19,15 @@ Der Kurs ist auf Microsoft 365 mit dem neuen Outlook umgestellt und für **Selbs
 - **Block 06 „Praxis Outlook und Word“** statt Tagesrückblick und **Block 07 „Selbsttest Outlook und Word“** statt Wiederholung (Entscheidung 2026-11-27): Praxisfall „Heizung im 3. OG“ bzw. Quiz, Trainingsdokument und Outlook-Kurzaufgaben
 - Eigene Dateien der Lernenden liegen jetzt in `Dokumente\Haus-Lichtblick` statt `C:\Kurs\Uebungen` (README nachgeführt)
 - Excel-Lösungsdateien: Formeln mit englischen Funktionsnamen in der Datei, Ergebnisse vorberechnet und als zwischengespeicherte Werte eingetragen (`cache_values`), im Skript per `assert` gegen die Lösungen geprüft – Regel in `AGENTS.md`
-- `AGENTS.md`: Prüfbefehle für Liquid-Zeichen und Zeitangaben geschärft
+- `AGENTS.md`: Prüfbefehle für Liquid-Zeichen und Zeitangaben geschärft; Abschnitte zu nicht umgestellten Blöcken entfernt
+- Gepusht; der Kurs ist auf GitHub Pages bis Block 12 zu sehen
 - Korrigiert u. a.: Excel-Diagramm wird in Word eingebettet, nicht als Bild eingefügt (Block 11); „Format > Absatz“ → Layout → Abstand (Block 04)
 
 ## Nächster Schritt
 
 1. Alle Word- und Excel-Dateien einmal in Microsoft 365 öffnen (lokal nur gegen das Schema geprüft bzw. ausgelesen, nicht angesehen), besonders die Diagramme in `Block-10-Loesung-Diagramme.xlsx` und `Block-11-Strom.xlsx`.
 2. Die Punkte unter „Vor dem ersten Kurs prüfen“ in `README.md` an einem PC kontrollieren (viele neue Menünamen aus Block 02–11).
-3. Push nach Freigabe; danach unter „Actions“ den Pages-Build prüfen.
-4. `AGENTS.md` aufräumen: Abschnitte zu „noch nicht umgestellten Blöcken“ betreffen im Grundkurs nichts mehr.
-5. Später: Aufbaumodule und Materialien mit Kopfzeilen in die Navigation holen (`defaults` mit `nav_exclude` in `_config.yml` entfernen).
+3. Später: Aufbaumodule und Materialien mit Kopfzeilen in die Navigation holen (`defaults` mit `nav_exclude` in `_config.yml` entfernen).
 
 ## Offene Entscheidungen
 
