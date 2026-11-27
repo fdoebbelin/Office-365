@@ -18,7 +18,7 @@ Kurs für Einsteigerinnen und Einsteiger: Outlook, Word und Excel im Arbeitsallt
 | Aufbaumodul Verknüpfung | Kassenbuch mit Datenüberprüfung, Excel-Tabellen in Word, Serien-E-Mail |
 | Materialien | Nachschlagen und Vertiefen: Oberflächen, Befehle, Zellbezüge, Diagramme, Pivot-Tabellen |
 
-**So arbeiten Sie damit:** Jeder Block des Grundkurses ist eine Lerneinheit auf einer Seite – Erklärungen mit Abbildungen, Schritt-für-Schritt-Anleitungen, Selbstcheck und Hinweise für Coaching. Dazu gehören ein Übungsblatt und Übungsdateien zum Herunterladen. Nach und nach werden alle Blöcke so umgestellt; die übrigen haben noch Leitfaden und Handout getrennt. Die Daten des Szenarios stehen in der [Referenzliste Haus Lichtblick]({{ "/referenz/" | relative_url }}).
+**So arbeiten Sie damit:** Jeder Block des Grundkurses ist eine Lerneinheit auf einer Seite – Erklärungen mit Abbildungen, Schritt-für-Schritt-Anleitungen, Selbstcheck und Hinweise für Coaching. Dazu gehören ein Übungsblatt und Übungsdateien zum Herunterladen. Nach und nach werden alle Blöcke so umgestellt; die übrigen haben noch einen Leitfaden. Die Daten des Szenarios stehen in der [Referenzliste Haus Lichtblick]({{ "/referenz/" | relative_url }}).
 
 ## Übungsblätter, Handouts und Übungsdateien
 
