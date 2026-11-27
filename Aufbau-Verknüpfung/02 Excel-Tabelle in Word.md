@@ -1,73 +1,50 @@
-Um ein Excel-Haushaltsbuch in einem Word-Dokument anzuzeigen, können Sie verschiedene Methoden verwenden, darunter das Einfügen der Excel-Tabelle als eingebettetes Objekt oder als verknüpfte Tabelle. Beide Methoden ermöglichen es Ihnen, die Daten aus Excel in Word darzustellen. Hier sind die Schritte für beide Methoden:
+# 2. Excel-Tabelle in Word
 
-### Methode 1: Einfügen der Excel-Tabelle als eingebettetes Objekt
+**Dauer:** 60 Minuten · **Übung:** Kassenbericht März für die Hausverwaltung
 
-1. **Öffnen Sie Ihr Excel-Haushaltsbuch und markieren Sie den Bereich der Tabelle, den Sie in Word einfügen möchten.**
-   - Zum Beispiel: Markieren Sie die Zellen A1:D6 (einschließlich Spaltenüberschriften und Daten).
+Das Kassenbuch aus Übung 1 soll in einen Word-Bericht. Dafür gibt es drei Wege, die sich darin unterscheiden, ob die Daten später noch mit Excel verbunden sind. Welcher passt, zeigt `02a Einbetten oder verknüpfen.md`.
 
-2. **Kopieren Sie die markierten Zellen.**
-   - Drücken Sie `Strg + C` oder klicken Sie mit der rechten Maustaste und wählen Sie „Kopieren“.
+Für alle drei Wege zuerst in Excel den Bereich markieren (z. B. A1:D7) und mit **Strg+C** kopieren. Dann in Word den Cursor an die Zielstelle setzen.
 
-1. **Öffnen Sie ein neues oder bestehendes Word-Dokument.**
-2. **Wählen Sie die Stelle im Word-Dokument aus, an der Sie die Excel-Tabelle einfügen möchten.**
-3. **Gehen Sie zur Registerkarte „Start“.**
-4. **Klicken Sie auf den Dropdown-Pfeil unter „Einfügen“ und wählen Sie „Inhalte einfügen...“.**
-5. **Im Dialogfeld „Inhalte einfügen“:**
-   -  ==Wählen Sie „Einfügen“.==
-   - Wählen Sie „Microsoft Excel-Arbeitsblatt-Objekt“.
-   - Klicken Sie auf „OK“.
+## Methode 1: Als Word-Tabelle einfügen (ohne Verbindung)
 
-Die Excel-Tabelle wird nun als eingebettetes Objekt in das Word-Dokument eingefügt. Sie können die Tabelle doppelklicken, um sie in Excel zu bearbeiten.
+- **Strg+V** in Word.
+- Am Ende der eingefügten Tabelle erscheint die Schaltfläche „Einfügeoptionen“ (Strg). Die Wahl:
+  - **Ursprüngliche Formatierung beibehalten** – sieht aus wie in Excel
+  - **Zielformatvorlagen verwenden** – passt sich dem Word-Dokument an
+  - **Nur den Text übernehmen** – Tabulatoren statt Tabelle
 
-### Methode 2: Einfügen der Excel-Tabelle als verknüpfte Tabelle
+Ergebnis: eine normale Word-Tabelle. Zahlen sind jetzt Text; ändert sich das Kassenbuch, muss man neu kopieren.
 
-1. **Öffnen Sie Ihr Excel-Haushaltsbuch und markieren Sie den Bereich der Tabelle, den Sie in Word einfügen möchten.**
-   - Zum Beispiel: Markieren Sie die Zellen A1:D6 (einschließlich Spaltenüberschriften und Daten).
+## Methode 2: Als eingebettetes Excel-Objekt
 
-2. **Kopieren Sie die markierten Zellen.**
-   - Drücken Sie `Strg + C` oder klicken Sie mit der rechten Maustaste und wählen Sie „Kopieren“.
+1. „Start“ → Pfeil unter „Einfügen“ → **„Inhalte einfügen…“** (oder Strg+Alt+V).
+2. Option **„Einfügen“** wählen.
+3. Als: **„Microsoft Excel-Arbeitsblatt-Objekt“** → „OK“.
 
-3. **Öffnen Sie ein neues oder bestehendes Word-Dokument.**
-4. **Wählen Sie die Stelle im Word-Dokument aus, an der Sie die Excel-Tabelle einfügen möchten.**
-5. **Gehen Sie zur Registerkarte „Start“.**
-6. **Klicken Sie auf den Dropdown-Pfeil unter „Einfügen“ und wählen Sie „Inhalte einfügen...“.**
-7. **Im Dialogfeld „Inhalte einfügen“:**
-   - ==Wählen Sie „Verknüpfung einfügen“.==
-   - Wählen Sie „Microsoft Excel-Arbeitsblatt-Objekt“.
-   - Klicken Sie auf „OK“.
+Ergebnis: Ein Stück Excel steckt im Word-Dokument. Doppelklick öffnet es zum Bearbeiten mit Excel-Menüs direkt in Word; Formeln rechnen weiter. Mit der ursprünglichen Excel-Datei ist es nicht mehr verbunden.
 
-Die Excel-Tabelle wird nun als verknüpftes Objekt in das Word-Dokument eingefügt. Änderungen an der Excel-Tabelle werden automatisch im Word-Dokument aktualisiert.
+## Methode 3: Als verknüpftes Excel-Objekt
 
-### Methode 3: Einfügen der Excel-Tabelle als Tabelle (ohne Verknüpfung)
+1. „Start“ → Pfeil unter „Einfügen“ → „Inhalte einfügen…“.
+2. Option **„Verknüpfung einfügen“** wählen.
+3. Als: „Microsoft Excel-Arbeitsblatt-Objekt“ → „OK“.
 
-1. **Öffnen Sie Ihr Excel-Haushaltsbuch und markieren Sie den Bereich der Tabelle, den Sie in Word einfügen möchten.**
-   - Zum Beispiel: Markieren Sie die Zellen A1:D6 (einschließlich Spaltenüberschriften und Daten).
+Ergebnis: Word zeigt den Bereich an, die Daten bleiben in der Excel-Datei. Ändert man das Kassenbuch, übernimmt Word die Änderung – beim Öffnen des Dokuments fragt Word, ob verknüpfte Daten aktualisiert werden sollen. Von Hand: Rechtsklick auf das Objekt → „Verknüpfung aktualisieren“.
 
-2. **Kopieren Sie die markierten Zellen.**
-   - Drücken Sie `Strg + C` oder klicken Sie mit der rechten Maustaste und wählen Sie „Kopieren“.
+Alle Verknüpfungen eines Dokuments: „Datei“ → „Informationen“ → „Verknüpfungen mit Dateien bearbeiten“ (erscheint nur, wenn es Verknüpfungen gibt). Dort lässt sich auch die Quelle ändern, wenn die Excel-Datei verschoben wurde.
 
-3. **Öffnen Sie ein neues oder bestehendes Word-Dokument.**
-4. **Wählen Sie die Stelle im Word-Dokument aus, an der Sie die Excel-Tabelle einfügen möchten.**
-5. **Gehen Sie zur Registerkarte „Start“.**
-6. **Klicken Sie auf „Einfügen“ (nicht den Dropdown-Pfeil).**
-   - Die Tabelle wird als einfache Tabelle eingefügt, ohne Verknüpfung zu Excel.
+Die Einfügeoptionen von Methode 1 bieten dasselbe in kurz: „Verknüpfen und ursprüngliche Formatierung beibehalten“ fügt eine verknüpfte Tabelle ein, die beim Aktualisieren neue Werte holt.
 
-### Beispiel für das Haushaltsbuch in Word
+## Diagramme
 
-Hier ist ein Beispiel, wie das Haushaltsbuch aussehen könnte, nachdem es in ein Word-Dokument eingefügt wurde:
+Ein Excel-Diagramm wird mit Strg+C / Strg+V ebenfalls eingefügt; die Einfügeoptionen bieten „Arbeitsmappe einbetten“, „Daten verknüpfen“ oder „Bild“. Für einen Bericht, der so bleiben soll, ist **Bild** am robustesten.
 
----
+## Übung: Kassenbericht März
 
-**Haushaltsbuch**
-
-| Datum      | Kategorie    | Beschreibung  | Betrag |
-| ---------- | ------------ | ------------- | ------ |
-| 01.01.2023 | Miete        | Januar Miete  | -1000  |
-| 02.01.2023 | Lebensmittel | Wocheneinkauf | -150   |
-| 03.01.2023 | Gehalt       | Monatsgehalt  | 3000   |
-| 05.01.2023 | Freizeit     | Kino          | -50    |
-| 06.01.2023 | Transport    | Monatskarte   | -80    |
-
----
-
-Durch das Einfügen der Excel-Tabelle in Ihr Word-Dokument können Sie die Daten leicht zugänglich und lesbar machen, während Sie die Flexibilität beibehalten, die Daten bei Bedarf zu aktualisieren.
+1. Neues Word-Dokument „Kassenbericht März 2026“ mit Überschrift und einem Satz Einleitung.
+2. Fügen Sie das Kassenbuch als **verknüpftes Objekt** ein.
+3. Speichern Sie Word- und Excel-Datei im selben Ordner.
+4. Tragen Sie im Kassenbuch eine neue Ausgabe ein (z. B. 28.03.2026, Werkzeug, Bithalter, -8,90) – Achtung: Die Verknüpfung umfasst nur den ursprünglich kopierten Bereich. Fügen Sie die Zeile deshalb *innerhalb* des Bereichs ein (Zeile 7 einfügen), nicht darunter.
+5. Speichern Sie Excel, wechseln Sie zu Word und aktualisieren Sie die Verknüpfung.
+6. Fügen Sie dieselbe Tabelle ein zweites Mal als **Word-Tabelle** (Methode 1) ein und vergleichen Sie: Welche ändert sich, welche nicht?

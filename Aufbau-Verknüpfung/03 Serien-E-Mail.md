@@ -1,87 +1,85 @@
-Hier ist eine detaillierte Anleitung zur Erstellung und zum Versand einer Serien-E-Mail mit Excel und Word, bei der die Serienbrieffelder mit den Regel-Dialogen erstellt werden. Diese Übung führt Sie durch das Anlegen einer Adresstabelle in Excel, die Erstellung des Serien-E-Mail-Dokuments in Word und die Vorschau der E-Mails mit der Zuordnung der E-Mail-Adressen und der Kontrolle aller Datensätze.
+# 3. Serien-E-Mail an die Mieter
 
-## Schritt 1: Anlegen einer Adresstabelle in Excel
+**Dauer:** 60 Minuten · **Übung:** Einladung zur Brandschutzunterweisung
 
-1. **Öffnen Sie ein neues Excel-Arbeitsblatt.**
-2. **Geben Sie die Spaltenüberschriften in die Zellen A1 bis D1 ein:**
-   - A1: Geschlecht
-   - B1: Vorname
-   - C1: Nachname
-   - D1: Emailadresse
+Eine Serien-E-Mail verschickt denselben Text an viele Empfänger – jeweils mit persönlicher Anrede. Die Adressen kommen aus Excel, der Text aus Word, verschickt wird über Outlook.
 
-3. **Geben Sie die folgenden Beispieldatensätze in die Zeilen 2 bis 6 ein:**
+> **Voraussetzung:** Word verschickt Serien-E-Mails über das E-Mail-Programm des PCs. Mit dem **neuen Outlook** funktioniert das bisher nicht; nötig ist das **klassische Outlook**, eingerichtet mit dem Kurskonto. Vor dem Kurs auf einem Kurs-PC testen – Microsoft ergänzt Funktionen im neuen Outlook laufend.
 
-| Geschlecht | Vorname  | Nachname  | Emailadresse          |
-|------------|----------|-----------|-----------------------|
-| Herr       | Max      | Mustermann| max.mustermann@example.com |
-| Frau       | Erika    | Meier     | erika.meier@example.com    |
-| Herr       | Thomas   | Müller    | thomas.mueller@example.com |
-| Frau       | Sabine   | Schmidt   | sabine.schmidt@example.com |
-| Herr       | Peter    | Fischer   | peter.fischer@example.com  |
+> **Wichtig für die Übung:** Verschickt wird an die Kursadressen der Teilnehmenden, nie an die fiktiven Adressen aus der Referenzliste – die Domains könnten echten Firmen gehören.
 
-4. **Speichern Sie die Excel-Datei unter einem geeigneten Namen, z.B. „Adressliste.xlsx“.**
+## Schritt 1: Adressliste in Excel
 
-## Schritt 2: Anlegen des Serien-Emaildokuments in Word
+1. Neue Arbeitsmappe, A1 bis E1: **Anrede**, **Vorname**, **Nachname**, **Firma**, **E-Mail**.
+2. Datensätze nach der Mieterliste:
 
-1. **Öffnen Sie Microsoft Word und erstellen Sie ein neues Dokument.**
-2. **Gehen Sie zur Registerkarte „Sendungen“.**
-3. **Klicken Sie auf „Seriendruck starten“ und wählen Sie „E-Mail-Nachrichten“.**
-4. **Klicken Sie auf „Empfänger auswählen“ und wählen Sie „Vorhandene Liste verwenden...“.**
-5. **Navigieren Sie zu der zuvor gespeicherten Excel-Datei „Adressliste.xlsx“ und wählen Sie sie aus.**
-   - Wählen Sie das Arbeitsblatt mit den Adressen aus (normalerweise „Tabelle1$“).
+| Anrede | Vorname | Nachname | Firma | E-Mail |
+|---|---|---|---|---|
+| Frau | Anna | Klein | TechSolutions | *Kursadresse 1* |
+| Herr | Michael | Braun | DesignWerk | *Kursadresse 2* |
+| Frau | Sarah | Meyer | Consulting Plus | *Kursadresse 3* |
+| Herr | Jürgen | Hahn | Steuerbüro Hahn | *Kursadresse 4* |
+| Frau | Lena | Ott | Praxis am Park | *Kursadresse 5* |
 
-6. **Schreiben Sie die Serien-E-Mail in das Word-Dokument, z.B.:**
+3. Speichern als `Mieter-Adressliste.xlsx` und Excel schließen (Word kann die Datei sonst nicht immer lesen).
+
+## Schritt 2: Serien-E-Mail in Word anlegen
+
+1. Neues leeres Word-Dokument.
+2. Registerkarte **„Sendungen“** → „Seriendruck starten“ → **„E-Mail-Nachrichten“**.
+3. „Empfänger auswählen“ → **„Vorhandene Liste verwenden…“** → `Mieter-Adressliste.xlsx` → Tabelle „Tabelle1$“ → „Erste Datenzeile enthält Spaltenüberschriften“ angehakt → „OK“.
+4. Text schreiben:
 
 ```
-Sehr geehrte<<Anrede>> <<Nachname>>,
+Sehr geehrte<<Anrede-Regel>> <<Nachname>>,
 
-wir laden Sie herzlich zur Firmenvorstellung der MetaRow Software UG ein. Unser Geschäftsführer, Herr Franz Herrmann, wird Ihnen unser neuestes Produkt vorstellen und Ihre Fragen beantworten.
+am Donnerstag, 16. April 2026, findet um 10:00 Uhr im Konferenzraum 3.10 eine Brandschutzunterweisung für alle Mieter von Haus Lichtblick statt. Bitte geben Sie die Einladung auch an Ihre Mitarbeitenden bei <<Firma>> weiter.
 
-Wir freuen uns auf Ihre Teilnahme.
+Mit freundlichen Grüßen
 
-Mit freundlichen Grüßen,
-Ihr MetaRow Software Team
+Facility Management Haus Lichtblick
 ```
 
-### Anrede über Regel-Dialoge einfügen
+### Anrede über eine Regel
 
-1. **Setzen Sie den Cursor an die Stelle, an der die Anrede eingefügt werden soll, nach "Sehr geehrte".**
-2. **Gehen Sie zur Registerkarte „Sendungen“.**
-3. **Klicken Sie auf „Regeln“ und wählen Sie „Wenn...Dann...Sonst...“.**
-4. **Im Dialogfeld „Wenn...Dann...Sonst...“:**
-   - Feldname: Wählen Sie „Geschlecht“.
-   - Vergleich: Wählen Sie „Gleich“.
-   - Vergleichswert: Geben Sie „Herr“ ein.
-   - Dann Text: Geben Sie „r Herr“ ein.
-   - Sonst Text: Geben Sie „ Frau“ ein.
-5. **Klicken Sie auf „OK“.**
+„Sehr geehrte Frau“ und „Sehr geehrter Herr“ unterscheiden sich in einem Buchstaben. Die Regel ergänzt ihn:
 
-   - Das Ergebnis sollte wie folgt aussehen:
+1. Cursor direkt hinter „Sehr geehrte“ setzen (ohne Leerzeichen).
+2. „Sendungen“ → „Regeln“ → **„Wenn…Dann…Sonst…“**.
+3. Feldname „Anrede“, Vergleich „Gleich“, Vergleichswert `Herr`.
+4. „Dann diesen Text einfügen“: `r Herr` · „Sonst diesen Text einfügen“: ` Frau` (mit Leerzeichen davor).
+5. „OK“.
+
+Mit Alt+F9 sieht man das Feld:
 
 ```
-Sehr geehrte{ IF { MERGEFIELD Geschlecht } = "Herr" "r Herr" " Frau" } <<Nachname>>,
+Sehr geehrte{ IF { MERGEFIELD Anrede } = "Herr" "r Herr" " Frau" } { MERGEFIELD Nachname },
 ```
 
-6. **Fügen Sie das Seriendruckfeld für den Nachnamen ein:**
-   - Klicken Sie auf „Seriendruckfeld einfügen“ und wählen Sie „Nachname“.
+6. Cursor hinter die Regel, Leerzeichen, „Seriendruckfeld einfügen“ → „Nachname“; im Text ebenso „Firma“.
 
-### Vorschau und Kontrolle
+Einfacher und für alle Geschlechter passend: Die Anrede komplett in die Excel-Liste schreiben („Sehr geehrte Frau Klein“, „Guten Tag Alex Muster“) und nur dieses Feld einfügen.
 
-1. **Gehen Sie zur Registerkarte „Sendungen“.**
-2. **Klicken Sie auf „Vorschau Ergebnisse“, um die Seriendruckfelder mit den tatsächlichen Daten zu sehen.**
-3. **Blättern Sie durch die Datensätze, um sicherzustellen, dass die Anrede und die E-Mail-Adressen korrekt sind:**
-   - Verwenden Sie die Pfeiltasten „Nächster Datensatz“ und „Vorheriger Datensatz“ in der Gruppe „Vorschau Ergebnisse“, um alle Datensätze zu überprüfen.
+## Schritt 3: Vorschau und Kontrolle
 
-### Senden der Serien-E-Mails
+1. „Sendungen“ → **„Vorschau Ergebnisse“**.
+2. Mit den Pfeilen „Nächster Datensatz“ / „Vorheriger Datensatz“ jeden Empfänger prüfen: Anrede, Name, Firma.
+3. Fehler in den Daten in Excel korrigieren und die Liste neu einlesen („Empfängerliste bearbeiten“ → Datenquelle → „Aktualisieren“).
 
-1. **Gehen Sie zur Registerkarte „Sendungen“.**
-2. **Klicken Sie auf „Fertig stellen und zusammenführen“ und wählen Sie „E-Mail-Nachrichten senden...“.**
-3. **Im Dialogfeld „Mit E-Mail-Nachrichten zusammenführen“:**
-   - An: Wählen Sie das Seriendruckfeld für die E-Mail-Adresse (z.B. „Emailadresse“).
-   - Betreffzeile: Geben Sie den Betreff der E-Mail ein, z.B. „Einladung zur Firmenvorstellung“.
-   - Mailformat: Wählen Sie „HTML“.
-4. **Klicken Sie auf „OK“, um den Versand der E-Mails zu starten.**
+## Schritt 4: Senden
 
-### Zusammenfassung
+1. „Sendungen“ → **„Fertig stellen und zusammenführen“** → **„E-Mail-Nachrichten senden…“**.
+2. Im Dialog:
+   - **An:** Feld „E-Mail“
+   - **Betreffzeile:** „Einladung zur Brandschutzunterweisung am 16. April“
+   - **E-Mail-Format:** HTML
+   - **Datensätze:** alle
+3. „OK“. Die Nachrichten liegen danach im Ordner „Gesendete Elemente“ des klassischen Outlook.
 
-Diese Übung führt Sie durch die Erstellung einer Adresstabelle in Excel, die Erstellung eines Serien-E-Mail-Dokuments in Word mit variabler Anrede über Regel-Dialoge und die Vorschau der E-Mails zur Kontrolle der Daten. Mit diesen Schritten können Sie personalisierte E-Mails effizient erstellen und versenden.
+Tipp: Vor dem echten Versand den Seriendruck mit einer Liste testen, die nur die eigene Adresse enthält.
+
+## Zusammenfassung
+
+- Adressen in Excel, Text in Word, Versand über das klassische Outlook.
+- Regeln wie „Wenn…Dann…Sonst…“ passen den Text je Empfänger an.
+- Jeden Datensatz in der Vorschau prüfen, bevor man sendet – eine verschickte E-Mail lässt sich nicht zurückholen.

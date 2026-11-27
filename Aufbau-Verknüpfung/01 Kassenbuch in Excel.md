@@ -1,94 +1,88 @@
-## Übung: Erstellung eines Haushaltsbuchs in Excel
+# 1. Kassenbuch in Excel
 
-### Ausgangsdaten
-Erstellen Sie eine Tabelle mit den folgenden Spaltenüberschriften:
-- Datum
-- Kategorie
-- Beschreibung
-- Betrag
+**Dauer:** 75 Minuten · **Übung:** Hausmeisterkasse Haus Lichtblick
 
-### 1. Bedingte Formatierung
+Der Hausmeister bezahlt Kleinigkeiten bar aus einer Kasse, die die Hausverwaltung regelmäßig auffüllt. Das Kassenbuch soll Fehleingaben verhindern und auf einen Blick zeigen, was hereinkam und was hinausging.
 
-#### Schritt 1: Wochenenden rot markieren
-1. **Öffnen Sie ein neues Arbeitsblatt und geben Sie die Spaltenüberschriften in die Zellen A1:D1 ein.**
-2. **Geben Sie einige Beispieldaten ein.**
-3. **Markieren Sie die Spalte „Datum“ (z.B. A2:A100).**
-4. **Gehen Sie zur Registerkarte „Start“.**
-5. **Klicken Sie auf „Bedingte Formatierung“.**
-6. **Wählen Sie „Neue Regel...“.**
-7. **Wählen Sie „Formel zur Ermittlung der zu formatierenden Zellen verwenden“.**
-8. **Geben Sie die folgende Formel ein:**
-   ```
-   =WOCHENTAG(A2; 2)>5
-   ```
-   - Diese Formel markiert Samstage (6) und Sonntage (7).
+## Ausgangsdaten
 
-9. **Klicken Sie auf „Formatieren...“ und wählen Sie eine rote Hintergrundfarbe.**
-10. **Klicken Sie auf „OK“, um die Regel anzuwenden.**
+Neue Arbeitsmappe, Blatt „Kasse“, Überschriften in A1:D1: **Datum**, **Kategorie**, **Beschreibung**, **Betrag €**.
 
-#### Schritt 2: Positive Beträge grün und negative Beträge rot markieren
-1. **Markieren Sie die Spalte „Betrag“ (z.B. D2:D100).**
-2. **Gehen Sie zur Registerkarte „Start“.**
-3. **Klicken Sie auf „Bedingte Formatierung“.**
-4. **Wählen Sie „Neue Regel...“.**
-5. **Wählen Sie „Nur Zellen formatieren, die enthalten“.**
-6. **Stellen Sie die Regel für positive Beträge ein:**
-   - Im ersten Dropdown-Menü wählen Sie „Zellwert“.
-   - Im zweiten Dropdown-Menü wählen Sie „größer als“.
-   - Im Feld geben Sie `0` ein.
-7. **Klicken Sie auf „Formatieren...“ und wählen Sie eine grüne Hintergrundfarbe.**
-8. **Klicken Sie auf „OK“, um die Regel anzuwenden.**
-9. **Wiederholen Sie die Schritte 4 bis 8 für negative Beträge:**
-   - Wählen Sie „Zellwert“.
-   - Wählen Sie „kleiner als“.
-   - Geben Sie `0` ein.
-   - Wählen Sie eine rote Hintergrundfarbe.
+| Datum | Kategorie | Beschreibung | Betrag € |
+|---|---|---|---|
+| 02.03.2026 | Einzahlung | Kasse aufgefüllt durch Hausverwaltung | 300,00 |
+| 04.03.2026 | Ersatzteile | Leuchtmittel Flur EG | -24,90 |
+| 07.03.2026 | Reinigungsmittel | Glasreiniger, Notkauf | -12,80 |
+| 10.03.2026 | Werkzeug | Entlüftungsschlüssel Heizkörper | -6,50 |
+| 16.03.2026 | Büromaterial | Laminierfolien für Aushänge | -9,99 |
+| 25.03.2026 | Ersatzteile | Dichtungen Teeküche 2. OG | -4,60 |
 
-### 2. Datenüberprüfung der Beträge als Zahl im Bereich -10000 und +10000
-1. **Markieren Sie die Spalte „Betrag“ (z.B. D2:D100).**
-2. **Gehen Sie zur Registerkarte „Daten“.**
-3. **Klicken Sie auf „Datenüberprüfung“.**
-4. **Wählen Sie im Dropdown-Menü „Datenüberprüfung...“.**
-5. **Im Dialogfeld „Datenüberprüfung“:**
-   - Wählen Sie die Registerkarte „Einstellungen“.
-   - Wählen Sie bei „Zulassen“ den Eintrag „Dezimal“.
-   - Bei „Daten“ wählen Sie „zwischen“.
-   - Geben Sie bei „Minimum“ `-10000` und bei „Maximum“ `10000` ein.
-6. **Klicken Sie auf „OK“.**
+## 1. Bedingte Formatierung
 
-### 3. Datenüberprüfung der Spalte „Kategorie“ mit einer Liste, die auf einem extra Blatt gespeichert wird
+### Wochenenden markieren
 
-#### Schritt 1: Kategorienliste erstellen
-1. **Erstellen Sie ein neues Blatt und benennen Sie es „Kategorien“.**
-2. **Geben Sie in Spalte A die möglichen Kategorien ein (z.B. „Miete“, „Lebensmittel“, „Transport“, „Freizeit“).**
-3. **Markieren Sie die Liste der Kategorien (z.B. A1:A4).**
-4. **Geben Sie der markierten Liste einen Namen:**
-   - Gehen Sie zur Registerkarte „Formeln“.
-   - Klicken Sie auf „Namensmanager“ und dann auf „Neu“.
-   - Geben Sie einen Namen ein, z.B. „Kategorien“.
-   - Klicken Sie auf „OK“.
+1. A2:A100 markieren.
+2. „Start“ → „Bedingte Formatierung“ → „Neue Regel…“ → „Formel zur Ermittlung der zu formatierenden Zellen verwenden“.
+3. Formel: `=WOCHENTAG(A2;2)>5`
+4. „Formatieren…“ → hellrote Füllung → „OK“.
 
-#### Schritt 2: Datenüberprüfung einrichten
-1. **Gehen Sie zurück zu Ihrem Haushaltsbuch-Blatt.**
-2. **Markieren Sie die Spalte „Kategorie“ (z.B. B2:B100).**
-3. **Gehen Sie zur Registerkarte „Daten“.**
-4. **Klicken Sie auf „Datenüberprüfung“.**
-5. **Im Dialogfeld „Datenüberprüfung“:**
-   - Wählen Sie die Registerkarte „Einstellungen“.
-   - Bei „Zulassen“ wählen Sie „Liste“.
-   - Geben Sie bei „Quelle“ `=Kategorien` ein (oder den Namen, den Sie Ihrer Liste gegeben haben).
-6. **Klicken Sie auf „OK“.**
+Der 07.03.2026 ist ein Samstag und wird markiert – eine Ausgabe am Wochenende, die man nachfragen sollte.
 
-### 4. Schutz und Ausblenden des Kategorieblattes
+### Einnahmen grün, Ausgaben rot
 
-#### Schritt 1: Blatt ausblenden
-1. **Rechtsklicken Sie auf das Blatt „Kategorien“.**
-2. **Wählen Sie „Ausblenden“.**
+1. D2:D100 markieren.
+2. „Bedingte Formatierung“ → „Regeln zum Hervorheben von Zellen“ → „Größer als…“ → `0` → grüne Füllung.
+3. Noch einmal mit „Kleiner als…“ → `0` → hellrote Füllung.
 
-#### Schritt 2: Arbeitsmappe schützen
-1. **Gehen Sie zur Registerkarte „Überprüfen“.**
-2. **Klicken Sie auf „Blatt schützen“.**
-3. **Im Dialogfeld „Blatt schützen“:**
-   - Aktivieren Sie die gewünschten Optionen (z.B. „Formatierung der Zellen“ deaktivieren, damit diese nicht geändert werden können).
-   - Geben Sie ein Passwort ein (optional).
-1. **Klicken Sie auf „OK“.**
+## 2. Datenüberprüfung: Beträge zwischen -500 und 500 €
+
+Die Kasse enthält nie mehr als 500 €. Größere Beträge sind Tippfehler.
+
+1. D2:D100 markieren.
+2. „Daten“ → Gruppe „Datentools“ → **„Datenüberprüfung“**.
+3. Registerkarte „Einstellungen“: Zulassen „Dezimal“, Daten „zwischen“, Minimum `-500`, Maximum `500`.
+4. Registerkarte „Fehlermeldung“: Titel „Betrag prüfen“, Text „Beträge der Hausmeisterkasse liegen zwischen -500 und 500 €.“
+5. „OK“. Testen Sie mit `2490` statt `-24,90`.
+
+## 3. Datenüberprüfung: Kategorie aus einer Liste
+
+### Schritt 1: Kategorienliste auf eigenem Blatt
+
+1. Neues Blatt „Kategorien“.
+2. A1 bis A5: Einzahlung, Reinigungsmittel, Ersatzteile, Werkzeug, Büromaterial.
+3. A1:A5 markieren → ins **Namenfeld** links über Spalte A „Kategorien“ tippen → Enter.
+   (Alternativ: „Formeln“ → „Namens-Manager“ → „Neu…“.)
+
+### Schritt 2: Auswahlliste einrichten
+
+1. Zurück zum Blatt „Kasse“, B2:B100 markieren.
+2. „Daten“ → „Datenüberprüfung“.
+3. Zulassen „Liste“, Quelle `=Kategorien`.
+4. „OK“. In Spalte B erscheint jetzt ein Auswahlpfeil; andere Eingaben weist Excel ab.
+
+Neue Kategorie? Auf dem Blatt „Kategorien“ eine Zeile einfügen *innerhalb* des Bereichs (z. B. vor A5) – dann wächst der Name mit.
+
+## 4. Schützen
+
+### Blatt „Kategorien“ ausblenden
+
+Rechtsklick auf den Blattreiter „Kategorien“ → „Ausblenden“.
+
+Ausgeblendet heißt nicht geschützt: Jeder kann es über Rechtsklick → „Einblenden…“ zurückholen.
+
+### Arbeitsmappe schützen – gegen Einblenden und Löschen von Blättern
+
+1. „Überprüfen“ → Gruppe „Schützen“ → **„Arbeitsmappe schützen“**.
+2. „Struktur“ angehakt lassen, Kennwort vergeben (optional) → „OK“.
+
+Jetzt lässt sich „Kategorien“ nicht mehr einblenden, und Blätter lassen sich weder löschen noch umbenennen.
+
+### Blatt „Kasse“ schützen – Formatierung und Regeln bewahren
+
+1. „Überprüfen“ → **„Blatt schützen“**.
+2. Bei den erlaubten Aktionen nur „Nicht gesperrte Zellen auswählen“ zulassen – vorher müssen dafür die Eingabezellen A2:D100 entsperrt werden: markieren → Rechtsklick → „Zellen formatieren…“ → Registerkarte „Schutz“ → Häkchen „Gesperrt“ entfernen.
+3. Kennwort (optional) → „OK“.
+
+Jetzt kann man Buchungen eintragen, aber weder Überschriften noch Regeln verändern.
+
+Ein Kennwort, das man vergisst, lässt sich nicht wiederherstellen. Im Kurs ohne Kennwort arbeiten.
