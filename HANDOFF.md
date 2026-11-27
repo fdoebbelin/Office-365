@@ -17,6 +17,7 @@ Der Kurs ist aus zwei älteren Kursen der Wissensbasis entstanden (*Office-Short
 - Aufbaumodule zusammengeführt, ins Szenario Haus Lichtblick übertragen, fachliche Fehler korrigiert (Tastenkürzel, DIN 5008, Pivot, Blattschutz)
 - Mieterliste in der Referenzliste ergänzt
 - `AGENTS.md`, `CLAUDE.md`, `HANDOFF.md` für die Arbeit mit Agenten
+- Repository und Seite sind öffentlich – so gewollt (bestätigt 2026-11-27), Leitfäden und Lösungen eingeschlossen
 - GitHub Pages vorbereitet: `_config.yml`, Downloadseite `index.md` (füllt sich selbst aus den Handouts und `_resources/`), Ordner `_resources/` für Word- und Excel-Dateien je Modul; Regeln in `AGENTS.md` unter „Downloads über GitHub Pages“
 
 ## Nächster Schritt
@@ -26,7 +27,6 @@ Fehlende Teilnehmermaterialien für den Grundkurs schreiben, beginnend mit den H
 ## Offene Entscheidungen
 
 - **Erste Übungsdatei prüfen:** GitHub Pages ist aktiv (<https://fdoebbelin.github.io/Office-365/>, Branch `main`, `/`), Handouts erscheinen, `_resources/` wird veröffentlicht. Die Download-Tabelle ist noch ungetestet, weil es keine Office-Datei gibt – nach dem ersten Push einer Übungsdatei prüfen, ob sie im richtigen Block erscheint und sich herunterladen lässt.
-- **Sichtbarkeit:** Das Repository ist auf GitHub öffentlich (Stand 2026-11-27), früher hieß es hier „privat“. Damit sind auch Leitfäden und Lösungen öffentlich. Bleibt das so?
 - **Präsentationen:** Folientexte als Markdown (wie Block 01) für alle Blöcke, oder echte Präsentationsdateien?
 - **Nummerierung der Übungen:** Nummer 07 ist doppelt (Quiz Block 07, Wartungsprotokoll Block 05) – neu durchnummerieren?
 - **Materialien:** Zellbezüge (TechVision) und Pivot-Leitfaden (Online-Shop) ins Szenario Haus Lichtblick übertragen?
