@@ -105,7 +105,7 @@ Sparsam einsetzen: höchstens ein, zwei Kästen je Abschnitt.
 - **Übungsdateien** sind echte Word- und Excel-Dateien, mit denen die Aufgaben gelöst werden. Namen: `Block-NN-Thema.docx` / `.xlsx`, Lösungsdateien `Block-NN-Loesung-Thema.xlsx`. Ohne Leerzeichen und Umlaute.
 - Inhalt nur aus der Referenzliste; Schrift Aptos, A4, Fußzeile mit „Übungsdatei Block NN“ und dem Hinweis, dass Namen erfunden sind.
 - Excel-Dateien für Lese- oder Einstiegsübungen mit festen Werten. Formeln nur, wo die Übung sie braucht – heruntergeladene Dateien öffnen in der „Geschützten Ansicht“, ungerechnete Formeln zeigen dort nichts an.
-- Lösungsdateien mit Formeln: Ergebnisse im Skript berechnen, mit `assert` gegen die Lösungen im Übungsblatt prüfen und als zwischengespeicherte Werte in die Datei schreiben (Funktion `cache_values` in `_werkzeuge/block-08-xlsx.py`). So zeigt die Datei auch in der „Geschützten Ansicht“ Ergebnisse.
+- Lösungsdateien mit Formeln: In der Datei stehen Funktionsnamen englisch (`SUM`, `AVERAGE` – Vorgabe des Dateiformats, Excel zeigt sie deutsch an). Ergebnisse im Skript berechnen, mit `assert` gegen die Lösungen im Übungsblatt prüfen und als zwischengespeicherte Werte in die Datei schreiben (Funktion `cache_values` in `_werkzeuge/block-08-xlsx.py`). So zeigt die Datei auch in der „Geschützten Ansicht“ Ergebnisse.
 - Erzeugt mit `_werkzeuge/` (`block-NN-docx.js` mit dem npm-Paket `docx`, `block-NN-xlsx.py` mit `openpyxl`). Nach dem Erzeugen prüfen: Word-Dateien gegen das Schema validieren, Excel-Werte auslesen und mit den Lösungen vergleichen.
 - Ältere Leitfäden nennen noch Dateien wie `Uebung-11-Energieverbrauch.xlsx`; beim Umstellen des Blocks auf das neue Namensschema wechseln und `README.md` („Fehlende Dateien“) nachführen.
 
@@ -169,7 +169,7 @@ grep -rn "Strg *+ *[BIU]\b" --include=*.md .                      # englische K�
 grep -rnE "=(SUM|AVERAGE|COUNT|IF|VLOOKUP)\(" --include=*.md Aufbau-Excel Materialien/Excel Grundkurs   # englische Funktionen in Excel
 grep -rln "{{\|{%" --include=*.md . | grep -vE '^(\./)?(index|AGENTS)\.md$|^(\./)?Grundkurs/Block-[0-9]{2}\.md$'   # Liquid-Zeichen stören Jekyll – darf nichts liefern
 git -c core.quotePath=false ls-files '*.md' | grep -vE '^(AGENTS|CLAUDE|HANDOFF|README)\.md$|^_resources/|^Aufbau-|^Materialien/' | while IFS= read -r f; do head -1 "$f" | grep -qx -- '---' || echo "ohne Kopfzeile: $f"; done   # darf nichts liefern
-grep -rnE "[0-9]{1,2}:[0-9]{2}( |–|-)|Minuten|Min\b|Tag [12]\b" Grundkurs/Block-[0-9][0-9].md Grundkurs/*Uebungsblatt.md | grep -vE 'Uhr|Minuten vorher'   # Zeitangaben in Lerneinheiten – darf nichts liefern (Uhrzeiten von Terminen mit „Uhr“ und Erinnerungen sind erlaubt)
+grep -rnE "[0-9]{1,2}:[0-9]{2}( |–|-)|Minuten|[0-9] Min\b|Tag [12]\b" Grundkurs/Block-[0-9][0-9].md Grundkurs/*Uebungsblatt.md | grep -vE 'Uhr|Minuten vorher'   # Zeitangaben in Lerneinheiten – darf nichts liefern (Uhrzeiten von Terminen mit „Uhr“ und Erinnerungen sind erlaubt)
 ```
 
 Dazu: Verweise auf andere Dateien (Dateinamen in Backticks, Links) existieren, Folien und Übungsdateien, die eine Lerneinheit nennt, liegen vor.

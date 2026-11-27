@@ -12,7 +12,7 @@ Kursmaterial für Einsteigerinnen und Einsteiger: ein **Grundkurs** mit zwölf B
 | [Aufbau-Verknüpfung](Aufbau-Verknüpfung/) | Kassenbuch mit Datenüberprüfung und Schutz, Excel-Tabellen in Word einfügen, einbetten oder verknüpfen, Serien-E-Mail |
 | [Materialien](Materialien/) | Nachschlage- und Vertiefungsmaterial: Oberflächen, Befehle, Begriffe, Zellbezüge (Handout, Arbeitsblatt, Dozentenfassung), Diagramme, Dozentenleitfaden Pivot-Tabellen |
 
-Jeder Block des Grundkurses wird zu einer **Lerneinheit** auf einer Seite: Erklärungen mit Folienabbildungen, Schritt-für-Schritt-Anleitungen, farbige Hinweiskästen, Selbstcheck und Hinweise für Coaching. Dazu gehören ein **Übungsblatt** (als Seite und als Word-Datei) und **Übungsdateien** in Word und Excel. Umgestellt sind bisher **Block 01 bis 05 und 08**; die übrigen Blöcke haben noch einen Leitfaden mit Zeitplan für Gruppenkurse. Die Aufbaumodule beginnen mit `00 Ablauf.md`.
+Jeder Block des Grundkurses wird zu einer **Lerneinheit** auf einer Seite: Erklärungen mit Folienabbildungen, Schritt-für-Schritt-Anleitungen, farbige Hinweiskästen, Selbstcheck und Hinweise für Coaching. Dazu gehören ein **Übungsblatt** (als Seite und als Word-Datei) und **Übungsdateien** in Word und Excel. Umgestellt sind bisher **Block 01 bis 05, 08 und 09**; die übrigen Blöcke haben noch einen Leitfaden mit Zeitplan für Gruppenkurse. Die Aufbaumodule beginnen mit `00 Ablauf.md`.
 
 Die Gebäudedaten, Kontakte, Mieterliste, Inventar, Energieverbrauch und Checklisten des Szenarios stehen in [`00 Referenz Haus Lichtblick.md`](00%20Referenz%20Haus%20Lichtblick.md). Alle Namen, Firmen und Adressen sind erfunden.
 
@@ -41,13 +41,14 @@ Diese Angaben ließen sich beim Umstellen auf Microsoft 365 nicht an einer laufe
 - Block 03 (neues Outlook): Ansichten „Tag“, „Arbeitswoche“, „Woche“, „Monat“ und „Heute“, Schalter „Ganztägig“, im Seriendialog „Monatlich“ mit „Am ersten Montag“ und Enddatum, Frage „nur dieses Ereignis / ganze Serie“ beim Ändern und Löschen, „Kategorisieren“ im Kontextmenü, Einladung mit „Zusagen“, „Mit Vorbehalt“, „Ablehnen“
 - Block 04 (Word): beim ersten Strg+S „Weitere Speicheroptionen“ und „Durchsuchen“, QuickInfo „Alle anzeigen“ für ¶, Registerkarte „Layout“ → „Abstand“ mit „Vor“ und „Nach“
 - Block 05 (Word): Tabellen-Registerkarten „Tabellenentwurf“ und „Layout“ (in neueren Versionen evtl. „Tabellenlayout“) mit „Darunter einfügen“ und „Löschen“ → „Zeilen löschen“, Kontextmenü „Neu beginnen mit 1“, Katalog „Tabellenformatvorlagen“
+- Block 09 (Excel): im Dialog „Sortieren“ die Reihenfolge „Nach Größe (aufsteigend)“, im Filtermenü „Nach Größe sortieren (aufsteigend)“ und „Von A bis Z sortieren“, Schaltflächen „Dezimalstelle hinzufügen/löschen“, Ergebnis der Schaltfläche „1.000er-Trennzeichen“ (zwei Nachkommastellen?)
 
 ## Fehlende Dateien
 
 Die Leitfäden verweisen auf Übungs- und Lösungsdateien, Präsentationen und Handouts, die im Archiv nicht enthalten waren und neu erstellt werden müssen:
 
-- **Folien und Übungsblätter:** die Blöcke 06, 07 und 09 bis 12 – entstehen beim Umstellen auf Lerneinheiten (Folien als SVG, Übungsblatt als Seite und `.docx`)
-- **Übungen Grundkurs:** `Uebung-07-Quiz.docx`, `Uebung-11-Energieverbrauch.xlsx`, `Uebung-12-Filtern.xlsx`, `Uebung-13-Energiediagramm.xlsx`, `Uebung-14-Monatsbericht.docx` und `.xlsx`, dazu die Lösungsdateien `Loesung-07` (Quiz) und `Loesung-11` bis `Loesung-14`. Sie entstehen beim Umstellen der Blöcke neu nach dem Schema `Block-NN-Thema`.
+- **Folien und Übungsblätter:** die Blöcke 06, 07 und 10 bis 12 – entstehen beim Umstellen auf Lerneinheiten (Folien als SVG, Übungsblatt als Seite und `.docx`)
+- **Übungen Grundkurs:** `Uebung-07-Quiz.docx`, `Uebung-13-Energiediagramm.xlsx`, `Uebung-14-Monatsbericht.docx` und `.xlsx`, dazu die Lösungsdateien `Loesung-07` (Quiz) und `Loesung-13`, `Loesung-14`. Sie entstehen beim Umstellen der Blöcke neu nach dem Schema `Block-NN-Thema`.
 - **Übungen Aufbau-Word:** `Uebung-A1-Hausordnung.docx`, `Uebung-A7-Betriebshandbuch.docx` – der Text steht jeweils in der Einheit und lässt sich auch abtippen
 - **Bild** der früheren Briefvorlage nach DIN 5008
 
