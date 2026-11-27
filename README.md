@@ -12,7 +12,7 @@ Kursmaterial für Einsteigerinnen und Einsteiger: ein **Grundkurs** mit zwölf B
 | [Aufbau-Verknüpfung](Aufbau-Verknüpfung/) | Kassenbuch mit Datenüberprüfung und Schutz, Excel-Tabellen in Word einfügen, einbetten oder verknüpfen, Serien-E-Mail |
 | [Materialien](Materialien/) | Nachschlage- und Vertiefungsmaterial: Oberflächen, Befehle, Begriffe, Zellbezüge (Handout, Arbeitsblatt, Dozentenfassung), Diagramme, Dozentenleitfaden Pivot-Tabellen |
 
-Jeder Block des Grundkurses wird zu einer **Lerneinheit** auf einer Seite: Erklärungen mit Folienabbildungen, Schritt-für-Schritt-Anleitungen, farbige Hinweiskästen, Selbstcheck und Hinweise für Coaching. Dazu gehören ein **Übungsblatt** (als Seite und als Word-Datei) und **Übungsdateien** in Word und Excel. Umgestellt sind bisher **Block 01 bis 05 und 08 bis 11**; die übrigen Blöcke haben noch einen Leitfaden mit Zeitplan für Gruppenkurse. Die Aufbaumodule beginnen mit `00 Ablauf.md`.
+Jeder Block des Grundkurses wird zu einer **Lerneinheit** auf einer Seite: Erklärungen mit Folienabbildungen, Schritt-für-Schritt-Anleitungen, farbige Hinweiskästen, Selbstcheck und Hinweise für Coaching. Dazu gehören ein **Übungsblatt** (als Seite und als Word-Datei) und **Übungsdateien** in Word und Excel. Umgestellt sind **Block 01 bis 05 und 08 bis 12**; die übrigen Blöcke haben noch einen Leitfaden mit Zeitplan für Gruppenkurse. Die Aufbaumodule beginnen mit `00 Ablauf.md`.
 
 Die Gebäudedaten, Kontakte, Mieterliste, Inventar, Energieverbrauch und Checklisten des Szenarios stehen in [`00 Referenz Haus Lichtblick.md`](00%20Referenz%20Haus%20Lichtblick.md). Alle Namen, Firmen und Adressen sind erfunden.
 
@@ -49,7 +49,7 @@ Diese Angaben ließen sich beim Umstellen auf Microsoft 365 nicht an einer laufe
 
 Die Leitfäden verweisen auf Übungs- und Lösungsdateien, Präsentationen und Handouts, die im Archiv nicht enthalten waren und neu erstellt werden müssen:
 
-- **Folien und Übungsblätter:** die Blöcke 06, 07 und 12 – entstehen beim Umstellen auf Lerneinheiten (Folien als SVG, Übungsblatt als Seite und `.docx`)
+- **Folien und Übungsblätter:** die Blöcke 06 und 07 – entstehen beim Umstellen auf Lerneinheiten (Folien als SVG, Übungsblatt als Seite und `.docx`)
 - **Übungen Grundkurs:** `Uebung-07-Quiz.docx` mit Lösung (Block 07). Sie entstehen beim Umstellen der Blöcke neu nach dem Schema `Block-NN-Thema`.
 - **Übungen Aufbau-Word:** `Uebung-A1-Hausordnung.docx`, `Uebung-A7-Betriebshandbuch.docx` – der Text steht jeweils in der Einheit und lässt sich auch abtippen
 - **Bild** der früheren Briefvorlage nach DIN 5008
