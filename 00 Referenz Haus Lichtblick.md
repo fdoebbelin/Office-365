@@ -63,6 +63,21 @@
 - **Firma DesignWerk (2. OG):** Michael Braun (m.braun@designwerk.de)
 - **Firma Consulting Plus (3. OG):** Sarah Meyer (s.meyer@consulting-plus.de)
 
+## Mieterliste (Auszug, 8 von 12 Mietern – Beispieldaten)
+
+| Firma | Etage | Fläche m² | Ansprechpartner | Mietbeginn | Nebenkosten €/Monat |
+|-------|-------|-----------|-----------------|------------|---------------------|
+| TechSolutions | 1. OG | 420 | Anna Klein | 01.03.2018 | 1260 |
+| DesignWerk | 2. OG | 310 | Michael Braun | 15.07.2019 | 930 |
+| Consulting Plus | 3. OG | 520 | Sarah Meyer | 01.01.2017 | 1560 |
+| Steuerbüro Hahn | 1. OG | 180 | Jürgen Hahn | 01.10.2020 | 540 |
+| Praxis am Park | 2. OG | 260 | Lena Ott | 01.04.2021 | 780 |
+| Lernwerk Akademie | 3. OG | 240 | Tim Rauch | 15.02.2022 | 720 |
+| Kanzlei Berg & Partner | 4. OG | 300 | Nina Berg | 01.09.2016 | 900 |
+| Grünraum Architekten | 1. OG | 150 | Paul Grün | 01.06.2023 | 450 |
+
+Die Nebenkostenvorauszahlung beträgt 3 € je m² und Monat.
+
 ## Technische Ausstattung
 
 ### Heizung

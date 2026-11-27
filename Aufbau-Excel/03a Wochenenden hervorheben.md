@@ -1,60 +1,42 @@
+# 3a. Wochenenden hervorheben
 
-## Ziel:
-Dieses Arbeitsblatt führt Sie durch die Verwendung der bedingten Formatierung, um Wochenenden in einer Liste von Datumsangaben hervorzuheben. Diese Technik ist nützlich, um wichtige Daten visuell zu unterscheiden und die Analyse zu erleichtern.
+**Ziel:** Im Wartungskalender von Haus Lichtblick sollen Samstage und Sonntage farbig erscheinen, damit niemand eine Wartung auf ein Wochenende legt.
 
-## Einführung
-Bedingte Formatierung in Excel ermöglicht es, Zellen basierend auf bestimmten Kriterien automatisch zu formatieren. Dies kann verwendet werden, um bestimmte Tage, wie Wochenenden, hervorzuheben.
+## Übung 1: Datumsreihe erstellen
 
-## Abschnitt 1: Bedingte Formatierung für Wochenenden
+1. Neues Blatt „Wartungskalender“.
+2. A1: „Datum“, B1: „Wartung“.
+3. A2: `01.05.2026`.
+4. Füllkästchen von A2 nach unten bis A32 ziehen – Excel füllt die Tage bis 31.05.2026.
 
-### Übung 1: Einfache Datumsreihe erstellen
+## Übung 2: Regel für Wochenenden
 
-1. **Öffnen Sie ein neues Excel-Arbeitsblatt.**
-2. **Erstellen Sie eine Liste von Datumsangaben:**
-   - Geben Sie in Zelle A1 das Startdatum ein, z.B. `01.05.2024`.
-   - Ziehen Sie den Füllziehpunkt (kleines Quadrat in der unteren rechten Ecke der Zelle) nach unten, um eine fortlaufende Reihe von Datumsangaben zu erstellen, z.B. bis zum `31.05.2024`.
+1. A2:A32 markieren.
+2. „Start“ → „Bedingte Formatierung“ → „Neue Regel…“.
+3. „Formel zur Ermittlung der zu formatierenden Zellen verwenden“.
+4. Formel:
 
-### Übung 2: Bedingte Formatierung anwenden
+   ```
+   =WOCHENTAG(A2;2)>5
+   ```
 
-1. **Markieren Sie den Bereich der Datumsangaben:**
-   - Markieren Sie den Bereich A1:A31.
+   - `WOCHENTAG(A2;2)` liefert den Wochentag mit Montag = 1 bis Sonntag = 7.
+   - `>5` trifft also Samstag (6) und Sonntag (7).
 
-2. **Bedingte Formatierung öffnen:**
-   - Gehen Sie zur Registerkarte „Start“.
-   - Klicken Sie auf „Bedingte Formatierung“ in der Gruppe „Formatvorlagen“.
-   - Wählen Sie „Neue Regel...“.
+5. „Formatieren…“ → „Ausfüllen“ → Hellgrau oder Hellrot → „OK“ → „OK“.
 
-3. **Regel zur Hervorhebung von Wochenenden erstellen:**
-   - Wählen Sie „Formel zur Ermittlung der zu formatierenden Zellen verwenden“.
-   - Geben Sie die folgende Formel ein:
-     ```
-     =WOCHENTAG(A1;2)>5
-     ```
-     - `WOCHENTAG(A1, 2)`: Funktion, die den Wochentag des Datums in Zelle A1 zurückgibt, wobei Montag als 1 und Sonntag als 7 gezählt wird.
-     - `> 5`: Bedingung, die prüft, ob der Tag ein Samstag (6) oder Sonntag (7) ist.
+Ergebnis: Der 2., 3., 9., 10., 16., 17., 23., 24., 30. und 31. Mai 2026 sind markiert.
 
-4. **Format auswählen:**
-   - Klicken Sie auf „Formatieren...“.
-   - Wählen Sie auf der Registerkarte „Ausfüllen“ eine Hintergrundfarbe aus, um die Wochenenden hervorzuheben (z.B. Hellrot).
-   - Klicken Sie auf „OK“.
+## Übung 3: Bereich erweitern
 
-5. **Regel anwenden:**
-   - Klicken Sie erneut auf „OK“, um die Regel anzuwenden.
-   - Die Wochenenden in der Liste sollten nun mit der ausgewählten Hintergrundfarbe hervorgehoben sein.
+1. Datumsreihe bis zum 31.12.2026 verlängern (Füllkästchen bis Zeile 246).
+2. „Bedingte Formatierung“ → „Regeln verwalten…“ → Regel auswählen.
+3. In der Spalte **„Wird angewendet auf“** den Bereich auf `=$A$2:$A$246` ändern → „Übernehmen“ → „OK“.
+4. Prüfen, dass auch im Dezember die Wochenenden markiert sind.
 
-### Übung 3: Bedingte Formatierung auf erweiterten Bereich anwenden
+Tipp: Wer die Datumsliste von Anfang an mit „Als Tabelle formatieren“ anlegt, muss den Bereich nicht nachziehen – die Regel wächst mit der Tabelle mit.
 
-1. **Dateneingabe erweitern:**
-   - Erweitern Sie die Liste der Datumsangaben bis zum `31.12.2024`.
+## Übung 4 (Bonus): Wartungstage eintragen
 
-2. **Bedingte Formatierung kopieren:**
-   - Markieren Sie den Bereich der neuen Datumsangaben (z.B. A32:A365).
-   - Gehen Sie zur Registerkarte „Start“.
-   - Klicken Sie auf „Bedingte Formatierung“.
-   - Wählen Sie „Regeln verwalten...“.
-   - Wählen Sie die zuvor erstellte Regel aus und klicken Sie auf „Regel bearbeiten...“.
-   - Ändern Sie den Bereich, auf den die Regel angewendet wird, auf den gesamten Bereich der Datumsangaben (z.B. $A$1:$A$365).
-   - Klicken Sie auf „OK“.
-
-3. **Ergebnis überprüfen:**
-   - Stellen Sie sicher, dass alle Wochenenden im erweiterten Bereich entsprechend hervorgehoben sind.
+1. In Spalte B für jeden ersten Montag im Monat „Heizungswartung“ eintragen.
+2. Zweite Regel für A2:A246: `=B2<>""` mit blauer Schrift – Tage mit Wartung fallen zusätzlich auf.

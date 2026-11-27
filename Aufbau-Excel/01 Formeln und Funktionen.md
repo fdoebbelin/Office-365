@@ -1,23 +1,28 @@
+# 1. Formeln und Funktionen
+
+**Dauer:** 120 Minuten · **Daten:** Mieterliste Haus Lichtblick
+
 ## Ausgangsdaten
 
-Erstellen Sie eine Tabelle mit den folgenden Daten:
+Übernehmen Sie die Mieterliste aus `00 Referenz Haus Lichtblick.md` in ein Blatt „Mieter“, Zellen A1:F9:
 
-| Name  | Abteilung | Gehalt | Eintrittsdatum |
-| ----- | --------- | ------ | -------------- |
-| Anna  | Vertrieb  | 50000  | 01.01.2018     |
-| Bernd | HR        | 45000  | 15.05.2019     |
-| Clara | Vertrieb  | 55000  | 10.08.2017     |
-| David | IT        | 60000  | 01.07.2020     |
-| Erika | HR        | 47000  | 23.03.2018     |
-| Felix | IT        | 52000  | 12.12.2019     |
+| | A | B | C | D | E | F |
+|---|---|---|---|---|---|---|
+| 1 | Firma | Etage | Fläche m² | Ansprechpartner | Mietbeginn | Nebenkosten €/Monat |
+| 2 | TechSolutions | 1. OG | 420 | Anna Klein | 01.03.2018 | 1260 |
+| 3 | DesignWerk | 2. OG | 310 | Michael Braun | 15.07.2019 | 930 |
+| 4 | Consulting Plus | 3. OG | 520 | Sarah Meyer | 01.01.2017 | 1560 |
+| 5 | Steuerbüro Hahn | 1. OG | 180 | Jürgen Hahn | 01.10.2020 | 540 |
+| 6 | Praxis am Park | 2. OG | 260 | Lena Ott | 01.04.2021 | 780 |
+| 7 | Lernwerk Akademie | 3. OG | 240 | Tim Rauch | 15.02.2022 | 720 |
+| 8 | Kanzlei Berg & Partner | 4. OG | 300 | Nina Berg | 01.09.2016 | 900 |
+| 9 | Grünraum Architekten | 1. OG | 150 | Paul Grün | 01.06.2023 | 450 |
 
-## 1. WENN-DANN-Logik (IF-Logik)
+Die Übungen schreiben ihre Ergebnisse rechts neben die Tabelle (ab Spalte H). Wer die Liste mit „Als Tabelle formatieren“ angelegt hat, sieht in Formeln statt `C2` oft `[@[Fläche m²]]` – das ist dasselbe, nur mit Spaltennamen. Für die Übungen vorher „Tabellenentwurf“ → „In Bereich konvertieren“ wählen, dann entsprechen die Formeln genau den Beispielen.
 
-**Beschreibung:**
+## 1. WENN
 
-Die WENN-Funktion führt eine logische Prüfung durch und gibt einen Wert zurück, wenn die Bedingung wahr ist, und einen anderen Wert, wenn sie falsch ist.
-
-**Syntax:**
+Die WENN-Funktion prüft eine Bedingung und liefert einen Wert, wenn sie wahr ist, und einen anderen, wenn sie falsch ist.
 
 ```
 =WENN(Prüfung; Dann_Wert; Sonst_Wert)
@@ -25,195 +30,140 @@ Die WENN-Funktion führt eine logische Prüfung durch und gibt einen Wert zurüc
 
 ### Übung
 
-1. **Geben Sie in Zelle E1 die Überschrift „Bonus“ ein.**
-2. **Geben Sie in Zelle E2 die folgende Formel ein:**
-   ```
-   =WENN(C2>50000; "Ja"; "Nein")
-   ```
-   - Diese Formel prüft, ob das Gehalt in Zelle C2 größer als 50000 ist. Wenn ja, wird „Ja“ zurückgegeben, ansonsten „Nein“.
-3. **Verwenden Sie die Autofill-Funktion, um die Formel auf die Zellen E3 bis E7 zu kopieren.**
+1. H1: „Größe“.
+2. H2: `=WENN(C2>=300; "groß"; "klein")`
+3. Mit dem Füllkästchen bis H9 kopieren.
 
-## 2. SUMMEWENN (SUMIF)
+Ergebnis: „groß“ bei TechSolutions, DesignWerk, Consulting Plus und Kanzlei Berg & Partner, sonst „klein“.
 
-**Beschreibung:**
+**Menübefehl:** „Formeln“ → „Logisch“ → „WENN“.
 
-Die SUMMEWENN-Funktion summiert die Werte in einem Bereich, die einem angegebenen Kriterium entsprechen.
+## 2. SUMMEWENN
 
-**Syntax:**
+Summiert nur die Werte, deren Zeile ein Kriterium erfüllt.
 
 ```
 =SUMMEWENN(Bereich; Kriterium; [Summe_Bereich])
 ```
 
 ### Übung
-1. **Geben Sie in Zelle G1 die Überschrift „Summe Vertrieb“ ein.**
-2. **Geben Sie in Zelle G2 die folgende Formel ein:**
-   ```
-   =SUMMEWENN(B2:B7; "Vertrieb"; C2:C7)
-   ```
-   - Diese Formel summiert die Gehälter in Spalte C, wenn der Wert in Spalte B „Vertrieb“ ist.
 
-## 3. SVERWEIS (VLOOKUP)
+1. J1: „Etage“, K1: „Fläche gesamt“.
+2. J2 bis J5: „1. OG“, „2. OG“, „3. OG“, „4. OG“.
+3. K2: `=SUMMEWENN($B$2:$B$9; J2; $C$2:$C$9)` und nach unten kopieren.
 
-**Beschreibung:**
+Ergebnis: 1. OG 750, 2. OG 570, 3. OG 760, 4. OG 300 m².
 
-Die SVERWEIS-Funktion durchsucht die erste Spalte einer Tabelle und gibt einen Wert in derselben Zeile aus einer anderen Spalte zurück.
+Die Dollarzeichen halten die Bereiche fest, während J2 beim Kopieren zu J3, J4 … wird. F4 setzt sie beim Eingeben (siehe `Materialien/Excel/Zellbezüge Handout.md`).
 
-**Syntax**:
+Für mehrere Bedingungen gibt es **SUMMEWENNS**, für das Zählen **ZÄHLENWENN**: `=ZÄHLENWENN(B2:B9; "1. OG")` ergibt 3.
+
+## 3. XVERWEIS
+
+XVERWEIS sucht einen Wert in einer Spalte und gibt den Wert aus derselben Zeile einer anderen Spalte zurück. Er ist in Microsoft 365 der Standard für Nachschlagen und löst SVERWEIS ab.
+
+```
+=XVERWEIS(Suchkriterium; Suchmatrix; Rückgabematrix; [wenn_nicht_gefunden]; [Vergleichsmodus]; [Suchmodus])
+```
+
+- **Suchkriterium:** was gesucht wird
+- **Suchmatrix:** die Spalte, in der gesucht wird
+- **Rückgabematrix:** die Spalte, aus der das Ergebnis kommt
+- **wenn_nicht_gefunden:** Text statt Fehlermeldung `#NV`
+- **Vergleichsmodus:** 0 = exakt (Standard), -1 = exakt oder nächstkleiner, 1 = exakt oder nächstgrößer
+
+### Übung 1: Ansprechpartner zu einer Firma
+
+```
+=XVERWEIS("DesignWerk"; A2:A9; D2:D9; "nicht gefunden")
+```
+
+Ergebnis: „Michael Braun“. Geben Sie statt „DesignWerk“ einen Zellbezug an (z. B. M2) und tippen Sie verschiedene Firmen in M2.
+
+### Übung 2: Firma zu einer Ansprechpartnerin – Suche nach links
+
+```
+=XVERWEIS("Sarah Meyer"; D2:D9; A2:A9)
+```
+
+Ergebnis: „Consulting Plus“. Mit SVERWEIS geht das nicht, weil SVERWEIS nur rechts von der Suchspalte zurückgeben kann.
+
+## 4. SVERWEIS
+
+SVERWEIS ist der Vorgänger von XVERWEIS. Man findet ihn in fast jeder älteren Arbeitsmappe, deshalb muss man ihn lesen können.
 
 ```
 =SVERWEIS(Suchkriterium; Matrix; Spaltenindex; [Bereich_Verweis])
 ```
 
-- **Suchkriterium**: Der Wert, nach dem gesucht werden soll.
-- **Matrix**: Der Bereich, der durchsucht werden soll.
-- **Spaltenindex**: Die Spaltennummer in der Matrix, aus der der Wert zurückgegeben werden soll.
-- **Bereich_Verweis**: 
-	- **WAHR (TRUE)**: Sucht nach der nächstkleineren Übereinstimmung und setzt voraus, dass die erste Spalte der Matrix sortiert ist.
-	- **FALSCH (FALSE)**: Sucht nach einer exakten Übereinstimmung und gibt den Fehlerwert #NV zurück, wenn keine exakte Übereinstimmung gefunden wird.
+- **Matrix:** der ganze Tabellenbereich; gesucht wird immer in dessen **erster** Spalte
+- **Spaltenindex:** die wievielte Spalte der Matrix zurückgegeben wird
+- **Bereich_Verweis:** FALSCH = exakte Übereinstimmung; WAHR = nächstkleinerer Wert, erste Spalte muss aufsteigend sortiert sein
 
 ### Übung 1: Exakte Übereinstimmung
 
-Angenommen, wir haben folgende Tabelle:
-
-| Name  | Abteilung | Gehalt | Eintrittsdatum |
-| ----- | --------- | ------ | -------------- |
-| Anna  | Vertrieb  | 50000  | 01.01.2018     |
-| Bernd | HR        | 45000  | 15.05.2019     |
-| Clara | Vertrieb  | 55000  | 10.08.2017     |
-| David | IT        | 60000  | 01.07.2020     |
-| Erika | HR        | 47000  | 23.03.2018     |
-| Felix | IT        | 52000  | 12.12.2019     |
-
-**Ziel**: Finden Sie die Abteilung von Clara.
-
-**Formel**:
 ```
-=SVERWEIS("Clara"; A2:D7; 2; FALSCH)
+=SVERWEIS("DesignWerk"; A2:F9; 4; FALSCH)
 ```
 
-- **Suchkriterium**: "Clara"
-- **Matrix**: A2:D7
-- **Spaltenindex**: 2 (die Spalte "Abteilung")
-- **Bereich_Verweis**: FALSCH (exakte Übereinstimmung)
+Ergebnis: „Michael Braun“ – Spalte 4 der Matrix ist „Ansprechpartner“.
 
-**Ergebnis**: "Vertrieb"
+### Übung 2: Ungefähre Übereinstimmung – Reinigungsintervall nach Fläche
 
-### Übung 2: Ungefähre Übereinstimmung
+Legen Sie eine Staffel an (H12:I15):
 
-Angenommen, wir haben folgende Tabelle, in der die Gehälter aufsteigend sortiert sind:
+| ab Fläche m² | Reinigung |
+|---|---|
+| 0 | 1× pro Woche |
+| 200 | 2× pro Woche |
+| 400 | täglich |
 
-| Gehalt | Name    |
-|--------|---------|
-| 45000  | Bernd   |
-| 47000  | Erika   |
-| 50000  | Anna    |
-| 52000  | Felix   |
-| 55000  | Clara   |
-| 60000  | David   |
+In G2: `=SVERWEIS(C2; $H$13:$I$15; 2; WAHR)` und nach unten kopieren.
 
-**Ziel**: Finden Sie den Namen der Person, deren Gehalt am nächsten zu 53000 liegt.
+Ergebnis: TechSolutions (420) und Consulting Plus (520) „täglich“, Steuerbüro Hahn (180) und Grünraum (150) „1× pro Woche“, alle anderen „2× pro Woche“. SVERWEIS nimmt jeweils die letzte Stufe, die nicht größer als die Fläche ist.
 
-**Formel**:
+Dasselbe mit XVERWEIS: `=XVERWEIS(C2; $H$13:$H$15; $I$13:$I$15; ; -1)`
 
-```
-=SVERWEIS(53000; A2:B7; 2; WAHR)
-```
+## 5. INDEX und VERGLEICH
 
-- **Suchkriterium**: 53000
-- **Matrix**: A2:B7
-- **Spaltenindex**: 2 (die Spalte "Name")
-- **Bereich_Verweis**: WAHR (ungefähre Übereinstimmung)
+Vor XVERWEIS war die Kombination aus INDEX und VERGLEICH der Weg, flexibel – auch nach links – zu suchen. Auch sie begegnet einem in bestehenden Arbeitsmappen.
 
-**Ergebnis**: "Felix"
-
-**Erläuterung**: Da 53000 nicht exakt in der Tabelle vorhanden ist und der Parameter WAHR verwendet wird, sucht die Funktion nach der nächstkleineren Zahl, die 53000 am nächsten kommt, was 52000 ist, und gibt den entsprechenden Namen "Felix" zurück.
-
-## 4. INDEX und VERGLEICH
-
-**Beschreibung:**
-Die INDEX-Funktion gibt den Wert einer bestimmten Zelle in einem Bereich zurück, basierend auf den angegebenen Zeilen- und Spaltennummern. Die VERGLEICH-Funktion sucht nach einem Wert in einem Bereich und gibt die relative Position dieses Wertes zurück.
-
-**Syntax:**
 ```
 =INDEX(Matrix; Zeile; [Spalte])
 =VERGLEICH(Suchkriterium; Suchmatrix; [Vergleichstyp])
 ```
 
-### A) Finden Sie den Namen basierend auf dem Gehalt
+- **VERGLEICH** liefert die *Position* eines Wertes in einem Bereich (Vergleichstyp 0 = exakt).
+- **INDEX** liefert den Wert an einer Position.
 
-#### Verwenden der Funktion VERGLEICH
+### Übung: Welche Firma hat die größte Fläche?
 
-Die VERGLEICH-Funktion wird verwendet, um die Position eines Wertes in einem Bereich zu finden. In diesem Beispiel suchen wir die Position des Gehalts in der Gehaltsspalte.
+1. `=MAX(C2:C9)` ergibt 520.
+2. `=VERGLEICH(520; C2:C9; 0)` ergibt 3 – der dritte Eintrag.
+3. `=INDEX(A2:A9; 3)` ergibt „Consulting Plus“.
+4. Alles in einer Formel: `=INDEX(A2:A9; VERGLEICH(MAX(C2:C9); C2:C9; 0))`
 
-1. **Geben Sie in Zelle F1 die Überschrift „Suchgehalt“ ein.**
-2. **Geben Sie in Zelle F2 das Gehalt ein, nach dem Sie suchen möchten, z.B. 55000.**
-3. **Geben Sie in Zelle G1 die Überschrift „Position“ ein.**
-4. **Geben Sie in Zelle G2 die folgende Formel ein:**
-   ```
-   =VERGLEICH(F2; C2:C7; 0)
-   ```
-   - Diese Formel gibt die Position des Wertes in F2 (55000) in der Spalte C zurück.
+Zum Vergleich mit XVERWEIS: `=XVERWEIS(MAX(C2:C9); C2:C9; A2:A9)`
 
-#### Verwenden der Funktion INDEX
-Die INDEX-Funktion gibt den Wert einer Zelle in einem bestimmten Bereich zurück, basierend auf der Zeilen- und Spaltennummer.
+## 6. Text verbinden und formatieren
 
-1. **Geben Sie in Zelle H1 die Überschrift „Name“ ein.**
-2. **Geben Sie in Zelle H2 die folgende Formel ein:**
-   ```
-   =INDEX(A2:A7; G2)
-   ```
-   - Diese Formel verwendet die Position aus Zelle G2, um den entsprechenden Namen in der Spalte A zu finden.
+| Funktion | Zweck | Beispiel | Ergebnis |
+|---|---|---|---|
+| `&` | Texte aneinanderhängen | `=A2&" – "&B2` | TechSolutions – 1. OG |
+| TEXTKETTE | wie `&`, auch für Bereiche | `=TEXTKETTE(A2; " – "; B2)` | TechSolutions – 1. OG |
+| TEXTVERKETTEN | Bereich mit Trennzeichen verbinden, leere Zellen überspringen | `=TEXTVERKETTEN(", "; WAHR; A2:A4)` | TechSolutions, DesignWerk, Consulting Plus |
+| TEXT | Zahl oder Datum als Text formatieren | `=A2&" seit "&TEXT(E2; "MM.JJJJ")` | TechSolutions seit 03.2018 |
 
-#### Zusammenführen von INDEX und VERGLEICH
+VERKETTEN gibt es noch, damit alte Arbeitsmappen funktionieren; in neuen Formeln TEXTKETTE oder `&` verwenden.
 
-Um die Suche effizienter zu gestalten, können Sie die Funktionen INDEX und VERGLEICH in einer einzigen Formel kombinieren.
+### Übung
 
-1. **Geben Sie in Zelle J1 die Überschrift „Name für Suchgehalt“ ein.**
-2. **Geben Sie in Zelle J2 die folgende Formel ein:**
-   ```
-   =INDEX(A2:A7; VERGLEICH(F2; C2:C7; 0))
-   ```
-   - Diese Formel sucht nach dem Gehalt in Zelle F2 in der Spalte C, findet die Position und verwendet diese Position, um den Namen in Spalte A zu finden.
+1. N1: „Firma und Etage“.
+2. N2: `=TEXTKETTE(A2; " – "; B2)` und bis N9 kopieren.
+3. N11: alle Firmen des 1. OG in einer Zelle – Bonus mit FILTER (siehe `02 Sortieren und Filtern.md`): `=TEXTVERKETTEN(", "; WAHR; FILTER(A2:A9; B2:B9="1. OG"))`
 
-### B) Finden Sie die Abteilung basierend auf dem Eintrittsdatum
+## Zusammenfassung
 
-1. **Geben Sie in Zelle K1 die Überschrift „Suchdatum“ ein.**
-2. **Geben Sie in Zelle K2 das Eintrittsdatum ein, nach dem Sie suchen möchten, z.B. 01.07.2020.**
-3. **Geben Sie in Zelle L1 die Überschrift „Abteilung“ ein.**
-4. **Geben Sie in Zelle L2 die folgende Formel ein:**
-   ```
-   =INDEX(B2:B7; VERGLEICH(K2; D2:D7; 0))
-   ```
-   - Diese Formel sucht nach dem Datum in Zelle K2 in der Spalte D, findet die Position und verwendet diese Position, um die Abteilung in Spalte B zu finden.
-
-### Zusammenfassung
-Die Kombination der Funktionen INDEX und VERGLEICH bietet eine flexible Methode, um Werte in Excel zu suchen und zurückzugeben, unabhängig davon, in welcher Spalte die Suchkriterien sich befinden. Dies ermöglicht komplexere und dynamischere Datenabfragen, die mit SVERWEIS allein nicht möglich wären.
-
-### 5. TEXT-Funktionen (VERKETTEN, TEXT)
-
-**Beschreibung:**
-Die VERKETTEN-Funktion verbindet mehrere Textstrings zu einem einzigen Textstring. Die TEXT-Funktion formatiert eine Zahl und gibt sie als Text zurück.
-
-**Syntax:**
-```
-=VERKETTEN(Text1; Text2; ...)
-=TEXT(Wert; Textformat)
-```
-
-**Beispiel:**
-1. **Geben Sie in Zelle M1 die Überschrift „Name und Abteilung“ ein.**
-2. **Geben Sie in Zelle M2 die folgende Formel ein:**
-   ```
-   =VERKETTEN(A2; " - "; B2)
-   ```
-   - Diese Formel verbindet den Namen und die Abteilung in Spalte A und B.
-
-### Übung 5: Namen und Abteilung verbinden
-- Geben Sie die Formel in Zelle M2 ein.
-- Verwenden Sie Autofill, um die Formel auf die Zellen M3 bis M7 zu kopieren.
-
-### Zusammenfassung
-Dieses Arbeitsblatt bietet eine umfassende Anleitung zur Verwendung fortgeschrittener Formeln und Funktionen in Excel, einschließlich der WENN-Funktion, SUMMEWENN, SVERWEIS, INDEX und VERGLEICH sowie Textfunktionen. Durch die praktischen Übungen werden Sie in der Lage sein, diese Konzepte effektiv anzuwenden, um komplexe Berechnungen und Datenanalysen durchzuführen.
-
----
+- **WENN** entscheidet, **SUMMEWENN** und **ZÄHLENWENN** werten mit Bedingung aus.
+- **XVERWEIS** ist der Standard zum Nachschlagen; **SVERWEIS** und **INDEX/VERGLEICH** muss man in älteren Mappen lesen können.
+- Texte verbindet man mit **&**, **TEXTKETTE** oder **TEXTVERKETTEN**.

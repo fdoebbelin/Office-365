@@ -1,117 +1,80 @@
-## 01 Fortgeschrittene Formeln und Funktionen
+# Aufbaumodul Excel – Ablauf
 
-#### WENN-DANN-Logik (IF-Logik)
+**Programm:** Microsoft Excel (Microsoft 365)
+**Dauer:** ein Kurstag, ca. 6 Stunden ohne Pausen
+**Voraussetzung:** Grundkurs Block 08–10 (Eingabe, Formeln, SUMME & Co., Sortieren, AutoFilter, Diagramm)
+**Szenario:** Haus Lichtblick – Mieterliste, Inventar, Energieverbrauch und Wartungskosten aus `00 Referenz Haus Lichtblick.md`
 
-**Beschreibung:**
-Die WENN-Funktion führt eine logische Prüfung durch und gibt einen Wert zurück, wenn die Bedingung wahr ist, und einen anderen Wert, wenn sie falsch ist.
+## Überblick
 
-**Syntax:**
+| Nr. | Thema | Dauer | Datei |
+|---|---|---|---|
+| 0 | Begrüßung, Wiederholung, Mieterliste anlegen | 30 Min | – |
+| 1 | Formeln und Funktionen: WENN, SUMMEWENN, XVERWEIS, SVERWEIS, INDEX/VERGLEICH, Text verbinden | 120 Min | `01 Formeln und Funktionen.md` |
+| 2 | Sortieren und Filtern, dynamische Arrays | 60 Min | `02 Sortieren und Filtern.md` |
+| 3 | Bedingte Formatierung | 60 Min | `03 Bedingte Formatierung.md`, `03a Wochenenden hervorheben.md` |
+| 4 | Pivot-Tabellen | 75 Min | `04 Pivot-Tabellen.md` |
+| – | Fragen, Feedback | 15 Min | – |
+
+Vertiefung zu Zellbezügen (relativ, absolut, gemischt, 3D, extern) und ein ausführlicher Dozentenleitfaden zu Pivot-Tabellen liegen unter `Materialien/Excel/`.
+
+## 0. Einstieg: Mieterliste anlegen
+
+- Wiederholung: Formel beginnt mit `=`, Füllkästchen, relative Bezüge
+- Mieterliste aus der Referenz in ein neues Blatt „Mieter“ übernehmen (A1:F9)
+- Bereich markieren → „Start“ → „Als Tabelle formatieren“: Kopfzeile mit Filterpfeilen, gebänderte Zeilen, Formeln wachsen mit neuen Zeilen mit
+
+## 1. Formeln und Funktionen
+
+**WENN** – eine Bedingung prüfen und je nach Ergebnis zwei verschiedene Werte liefern:
+
 ```
 =WENN(Prüfung; Dann_Wert; Sonst_Wert)
+=WENN(C2>=300; "groß"; "klein")
 ```
 
-**Verwendung:**
-1. Wählen Sie die Zelle, in der die WENN-Funktion verwendet werden soll.
-2. Geben Sie die Formel ein:
-   ```
-   =WENN(A1>10; "Ja"; "Nein")
-   ```
-   - `A1>10`: Die Bedingung, die geprüft wird.
-   - `"Ja"`: Der Wert, der zurückgegeben wird, wenn die Bedingung wahr ist.
-   - `"Nein"`: Der Wert, der zurückgegeben wird, wenn die Bedingung falsch ist.
+**SUMMEWENN** – nur die Werte summieren, die ein Kriterium erfüllen:
 
-**Menübefehl:**
-- Gehen Sie zur Registerkarte „Formeln“.
-- Klicken Sie auf „Logisch“.
-- Wählen Sie „WENN“.
-
-#### Verknüpfungen (Verketten)
-
-**Beschreibung:**
-Die VERKETTEN-Funktion verbindet mehrere Textstrings zu einem einzigen Textstring.
-
-**Syntax:**
 ```
-=VERKETTEN(Text1; Text2; ...)
+=SUMMEWENN(Bereich; Kriterium; [Summe_Bereich])
+=SUMMEWENN(B2:B9; "1. OG"; C2:C9)
 ```
 
-**Verwendung:**
-1. Wählen Sie die Zelle, in der der kombinierte Text angezeigt werden soll.
-2. Geben Sie die Formel ein:
-   ```
-   =VERKETTEN(A1; " "; B1)
-   ```
-   - `A1`: Der erste Textstring.
-   - `" "`: Ein Leerzeichen.
-   - `B1`: Der zweite Textstring.
+**XVERWEIS** – einen Wert in einer Spalte suchen und den passenden Wert aus einer anderen Spalte zurückgeben; Nachfolger von SVERWEIS:
 
-**Menübefehl:**
-- Gehen Sie zur Registerkarte „Formeln“.
-- Klicken Sie auf „Text“.
-- Wählen Sie „VERKETTEN“ (in neueren Versionen „TEXTKETTE“ oder „TEXTVERKETTEN“).
+```
+=XVERWEIS(Suchkriterium; Suchmatrix; Rückgabematrix; [wenn_nicht_gefunden])
+=XVERWEIS("DesignWerk"; A2:A9; D2:D9; "nicht gefunden")
+```
 
-### 02 Daten sortieren und filtern
+**TEXTKETTE / TEXTVERKETTEN** – Texte verbinden; ersetzen das ältere VERKETTEN:
 
-#### Daten sortieren
+```
+=TEXTKETTE(A2; " – "; B2)
+=TEXTVERKETTEN(", "; WAHR; A2:A9)
+```
 
-**Beschreibung:**
-Das Sortieren von Daten erleichtert das Ordnen von Informationen nach bestimmten Kriterien.
+Menübefehl für alle Funktionen: Registerkarte „Formeln“ → Gruppe „Funktionsbibliothek“ → Kategorie („Logisch“, „Nachschlagen und Verweisen“, „Text“ …) oder „Funktion einfügen“ (fx).
 
-**Verwendung:**
-1. Wählen Sie den Bereich der Daten, die sortiert werden sollen.
-2. Gehen Sie zur Registerkarte „Daten“.
-3. Klicken Sie auf „Sortieren“.
-4. Wählen Sie die Spalte und das Kriterium, nach dem sortiert werden soll (z.B. aufsteigend oder absteigend).
+## 2. Sortieren und Filtern
 
-**Menübefehl:**
-- Registerkarte „Daten“.
-- Gruppe „Sortieren und Filtern“.
-- Option „Sortieren“.
+- **Sortieren:** „Daten“ → Gruppe „Sortieren und Filtern“ → „Sortieren“; mehrere Ebenen mit „Ebene hinzufügen“.
+- **Filtern:** „Daten“ → „Filtern“; Dropdown-Pfeile in der Kopfzeile; Text- und Zahlenfilter.
+- **Mit Formeln:** FILTER, SORTIEREN und EINDEUTIG liefern sortierte oder gefilterte Kopien, die sich bei Änderungen selbst aktualisieren.
 
-#### Daten filtern
+## 3. Bedingte Formatierung
 
-**Beschreibung:**
-Filtern ermöglicht es, bestimmte Daten anzuzeigen und andere auszublenden, basierend auf definierten Kriterien.
+- „Start“ → Gruppe „Formatvorlagen“ → „Bedingte Formatierung“.
+- Fertige Regeln („Regeln zum Hervorheben von Zellen“, Datenbalken, Farbskalen) und eigene Regeln mit Formel.
+- Übungen: Inventar unter Mindestmenge, Mehr- und Minderverbrauch Strom, Wochenenden im Wartungskalender.
 
-**Verwendung:**
-1. Wählen Sie den Bereich der Daten, die gefiltert werden sollen.
-2. Gehen Sie zur Registerkarte „Daten“.
-3. Klicken Sie auf „Filtern“.
-4. Verwenden Sie die Dropdown-Menüs in den Spaltenüberschriften, um die Daten nach spezifischen Kriterien zu filtern.
+## 4. Pivot-Tabellen
 
-**Menübefehl:**
-- Registerkarte „Daten“.
-- Gruppe „Sortieren und Filtern“.
-- Option „Filtern“.
+- „Einfügen“ → „PivotTable“ → „Aus Tabelle/Bereich“.
+- Felder in die Bereiche Filter, Spalten, Zeilen, Werte ziehen.
+- Übung: Wartungskosten nach Monat und Gewerk, Anteile als „% des Spaltenergebnisses“, Pivot-Diagramm.
 
-### 03 Bedingte Formatierung
+## Abschluss
 
-**Beschreibung:**
-Bedingte Formatierung hebt Zellen hervor, die bestimmte Kriterien erfüllen, und erleichtert somit die visuelle Analyse von Daten.
-
-**Verwendung:**
-1. Wählen Sie den Bereich der Zellen, die bedingt formatiert werden sollen.
-2. Gehen Sie zur Registerkarte „Start“.
-3. Klicken Sie auf „Bedingte Formatierung“.
-4. Wählen Sie eine Regel (z.B. „Zellwert ist größer als“) und legen Sie das Format fest.
-
-**Menübefehl:**
-- Registerkarte „Start“.
-- Gruppe „Formatvorlagen“.
-- Option „Bedingte Formatierung“.
-
-### 04 Einführung in Pivot-Tabellen
-
-**Beschreibung:**
-Pivot-Tabellen sind ein leistungsfähiges Werkzeug, um große Datenmengen zu analysieren und zusammenzufassen.
-
-**Verwendung:**
-1. Wählen Sie den Bereich der Daten, die in der Pivot-Tabelle analysiert werden sollen.
-2. Gehen Sie zur Registerkarte „Einfügen“.
-3. Klicken Sie auf „PivotTable“.
-4. Wählen Sie das Ziel der Pivot-Tabelle (neues Arbeitsblatt oder bestehendes Arbeitsblatt) und bestätigen Sie.
-
-**Menübefehl:**
-- Registerkarte „Einfügen“.
-- Gruppe „Tabellen“.
-- Option „PivotTable“.
+- Fragen und Feedback
+- Ausblick: Aufbaumodul „Programme verknüpfen“ (Kassenbuch, Excel-Tabelle in Word, Serien-E-Mail)

@@ -1,70 +1,100 @@
+# 4. Pivot-Tabellen
+
+**Dauer:** 75 Minuten · **Übung:** Wartungskosten Haus Lichtblick im 1. Quartal
+
+Eine Pivot-Tabelle fasst eine lange Liste zusammen – Summen nach Monat, nach Gewerk, nach Etage –, ohne dass man eine einzige Formel schreibt. Durch Ziehen der Felder betrachtet man dieselben Daten aus verschiedenen Blickwinkeln.
+
+Ausführlicher Dozentenleitfaden mit größerem Datensatz, typischen Fehlern und Prüfungsaufgabe: `Materialien/Excel/Pivot-Tabellen Dozentenleitfaden.md`.
+
 ## Ausgangsdaten
-Erstellen Sie eine Tabelle mit den folgenden Daten:
 
-| Monat     | Region   | Produkt     | Umsatz |
-|-----------|----------|-------------|--------|
-| Januar    | Nord     | Produkt A   | 5000   |
-| Januar    | Süd      | Produkt B   | 3000   |
-| Februar   | Nord     | Produkt A   | 7000   |
-| Februar   | Süd      | Produkt B   | 4000   |
-| März      | Nord     | Produkt A   | 6000   |
-| März      | Süd      | Produkt B   | 5000   |
+Blatt „Wartungskosten“, Zellen A1:D11:
 
-#### Schritt 1: Datenbereich auswählen
-1. **Öffnen Sie Excel und geben Sie die obigen Daten in ein neues Arbeitsblatt ein.**
-2. **Markieren Sie den gesamten Datenbereich (A1:D7).**
+| Monat | Gewerk | Etage | Kosten € |
+|---|---|---|---|
+| Januar | Heizung | EG | 320 |
+| Januar | Elektro | 1. OG | 85 |
+| Januar | Sanitär | 2. OG | 140 |
+| Februar | Heizung | EG | 320 |
+| Februar | Aufzug | EG | 450 |
+| Februar | Elektro | 3. OG | 60 |
+| März | Heizung | EG | 320 |
+| März | Sanitär | 1. OG | 95 |
+| März | Elektro | 2. OG | 120 |
+| März | Brandschutz | 4. OG | 210 |
 
-#### Schritt 2: Pivot-Tabelle erstellen
-1. **Gehen Sie zur Registerkarte „Einfügen“.**
-2. **Klicken Sie auf „PivotTable“ in der Gruppe „Tabellen“.**
-3. **Im Dialogfeld „PivotTable erstellen“:**
-   - Stellen Sie sicher, dass der markierte Bereich korrekt ist.
-   - Wählen Sie „Neues Arbeitsblatt“, um die Pivot-Tabelle in einem neuen Arbeitsblatt zu erstellen.
-   - Klicken Sie auf „OK“.
+Regeln für Pivot-taugliche Daten: eine Überschriftenzeile, keine leeren Zeilen oder Spalten, keine Zwischensummen, in jeder Spalte nur eine Art von Inhalt.
 
-#### Schritt 3: Felder in die Pivot-Tabelle ziehen
-1. **Im rechten Bereich des neuen Arbeitsblatts sehen Sie den „PivotTable-Felder“ Bereich.**
-2. **Ziehen Sie die Felder wie folgt:**
-   - **„Monat“** in den Bereich „Zeilen“.
-   - **„Region“** in den Bereich „Spalten“.
-   - **„Umsatz“** in den Bereich „Werte“.
+## Schritt 1: Pivot-Tabelle einfügen
 
-## Analyse der Pivot-Tabelle
-1. **Die Pivot-Tabelle zeigt jetzt eine Zusammenfassung der Umsätze nach Monat und Region.**
-2. **Sie können die Daten weiter analysieren, indem Sie zusätzliche Felder hinzufügen oder entfernen, oder die Darstellung ändern.**
+1. Eine Zelle in den Daten anklicken.
+2. „Einfügen“ → **„PivotTable“** → „Aus Tabelle/Bereich“.
+3. Im Dialog: Bereich prüfen (`Wartungskosten!$A$1:$D$11`), „Neues Arbeitsblatt“ → „OK“.
 
-#### Schritt 4: Pivot-Tabelle formatieren
-1. **Klicken Sie irgendwo in die Pivot-Tabelle, um die „PivotTable-Tools“ anzuzeigen.**
-2. **Gehen Sie zur Registerkarte „Entwurf“.**
-3. **Wählen Sie einen PivotTable-Stil aus der Galerie „PivotTable-Designs“ aus, um das Layout und die Farben anzupassen.**
+Links entsteht eine leere Pivot-Tabelle, rechts der Bereich **„PivotTable-Felder“**. Oben erscheinen die Registerkarten **„PivotTable-Analyse“** und **„Entwurf“**.
 
-### Erweiterte Optionen
-#### Pivot-Tabellenfilter anwenden
-1. **Ziehen Sie das Feld „Produkt“ in den Bereich „Filter“.**
-2. **Ein Dropdown-Menü erscheint über der Pivot-Tabelle.**
-3. **Wählen Sie ein Produkt aus dem Dropdown-Menü aus, um die Daten für dieses Produkt zu filtern.**
+Tipp: „Einfügen“ → „Empfohlene PivotTables“ zeigt fertige Vorschläge – gut, um zu sehen, was möglich ist.
 
-#### Werte anzeigen als
-1. **Klicken Sie in die Pivot-Tabelle auf einen der Umsatzwerte.**
-2. **Klicken Sie mit der rechten Maustaste und wählen Sie „Wertfeldeinstellungen“.**
-3. **Gehen Sie zur Registerkarte „Werte anzeigen als“.**
-4. **Wählen Sie „% des Spaltensummes“, um die Umsatzwerte als Prozentsatz der Gesamtsumme der Spalte anzuzeigen.**
-5. **Klicken Sie auf „OK“.**
+## Schritt 2: Felder anordnen
 
-### Beispiel Pivot-Tabelle nach Abschluss der obigen Schritte:
+Ziehen Sie im Bereich „PivotTable-Felder“:
 
-| Monat  | Nord   | Süd    | Gesamter Umsatz |
-|--------|--------|--------|-----------------|
-| Januar | 5000   | 3000   | 8000            |
-| Februar| 7000   | 4000   | 11000           |
-| März   | 6000   | 5000   | 11000           |
-| Gesamtsumme | 18000 | 12000 | 30000         |
+- **Monat** in den Bereich „Zeilen“,
+- **Gewerk** in den Bereich „Spalten“,
+- **Kosten €** in den Bereich „Werte“.
 
-#### Schritt 5: Pivot-Tabelle aktualisieren
-1. **Wenn sich Ihre Ausgangsdaten ändern, können Sie die Pivot-Tabelle aktualisieren, um die neuesten Daten anzuzeigen:**
-   - Klicken Sie in die Pivot-Tabelle.
-   - Gehen Sie zur Registerkarte „PivotTable-Analyse“ (früher „Analysieren“ genannt).
-   - Klicken Sie auf „Aktualisieren“ in der Gruppe „Daten“.
+Ergebnis:
 
-### Zusammenfassung
-Die Verwendung von Pivot-Tabellen in Excel ermöglicht es, komplexe Datensätze effizient zu analysieren und zusammenzufassen. Durch das Ziehen von Feldern in verschiedene Bereiche der Pivot-Tabelle können Sie Ihre Daten auf unterschiedliche Weise betrachten und tiefere Einblicke gewinnen.
+| Summe von Kosten € | Aufzug | Brandschutz | Elektro | Heizung | Sanitär | Gesamtergebnis |
+|---|---|---|---|---|---|---|
+| Januar | | | 85 | 320 | 140 | 545 |
+| Februar | 450 | | 60 | 320 | | 830 |
+| März | | 210 | 120 | 320 | 95 | 745 |
+| **Gesamtergebnis** | **450** | **210** | **265** | **960** | **235** | **2120** |
+
+Die Monate stehen in Kalenderreihenfolge, weil Excel Monatsnamen als benutzerdefinierte Liste kennt.
+
+## Schritt 3: Gestalten
+
+1. In die Pivot-Tabelle klicken.
+2. Registerkarte **„Entwurf“** → Katalog „PivotTable-Formate“ → ein Format wählen.
+3. Zahlenformat: Rechtsklick auf einen Wert → „Zahlenformat…“ → „Währung“.
+
+## Schritt 4: Filtern
+
+1. **Etage** in den Bereich „Filter“ ziehen.
+2. Über der Tabelle erscheint ein Auswahlfeld. „EG“ wählen.
+
+Jetzt zeigt die Tabelle nur noch Kosten im Erdgeschoss: Heizung 960, Aufzug 450.
+
+Anschaulicher sind **Datenschnitte**: „PivotTable-Analyse“ → „Datenschnitt einfügen“ → „Etage“ – Schaltflächen zum Anklicken statt eines Auswahlfelds.
+
+## Schritt 5: Werte anders anzeigen
+
+1. Filter wieder auf „(Alle)“ stellen.
+2. Rechtsklick auf einen Wert → „Wertfeldeinstellungen…“ → Registerkarte **„Werte anzeigen als“**.
+3. **„% des Spaltenergebnisses“** → „OK“.
+
+Jetzt zeigt jede Spalte, wie sich die Kosten eines Gewerks auf die Monate verteilen; jede Spalte ergibt 100 %. Mit „% des Gesamtergebnisses“ sieht man den Anteil jeder Zelle an allen Kosten (Heizung gesamt: rund 45 %).
+
+## Schritt 6: Aktualisieren
+
+Ändern sich die Ausgangsdaten, rechnet die Pivot-Tabelle **nicht** von selbst neu.
+
+- Rechtsklick in die Pivot-Tabelle → „Aktualisieren“, oder
+- „PivotTable-Analyse“ → „Aktualisieren“, oder **Alt+F5**.
+
+Übung: Ändern Sie die Aufzugswartung im Februar auf 480 € und aktualisieren Sie.
+
+Kommen neue Zeilen dazu, erfasst die Pivot-Tabelle sie nur, wenn die Quelle mitwächst. Deshalb die Ausgangsdaten vorher mit „Als Tabelle formatieren“ anlegen – dann reicht „Aktualisieren“.
+
+## Schritt 7 (Bonus): Pivot-Diagramm
+
+1. In die Pivot-Tabelle klicken → „PivotTable-Analyse“ → **„PivotChart“** → „Gestapelte Säulen“ → „OK“.
+2. Das Diagramm folgt jedem Filter und Datenschnitt der Pivot-Tabelle.
+
+## Zusammenfassung
+
+- Pivot-Tabellen fassen Listen durch Ziehen von Feldern zusammen: Zeilen, Spalten, Werte, Filter.
+- „Werte anzeigen als“ zeigt Anteile statt Summen.
+- Nach Änderungen der Daten: aktualisieren.

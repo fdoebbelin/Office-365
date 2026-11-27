@@ -1,58 +1,60 @@
-Um in Excel positive Werte grün und negative Werte rot zu hinterlegen, können Sie die bedingte Formatierung verwenden. Diese Funktion ermöglicht es, die Formatierung von Zellen basierend auf deren Inhalt automatisch anzupassen. Hier ist eine Schritt-für-Schritt-Anleitung, wie Sie dies erreichen können:
+# 3. Bedingte Formatierung
 
-### Schritt 1: Daten eingeben
-1. **Öffnen Sie ein neues Excel-Arbeitsblatt.**
-2. **Geben Sie einige Werte in eine Spalte ein.** Zum Beispiel:
-   - In Zelle A1: `10`
-   - In Zelle A2: `-5`
-   - In Zelle A3: `20`
-   - In Zelle A4: `-15`
-   - In Zelle A5: `0`
+**Dauer:** 60 Minuten · **Daten:** Energieverbrauch und Inventar aus `00 Referenz Haus Lichtblick.md`
 
-### Schritt 2: Bereich auswählen
-1. **Markieren Sie den Bereich, den Sie formatieren möchten.**
-   - Zum Beispiel den Bereich A1:A5.
+Bedingte Formatierung ändert das Aussehen einer Zelle abhängig von ihrem Inhalt: Was auffallen soll, fällt auf – und ändert sich mit, wenn sich die Zahlen ändern.
 
-### Schritt 3: Bedingte Formatierung anwenden
-1. **Gehen Sie zur Registerkarte „Start“.**
-2. **Klicken Sie auf „Bedingte Formatierung“ in der Gruppe „Formatvorlagen“.**
-3. **Wählen Sie „Regel verwalten...“.**
+Alle Befehle: „Start“ → Gruppe „Formatvorlagen“ → **„Bedingte Formatierung“**.
 
-### Schritt 4: Regel für positive Werte erstellen
-1. **Klicken Sie auf „Neue Regel...“.**
-2. **Wählen Sie „Nur Zellen formatieren, die enthalten“.**
-3. **Stellen Sie die Regel wie folgt ein:**
-   - Im ersten Dropdown-Menü wählen Sie „Zellwert“.
-   - Im zweiten Dropdown-Menü wählen Sie „größer als“.
-   - Im Feld geben Sie `0` ein.
-4. **Klicken Sie auf „Formatieren...“.**
-5. **Wählen Sie die Registerkarte „Ausfüllen“ und wählen Sie eine grüne Hintergrundfarbe.**
-6. **Klicken Sie auf „OK“, um die Formatierung zu bestätigen.**
-7. **Klicken Sie erneut auf „OK“, um die Regel zu erstellen.**
+## Übung 1: Mehr- und Minderverbrauch Strom
 
-### Schritt 5: Regel für negative Werte erstellen
-1. **Klicken Sie auf „Neue Regel...“.**
-2. **Wählen Sie „Nur Zellen formatieren, die enthalten“.**
-3. **Stellen Sie die Regel wie folgt ein:**
-   - Im ersten Dropdown-Menü wählen Sie „Zellwert“.
-   - Im zweiten Dropdown-Menü wählen Sie „kleiner als“.
-   - Im Feld geben Sie `0` ein.
-4. **Klicken Sie auf „Formatieren...“.**
-5. **Wählen Sie die Registerkarte „Ausfüllen“ und wählen Sie eine rote Hintergrundfarbe.**
-6. **Klicken Sie auf „OK“, um die Formatierung zu bestätigen.**
-7. **Klicken Sie erneut auf „OK“, um die Regel zu erstellen.**
+### Daten
 
-### Schritt 6: Regeln anwenden und überprüfen
-1. **Stellen Sie sicher, dass beide Regeln im „Manager für Regeln zur bedingten Formatierung“ aufgeführt sind.**
-2. **Klicken Sie auf „Übernehmen“ und dann auf „OK“.**
-3. **Überprüfen Sie, ob die positiven Werte grün und die negativen Werte rot hinterlegt sind.**
+Übernehmen Sie die Tabelle „Energieverbrauch 2025“ aus der Referenzliste in A1:C13 (Monat, Zählerstand, Verbrauch). In D1 „Veränderung zum Vormonat“, in D3 `=C3-C2`, nach unten bis D13 kopieren.
 
-## Beispiel:
-Nach der Anwendung der bedingten Formatierung sollten Ihre Zellen wie folgt aussehen:
-- Zelle A1 (10) sollte grün hinterlegt sein.
-- Zelle A2 (-5) sollte rot hinterlegt sein.
-- Zelle A3 (20) sollte grün hinterlegt sein.
-- Zelle A4 (-15) sollte rot hinterlegt sein.
-- Zelle A5 (0) sollte keine spezielle Formatierung haben, da sie weder positiv noch negativ ist.
+### Regel für Mehrverbrauch (rot)
 
-Durch die bedingte Formatierung können Sie Ihre Daten visuell ansprechend und leicht verständlich gestalten. Diese Technik ist besonders nützlich für Finanzberichte, Bestandslisten oder jede andere Art von numerischen Daten, bei denen die Unterscheidung zwischen positiven und negativen Werten wichtig ist.
+1. D3:D13 markieren.
+2. „Bedingte Formatierung“ → „Regeln zum Hervorheben von Zellen“ → „Größer als…“.
+3. Wert `0`, Format „Hellrote Füllung“ oder „Benutzerdefiniertes Format…“ → Registerkarte „Ausfüllen“ → Rot.
+4. „OK“.
+
+### Regel für Einsparung (grün)
+
+1. D3:D13 bleibt markiert.
+2. „Bedingte Formatierung“ → „Regeln zum Hervorheben von Zellen“ → „Kleiner als…“.
+3. Wert `0`, Format „Grüne Füllung mit dunkelgrüner Schrift“.
+4. „OK“.
+
+### Ergebnis
+
+Februar bis August sind grün (der Verbrauch sinkt zum Sommer), September bis Dezember rot. Ein Wert von genau 0 bliebe ohne Farbe.
+
+### Regeln verwalten
+
+„Bedingte Formatierung“ → **„Regeln verwalten…“** zeigt alle Regeln des markierten Bereichs bzw. des Blatts („Formatierungsregeln anzeigen für: Dieses Arbeitsblatt“). Hier lassen sich Regeln bearbeiten, löschen und in der Reihenfolge verschieben.
+
+## Übung 2: Inventar unter Mindestmenge
+
+### Daten
+
+Übernehmen Sie die Inventarliste aus der Referenz in A1:E11 (Artikel, Lagerort, Bestand, Mindestmenge, Einheit).
+
+### Regel mit Formel – die ganze Zeile färben
+
+1. A2:E11 markieren (ohne Überschrift). Die aktive Zelle ist A2.
+2. „Bedingte Formatierung“ → „Neue Regel…“ → **„Formel zur Ermittlung der zu formatierenden Zellen verwenden“**.
+3. Formel: `=$C2<$D2`
+4. „Formatieren…“ → „Ausfüllen“ → Hellrot → „OK“ → „OK“.
+
+Das Dollarzeichen vor C und D hält die Spalten fest, die Zeile bleibt beweglich: Jede Zelle einer Zeile prüft den Bestand derselben Zeile. Ergebnis: Glasreiniger (8 von 10) und Einweghandschuhe (5 von 10) werden rot.
+
+Ändern Sie den Bestand Glasreiniger auf 12 – die Zeile wird sofort wieder weiß.
+
+## Weitere Regeln zum Ausprobieren
+
+- **Datenbalken:** Verbrauch C2:C13 markieren → „Bedingte Formatierung“ → „Datenbalken“ – ein kleines Balkendiagramm in den Zellen.
+- **Farbskalen:** grün bis rot nach Höhe des Werts.
+- **Obere/untere Regeln:** z. B. die drei Monate mit dem höchsten Verbrauch.
+
+Weiter mit `03a Wochenenden hervorheben.md`.
