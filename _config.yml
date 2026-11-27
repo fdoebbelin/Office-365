@@ -1,0 +1,36 @@
+# GitHub Pages – Downloadseite für die Teilnehmenden
+# Veröffentlicht aus dem Branch main, Ordner / (klassisches Jekyll von GitHub Pages).
+
+title: "Microsoft 365 im Facility Management"
+description: "Handouts und Übungsdateien zum Kurs – Szenario Haus Lichtblick"
+lang: de
+theme: jekyll-theme-primer
+
+# Jekyll lässt Ordner mit „_“ am Anfang sonst weg.
+include:
+  - _resources
+
+# Regeln und Übergabe für Agenten gehören nicht auf die Seite.
+exclude:
+  - AGENTS.md
+  - CLAUDE.md
+  - HANDOFF.md
+
+# Module in der Reihenfolge der Downloadseite.
+# ordner = Unterordner in _resources/ und Ordner der Kursdateien.
+module:
+  - ordner: Grundkurs
+    titel: Grundkurs
+    dauer: 2 Tage
+  - ordner: Aufbau-Word
+    titel: Aufbaumodul Word
+    dauer: 1 Tag
+  - ordner: Aufbau-Excel
+    titel: Aufbaumodul Excel
+    dauer: 1 Tag
+  - ordner: Aufbau-Verknüpfung
+    titel: Aufbaumodul Verknüpfung
+    dauer: ½ Tag
+  - ordner: Materialien
+    titel: Materialien zum Nachschlagen
+    dauer: ""

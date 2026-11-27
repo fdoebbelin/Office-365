@@ -1,6 +1,6 @@
 # Office-365 – Regeln für KI-Agenten
 
-Dieses Repository enthält den Kurs **„Microsoft 365 – Outlook, Word und Excel im Facility Management“**: einen zweitägigen Grundkurs und drei Aufbaumodule für Einsteigerinnen und Einsteiger. Inhalte auf Deutsch, Zielgruppe der Materialien sind Lehrkräfte (Leitfäden) und Teilnehmende (Handouts, Übungen). Das Repository ist privat.
+Dieses Repository enthält den Kurs **„Microsoft 365 – Outlook, Word und Excel im Facility Management“**: einen zweitägigen Grundkurs und drei Aufbaumodule für Einsteigerinnen und Einsteiger. Inhalte auf Deutsch, Zielgruppe der Materialien sind Lehrkräfte (Leitfäden) und Teilnehmende (Handouts, Übungen). Das Repository ist öffentlich; Handouts und Übungsdateien bekommen die Teilnehmenden über eine Downloadseite auf GitHub Pages.
 
 Diese Datei ist die **einzige Quelle** für die Regeln. Claude Code liest sie über `CLAUDE.md` (`@AGENTS.md`), andere Agenten (OpenCode, Codex …) lesen sie direkt. Wer eine Regel ändert, ändert sie hier.
 
@@ -27,6 +27,8 @@ Diese Datei ist die **einzige Quelle** für die Regeln. Claude Code liest sie ü
 | `Grundkurs/` | `Block-NN-Leitfaden.md` für Block 01–12, dazu `Block-NN-Handout.md` und `Block-NN-Praesentation.md` (Folientexte), wo vorhanden |
 | `Aufbau-Word/`, `Aufbau-Excel/`, `Aufbau-Verknüpfung/` | je `00 Ablauf.md` und nummerierte Einheiten `NN Thema.md`, Ergänzungen als `NNa Thema.md` |
 | `Materialien/Word/`, `Materialien/Excel/` | Nachschlage- und Vertiefungsmaterial ohne festen Platz im Ablauf |
+| `_resources/` | Word- und Excel-Dateien zum Download, je Modul ein Unterordner (siehe „Downloads über GitHub Pages“) |
+| `index.md`, `_config.yml` | Downloadseite und Konfiguration für GitHub Pages |
 | `AGENTS.md`, `CLAUDE.md`, `HANDOFF.md` | Regeln und Übergabe für Agenten |
 
 ## Inhaltliche Regeln
@@ -50,22 +52,35 @@ Diese Datei ist die **einzige Quelle** für die Regeln. Claude Code liest sie ü
 
 ### Form
 
-- **Nur Markdown.** Keine PDFs, keine Office-Dateien im Repository, solange nicht anders vereinbart. Übungsdateien (`Uebung-…`, `Loesung-…`) sind bisher nur Verweise; welche fehlen, steht in `README.md`.
+- **Markdown für alle Texte.** Office-Dateien (`.docx`, `.dotx`, `.xlsx`, `.xltx`) nur in `_resources/`, sonst keine Office-Dateien und keine PDFs. Welche Übungsdateien (`Uebung-…`, `Loesung-…`) noch fehlen, steht in `README.md`.
 - Eine H1-Überschrift je Datei, Gliederung mit `##`/`###`.
 - **Leitfäden im Grundkurs** behalten ihren Aufbau: Kopftabelle (Block, Titel, Programm, Dauer) → Lernziele → Vorbereitung → Ablaufplan (Tabelle mit Zeit, Minuten, Aktivität, Inhalt, Hinweise) → Inhaltliche Hinweise → Didaktische Hinweise → Übergänge → Notfall-Tipps → Erfolgskontrolle bzw. Bewertungskriterien. Uhrzeiten müssen über die Blöcke hinweg zusammenpassen.
 - **Einheiten der Aufbaumodule:** Kopfzeile mit Dauer und Übung → Erklärung mit Menüwegen → Übung im Szenario. Neue Einheiten in `00 Ablauf.md` eintragen.
 - Deutsche Anführungszeichen „…“, Umlaute statt ae/oe/ue, Pfeile → für Menüwege („Einfügen“ → „Tabelle“).
 - Didaktischer Stil der Zielgruppe: kurze Sätze, Alltagsvergleiche, „Zeigen – Nachmachen – Selbst anwenden“.
 
+## Downloads über GitHub Pages
+
+GitHub Pages veröffentlicht den Branch `main` (Ordner `/`) mit Jekyll. Die Startseite `index.md` ist die Downloadseite für die Teilnehmenden und füllt sich selbst: Sie zeigt je Modul die Handouts (Markdown-Dateien mit „Handout“ im Namen) und alle Dateien aus `_resources/<Modul>/`.
+
+- **Zuordnung zum Modul über den Ordner:** `_resources/Grundkurs/Block-NN/` (zweistellig wie die Leitfäden), `_resources/Aufbau-Word/`, `_resources/Aufbau-Excel/`, `_resources/Aufbau-Verknüpfung/`, `_resources/Materialien/`. Ordnernamen genau wie die Modulordner; die Module und ihre Reihenfolge stehen in `_config.yml` unter `module`. Ein neues Modul dort eintragen.
+- **Dateinamen** wie in den Leitfäden (`Uebung-11-Energieverbrauch.xlsx`, `Loesung-…`, Aufbaumodule `Uebung-A1-…`), ohne Leerzeichen und Umlaute. Dateien mit `Loesung-` am Anfang zeigt die Seite als Lösung an.
+- **Leitfaden und Datei zusammen pflegen:** Wer eine Übungsdatei ablegt, prüft, dass der Leitfaden bzw. die Einheit denselben Namen nennt, und streicht die Datei in `README.md` unter „Fehlende Dateien“.
+- **Inhalt der Dateien:** nur Szenario-Daten aus der Referenzliste; Rechenergebnisse wie im Text. Office-Dateien lassen sich nicht als Text prüfen – Inhalt im Commit beschreiben.
+- **Öffentlich:** Seite und Repository sind öffentlich. Nichts ablegen, was nur Lehrkräfte sehen sollen.
+- Jekyll lässt Ordner mit `_` sonst weg; `_resources` steht deshalb in `_config.yml` unter `include`. `AGENTS.md`, `CLAUDE.md`, `HANDOFF.md` stehen unter `exclude`. Kursdateien dürfen kein `{{` oder `{%` enthalten und nicht mit `---` beginnen, sonst stört das den Build.
+- Nach dem Push zeigt GitHub unter „Actions“ („pages build and deployment“), ob der Build geklappt hat.
+
 ## Prüfen vor dem Commit
 
 Es gibt keine automatischen Tests. Vor jedem Commit:
 
 ```bash
-git -c core.quotePath=false ls-files | grep -v '\.md$'                                # darf nichts liefern
+git -c core.quotePath=false ls-files | grep -vE '\.md$|^_config\.yml$|^_resources/.+\.(docx|dotx|xlsx|xltx)$'   # darf nichts liefern
 grep -rn "2019\|2016\|Office 20\|Tabellentools\|Diagrammtools" --include=*.md .   # alte Versionen/Menüs
 grep -rn "Strg *+ *[BIU]\b" --include=*.md .                      # englische Kürzel – Treffer einzeln prüfen
 grep -rnE "=(SUM|AVERAGE|COUNT|IF|VLOOKUP)\(" --include=*.md Aufbau-Excel Materialien/Excel Grundkurs   # englische Funktionen in Excel
+grep -rln "{{\|{%" --include=*.md . | grep -v '^./index.md$\|^./AGENTS.md$'   # Liquid-Zeichen stören Jekyll – darf nichts liefern
 ```
 
 Dazu: Verweise auf andere Dateien (Dateinamen in Backticks) existieren, Übergänge zwischen Blöcken passen noch.

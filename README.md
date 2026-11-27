@@ -16,6 +16,10 @@ Jeder Block des Grundkurses hat einen **Leitfaden** für die Lehrkraft (Lernziel
 
 Die Gebäudedaten, Kontakte, Mieterliste, Inventar, Energieverbrauch und Checklisten des Szenarios stehen in [`00 Referenz Haus Lichtblick.md`](00%20Referenz%20Haus%20Lichtblick.md). Alle Namen, Firmen und Adressen sind erfunden.
 
+## Downloads für Teilnehmende
+
+Handouts und Übungsdateien stehen auf der Downloadseite **<https://fdoebbelin.github.io/Office-365/>** (GitHub Pages), geordnet nach Modul und im Grundkurs nach Block. Die Word- und Excel-Dateien liegen in [`_resources/`](_resources/) – je Modul ein Ordner, im Grundkurs `_resources/Grundkurs/Block-NN/`. Die Seite listet neue Dateien nach dem Push von selbst auf. Einzelheiten: [`_resources/README.md`](_resources/README.md).
+
 ## Version und Umgebung
 
 - **Microsoft 365 Apps** (Word, Excel) als Desktop-Programme auf **Windows 11**
