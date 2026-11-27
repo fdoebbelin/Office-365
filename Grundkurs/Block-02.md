@@ -7,9 +7,7 @@ has_children: true
 
 # Block 02 – E-Mail-Grundlagen
 
-| Tag | Zeit | Programm |
-|---|---|---|
-| 1 | 09:55–11:15 Uhr | Outlook |
+**Programm:** Outlook
 
 ## Übungsdateien
 

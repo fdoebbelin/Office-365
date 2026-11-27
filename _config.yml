@@ -35,6 +35,33 @@ aux_links:
 gh_edit_link: false
 color_scheme: light
 
+# Farbige Hinweiskästen. Verwendung in Markdown:
+#   {: .tipp }
+#   > Text
+# Hintergrundfarben in _sass/custom/custom.scss
+callouts:
+  lernziele:
+    title: "Das lernen Sie"
+    color: purple
+  merke:
+    title: "Merke"
+    color: blue
+  tipp:
+    title: "Tipp"
+    color: green
+  uebung:
+    title: "Jetzt üben"
+    color: green
+  achtung:
+    title: "Achtung"
+    color: red
+  praxis:
+    title: "Im Haus Lichtblick"
+    color: yellow
+  coaching:
+    title: "Für Coaching"
+    color: grey-dk
+
 defaults:
   # Hinweis- und Hilfsdateien nicht in Navigation und Suche
   - scope:
@@ -65,16 +92,11 @@ defaults:
 module:
   - ordner: Grundkurs
     titel: Grundkurs
-    dauer: 2 Tage
   - ordner: Aufbau-Word
     titel: Aufbaumodul Word
-    dauer: 1 Tag
   - ordner: Aufbau-Excel
     titel: Aufbaumodul Excel
-    dauer: 1 Tag
   - ordner: Aufbau-Verknüpfung
     titel: Aufbaumodul Verknüpfung
-    dauer: ½ Tag
   - ordner: Materialien
     titel: Materialien zum Nachschlagen
-    dauer: ""

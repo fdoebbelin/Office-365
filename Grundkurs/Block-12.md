@@ -7,9 +7,7 @@ has_children: true
 
 # Block 12 – Abschluss und Ausblick
 
-| Tag | Zeit | Programm |
-|---|---|---|
-| 2 | 15:40–16:30 Uhr | Übergreifend |
+**Programm:** Übergreifend
 
 ## Übungsdateien
 

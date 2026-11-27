@@ -7,9 +7,7 @@ has_children: true
 
 # Block 03 – Kalender und Termine
 
-| Tag | Zeit | Programm |
-|---|---|---|
-| 1 | 11:30–12:30 Uhr | Outlook |
+**Programm:** Outlook
 
 ## Übungsdateien
 

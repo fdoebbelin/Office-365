@@ -7,9 +7,7 @@ has_children: true
 
 # Block 06 – Tagesrückblick und Fragen
 
-| Tag | Zeit | Programm |
-|---|---|---|
-| 1 | 16:00–16:30 Uhr | Übergreifend |
+**Programm:** Übergreifend
 
 ## Übungsdateien
 

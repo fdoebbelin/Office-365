@@ -7,9 +7,7 @@ has_children: true
 
 # Block 09 – Rechnen und Auswerten
 
-| Tag | Zeit | Programm |
-|---|---|---|
-| 2 | 11:15–12:30 Uhr | Excel |
+**Programm:** Excel
 
 ## Übungsdateien
 

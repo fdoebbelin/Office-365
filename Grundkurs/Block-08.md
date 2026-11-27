@@ -7,9 +7,7 @@ has_children: true
 
 # Block 08 – Excel-Grundlagen
 
-| Tag | Zeit | Programm |
-|---|---|---|
-| 2 | 09:30–11:00 Uhr | Excel |
+**Programm:** Excel
 
 ## Übungsdateien
 

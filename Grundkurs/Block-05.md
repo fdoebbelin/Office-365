@@ -7,9 +7,7 @@ has_children: true
 
 # Block 05 – Vorlagen und Struktur
 
-| Tag | Zeit | Programm |
-|---|---|---|
-| 1 | 14:55–16:00 Uhr | Word |
+**Programm:** Word
 
 ## Übungsdateien
 

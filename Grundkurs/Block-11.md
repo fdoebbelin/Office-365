@@ -7,9 +7,7 @@ has_children: true
 
 # Block 11 – Programme verknüpfen
 
-| Tag | Zeit | Programm |
-|---|---|---|
-| 2 | 14:40–15:40 Uhr | Outlook, Word, Excel |
+**Programm:** Outlook, Word, Excel
 
 ## Übungsdateien
 

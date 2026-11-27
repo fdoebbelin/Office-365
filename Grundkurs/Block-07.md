@@ -1,15 +1,13 @@
 ---
-title: "Block 07 – Wiederholung Tag 1"
+title: "Block 07 – Wiederholung Outlook und Word"
 parent: "Grundkurs"
 nav_order: 7
 has_children: true
 ---
 
-# Block 07 – Wiederholung Tag 1
+# Block 07 – Wiederholung Outlook und Word
 
-| Tag | Zeit | Programm |
-|---|---|---|
-| 2 | 09:00–09:30 Uhr | Übergreifend |
+**Programm:** Übergreifend
 
 ## Übungsdateien
 

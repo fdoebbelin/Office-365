@@ -1,11 +1,11 @@
 ---
 title: "Leitfaden"
-parent: "Block 07 – Wiederholung Tag 1"
+parent: "Block 07 – Wiederholung Outlook und Word"
 grand_parent: "Grundkurs"
 nav_order: 1
 ---
 
-# Block 07 – Wiederholung Tag 1
+# Block 07 – Wiederholung Outlook und Word
 
 | | |
 |---|---|

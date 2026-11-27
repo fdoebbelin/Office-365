@@ -1,0 +1,32 @@
+// Farbige Hinweiskästen (Callouts): leichter Hintergrund zur Randfarbe.
+// Die Arten und Titel stehen in _config.yml unter „callouts“.
+$callout-hintergrund: (
+  lernziele: #f4f0fb,
+  merke: #eaf3fc,
+  tipp: #eaf6ee,
+  uebung: #eaf6ee,
+  achtung: #fdeded,
+  praxis: #fff8e1,
+  coaching: #f2f2f4,
+);
+
+@each $art, $farbe in $callout-hintergrund {
+  p.#{$art}, blockquote.#{$art}, p.#{$art}-title, blockquote.#{$art}-title {
+    background-color: $farbe;
+  }
+}
+
+// Folienabbildungen mit dezentem Rahmen
+.main-content img[src*="/folien/"] {
+  display: block;
+  margin: 1rem 0 1.5rem;
+  border: 1px solid #d5dae1;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+// Aufklappbare Bereiche (Inhalt, Lösungen)
+details > summary {
+  cursor: pointer;
+  font-weight: 600;
+}

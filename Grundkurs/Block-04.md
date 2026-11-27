@@ -7,9 +7,7 @@ has_children: true
 
 # Block 04 – Texte erstellen, formatieren und speichern
 
-| Tag | Zeit | Programm |
-|---|---|---|
-| 1 | 13:30–14:45 Uhr | Word |
+**Programm:** Word
 
 ## Übungsdateien
 
