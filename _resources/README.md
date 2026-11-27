@@ -17,9 +17,10 @@ Die Ordnernamen müssen genau den Modulordnern im Repository entsprechen; die Li
 ## Dateien
 
 - Erlaubt: `.docx`, `.dotx`, `.xlsx`, `.xltx`
-- Namen wie in den Leitfäden: `Uebung-NN-Thema.xlsx`, `Loesung-NN-Thema.xlsx`, in den Aufbaumodulen `Uebung-A1-Thema.docx` (Buchstabe des Moduls, Nummer der Einheit)
+- Namen: `Block-NN-Thema.docx` / `.xlsx`, das Übungsblatt `Block-NN-Uebungsblatt.docx`, Lösungen `Block-NN-Loesung-Thema.xlsx`; Aufbaumodule entsprechend mit dem Kürzel der Einheit
 - Keine Leerzeichen und Umlaute im Dateinamen
-- Lösungen beginnen mit `Loesung-` und werden auf der Seite als Lösung markiert
+- Dateien mit „Loesung“ im Namen werden auf der Seite als Lösung markiert
+- Erzeugt mit den Skripten in `_werkzeuge/`; Regeln in `AGENTS.md` unter „Übungsblatt und Übungsdateien“
 - Nur Szenario-Daten aus `00 Referenz Haus Lichtblick.md`, keine echten Personen oder Adressen
 
-Die Seite ist öffentlich. Was nur für die Lehrkraft bestimmt ist, gehört nicht hierher.
+Die Seite ist öffentlich, Lösungen eingeschlossen.

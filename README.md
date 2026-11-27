@@ -1,24 +1,24 @@
 # Microsoft 365 – Outlook, Word und Excel im Facility Management
 
-Kursmaterial für Einsteigerinnen und Einsteiger: ein zweitägiger **Grundkurs** und drei **Aufbaumodule**. Alle Übungen spielen im Szenario **Haus Lichtblick**, einem Berliner Bürogebäude, das die Teilnehmenden als Koordination des Facility Managements betreuen.
+Kursmaterial für Einsteigerinnen und Einsteiger: ein **Grundkurs** mit zwölf Blöcken und drei **Aufbaumodule**, zum **Selbststudium** und für das **Einzelcoaching**, ohne festen Zeitplan. Alle Übungen spielen im Szenario **Haus Lichtblick**, einem Berliner Bürogebäude, das die Lernenden als Koordination des Facility Managements betreuen.
 
 ## Aufbau
 
-| Teil | Inhalt | Dauer |
-|---|---|---|
-| [Grundkurs](Grundkurs/) | Block 01–12: Orientierung, Outlook (E-Mail, Kalender), Word (Texte, Struktur), Excel (Eingabe, Formeln, Auswertung, Diagramme), Programme verknüpfen, Abschluss mit Ausblick auf Copilot | 2 Tage |
-| [Aufbau-Word](Aufbau-Word/) | Absätze, Bilder, Tabellen, Rechnen in Tabellen, Felder, Kopf- und Fußzeilen, Formatvorlagen und Inhaltsverzeichnis, Dokumentvorlagen, Geschäftsbrief nach DIN 5008 | 1 Tag |
-| [Aufbau-Excel](Aufbau-Excel/) | WENN, SUMMEWENN, XVERWEIS, SVERWEIS, INDEX/VERGLEICH, Text verbinden, Sortieren und Filtern mit dynamischen Arrays, bedingte Formatierung, Pivot-Tabellen | 1 Tag |
-| [Aufbau-Verknüpfung](Aufbau-Verknüpfung/) | Kassenbuch mit Datenüberprüfung und Schutz, Excel-Tabellen in Word einfügen, einbetten oder verknüpfen, Serien-E-Mail | ½ Tag |
-| [Materialien](Materialien/) | Nachschlage- und Vertiefungsmaterial: Oberflächen, Befehle, Begriffe, Zellbezüge (Handout, Arbeitsblatt, Dozentenfassung), Diagramme, Dozentenleitfaden Pivot-Tabellen | – |
+| Teil | Inhalt |
+|---|---|
+| [Grundkurs](Grundkurs/) | Block 01–12: Orientierung, Outlook (E-Mail, Kalender), Word (Texte, Struktur), Excel (Eingabe, Formeln, Auswertung, Diagramme), Programme verknüpfen, Abschluss mit Ausblick auf Copilot |
+| [Aufbau-Word](Aufbau-Word/) | Absätze, Bilder, Tabellen, Rechnen in Tabellen, Felder, Kopf- und Fußzeilen, Formatvorlagen und Inhaltsverzeichnis, Dokumentvorlagen, Geschäftsbrief nach DIN 5008 |
+| [Aufbau-Excel](Aufbau-Excel/) | WENN, SUMMEWENN, XVERWEIS, SVERWEIS, INDEX/VERGLEICH, Text verbinden, Sortieren und Filtern mit dynamischen Arrays, bedingte Formatierung, Pivot-Tabellen |
+| [Aufbau-Verknüpfung](Aufbau-Verknüpfung/) | Kassenbuch mit Datenüberprüfung und Schutz, Excel-Tabellen in Word einfügen, einbetten oder verknüpfen, Serien-E-Mail |
+| [Materialien](Materialien/) | Nachschlage- und Vertiefungsmaterial: Oberflächen, Befehle, Begriffe, Zellbezüge (Handout, Arbeitsblatt, Dozentenfassung), Diagramme, Dozentenleitfaden Pivot-Tabellen |
 
-Jeder Block des Grundkurses hat einen **Leitfaden** für die Lehrkraft (Lernziele, Vorbereitung, Ablaufplan, Hinweise, Notfall-Tipps); Block 01 und 03 haben zusätzlich ein **Handout**, Block 01 die **Folientexte** der Präsentation. Die Aufbaumodule beginnen mit `00 Ablauf.md`.
+Jeder Block des Grundkurses wird zu einer **Lerneinheit** auf einer Seite: Erklärungen mit Folienabbildungen, Schritt-für-Schritt-Anleitungen, farbige Hinweiskästen, Selbstcheck und Hinweise für Coaching. Dazu gehören ein **Übungsblatt** (als Seite und als Word-Datei) und **Übungsdateien** in Word und Excel. Umgestellt ist bisher **Block 01**; die übrigen Blöcke haben noch einen Leitfaden mit Zeitplan für Gruppenkurse, Block 03 zusätzlich ein Handout. Die Aufbaumodule beginnen mit `00 Ablauf.md`.
 
 Die Gebäudedaten, Kontakte, Mieterliste, Inventar, Energieverbrauch und Checklisten des Szenarios stehen in [`00 Referenz Haus Lichtblick.md`](00%20Referenz%20Haus%20Lichtblick.md). Alle Namen, Firmen und Adressen sind erfunden.
 
 ## Website und Downloads
 
-Alle Kursunterlagen stehen als Website mit Navigation und Suche auf **<https://fdoebbelin.github.io/Office-365/>** (GitHub Pages, Theme Just the Docs). Im Grundkurs hat jeder Block eine eigene Seite mit Leitfaden, Handout, Folientexten und Übungsdateien. Die Startseite listet alle Handouts und Übungsdateien, geordnet nach Modul und im Grundkurs nach Block. Die Word- und Excel-Dateien liegen in [`_resources/`](_resources/) – je Modul ein Ordner, im Grundkurs `_resources/Grundkurs/Block-NN/`. Die Seite listet neue Dateien nach dem Push von selbst auf. Einzelheiten: [`_resources/README.md`](_resources/README.md).
+Alle Kursunterlagen stehen als Website mit Navigation und Suche auf **<https://fdoebbelin.github.io/Office-365/>** (GitHub Pages, Theme Just the Docs). Im Grundkurs hat jeder Block eine eigene Seite mit allen Unterlagen und den Übungsdateien. Die Startseite listet alle Handouts und Übungsdateien, geordnet nach Modul und im Grundkurs nach Block. Die Word- und Excel-Dateien liegen in [`_resources/`](_resources/) – je Modul ein Ordner, im Grundkurs `_resources/Grundkurs/Block-NN/`. Die Seite listet neue Dateien nach dem Push von selbst auf. Einzelheiten: [`_resources/README.md`](_resources/README.md).
 
 ## Version und Umgebung
 
@@ -36,13 +36,13 @@ Diese Angaben ließen sich beim Umstellen auf Microsoft 365 nicht an einer laufe
 - Neues Outlook: Pfade in den Einstellungen (Zahnrad) für Zeitzone und Standard-Erinnerung
 - Ob Word Serien-E-Mails inzwischen auch über das neue Outlook versenden kann
 - Ob das Startmenü auf den Kurs-PCs mittig oder links steht (Windows 11 Taskleistenausrichtung)
+- Block 01: Beschriftung „Alle“ im Startmenü, gelbe Leiste „Geschützte Ansicht“ mit „Bearbeitung aktivieren“ beim Öffnen heruntergeladener Dateien
 
 ## Fehlende Dateien
 
 Die Leitfäden verweisen auf Übungs- und Lösungsdateien, Präsentationen und Handouts, die im Archiv nicht enthalten waren und neu erstellt werden müssen:
 
-- **Präsentationen:** Block 04 und 09 (`.pptx`); für die übrigen Blöcke außer 01 fehlen Folien ganz
-- **Handouts:** alle Blöcke außer 01 und 03
+- **Folien und Übungsblätter:** alle Blöcke außer 01 – entstehen beim Umstellen auf Lerneinheiten (Folien als SVG, Übungsblatt als Seite und `.docx`)
 - **Übungen Grundkurs:** `Uebung-04-Wartungstermin.docx`, `Uebung-05-Raumbuchung.docx`, `Uebung-06-Aushang.docx`, `Uebung-07-Quiz.docx`, `Uebung-07-Wartungsprotokoll.docx`, `Uebung-08-Checkliste.docx`, `Uebung-09-Inventarliste.xlsx`, `Uebung-10-Fehlmenge.xlsx`, `Uebung-11-Energieverbrauch.xlsx`, `Uebung-12-Filtern.xlsx`, `Uebung-13-Energiediagramm.xlsx`, `Uebung-14-Monatsbericht.docx` und `.xlsx`, dazu die Lösungsdateien `Loesung-06` bis `Loesung-14`. Die Nummer 07 ist doppelt vergeben (Quiz in Block 07, Wartungsprotokoll in Block 05).
 - **Übungen Aufbau-Word:** `Uebung-A1-Hausordnung.docx`, `Uebung-A7-Betriebshandbuch.docx` – der Text steht jeweils in der Einheit und lässt sich auch abtippen
 - **Bild** der früheren Briefvorlage nach DIN 5008
