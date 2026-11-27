@@ -105,6 +105,7 @@ Sparsam einsetzen: höchstens ein, zwei Kästen je Abschnitt.
 - **Übungsdateien** sind echte Word- und Excel-Dateien, mit denen die Aufgaben gelöst werden. Namen: `Block-NN-Thema.docx` / `.xlsx`, Lösungsdateien `Block-NN-Loesung-Thema.xlsx`. Ohne Leerzeichen und Umlaute.
 - Inhalt nur aus der Referenzliste; Schrift Aptos, A4, Fußzeile mit „Übungsdatei Block NN“ und dem Hinweis, dass Namen erfunden sind.
 - Excel-Dateien für Lese- oder Einstiegsübungen mit festen Werten. Formeln nur, wo die Übung sie braucht – heruntergeladene Dateien öffnen in der „Geschützten Ansicht“, ungerechnete Formeln zeigen dort nichts an.
+- Lösungsdateien mit Formeln: Ergebnisse im Skript berechnen, mit `assert` gegen die Lösungen im Übungsblatt prüfen und als zwischengespeicherte Werte in die Datei schreiben (Funktion `cache_values` in `_werkzeuge/block-08-xlsx.py`). So zeigt die Datei auch in der „Geschützten Ansicht“ Ergebnisse.
 - Erzeugt mit `_werkzeuge/` (`block-NN-docx.js` mit dem npm-Paket `docx`, `block-NN-xlsx.py` mit `openpyxl`). Nach dem Erzeugen prüfen: Word-Dateien gegen das Schema validieren, Excel-Werte auslesen und mit den Lösungen vergleichen.
 - Ältere Leitfäden nennen noch Dateien wie `Uebung-11-Energieverbrauch.xlsx`; beim Umstellen des Blocks auf das neue Namensschema wechseln und `README.md` („Fehlende Dateien“) nachführen.
 
