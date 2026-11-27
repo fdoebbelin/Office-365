@@ -3,20 +3,24 @@
 	- Ganz oben im Fenster.
 - **Funktion:** 
 	- Zeigt den Namen des geöffneten Dokuments und die Anwendung 
-	  (z. B. „Dokument1 – Word“).
+	  (z. B. „Dokument1 – Word“). Ein Klick auf den Dateinamen zeigt den Speicherort und erlaubt das Umbenennen.
+	- Links: der Schalter **AutoSpeichern** – eingeschaltet, sobald die Datei in OneDrive oder SharePoint liegt.
+	- Mitte: das **Suchfeld** für Befehle, Hilfe und Dateien.
+	- Rechts: Ihr Konto, darunter am Rand des Menübands die Schaltflächen **Kommentare** und **Freigeben**.
 - **Bedienung:**
 	- Rechts oben befinden sich die Schaltflächen für Minimieren, Maximieren und Schließen.
-	- Links oben ist die Schnellzugriffsleiste integriert (siehe Punkt 2).
+	- Die Symbolleiste für den Schnellzugriff kann hier oder unter dem Menüband stehen (siehe Punkt 2).
 
 ---
 
-## 2. Schnellzugriffsleiste
+## 2. Symbolleiste für den Schnellzugriff
 - **Position:** 
-	- Links oben, über dem Menüband.
+	- In Microsoft 365 zunächst ausgeblendet. Einblenden: Rechtsklick auf das Menüband → „Symbolleiste für den Schnellzugriff anzeigen“. Sie steht dann über oder unter dem Menüband.
 - **Funktion:** 
 	- Enthält häufig verwendete Befehle wie *Speichern*, *Rückgängig* und *Wiederholen*.
 - **Bedienung:**
-	- Um die Leiste anzupassen, klicken Sie auf das kleine Pfeilsymbol rechts neben der Leiste und wählen „Weitere Befehle“ aus. Hier können Sie zusätzliche Befehle hinzufügen oder entfernen.
+	- Um die Leiste anzupassen, klicken Sie auf das kleine Pfeilsymbol am Ende der Leiste und wählen „Weitere Befehle…“ aus. Hier können Sie zusätzliche Befehle hinzufügen oder entfernen.
+	- Rückgängig und Wiederholen stehen in Microsoft 365 außerdem ganz links auf der Registerkarte „Start“.
 
 ---
 
@@ -30,7 +34,8 @@
     - *Ansicht:* Dokumentansichten, Navigationsbereich.
 - **Bedienung:**
 	- Klicken Sie auf eine Registerkarte, um die zugehörigen Funktionen anzuzeigen.
-	- Nutzen Sie das Suchfeld oben rechts („Was möchten Sie tun?“), um nach Funktionen zu suchen.
+	- Nutzen Sie das Suchfeld in der Titelleiste, um nach Funktionen zu suchen: Befehl eintippen, z. B. „Seitenumbruch“, und direkt aus der Trefferliste ausführen.
+	- Das Menüband lässt sich auf eine schmale Zeile reduzieren und wieder anheften: kleiner Pfeil am rechten Ende des Menübands bzw. Doppelklick auf eine Registerkarte.
 
 ---
 
@@ -86,4 +91,4 @@
 - **Funktion:** 
 	- Enthält Befehle für das Dokument selbst (z. B. Öffnen, Speichern, Drucken).
 - **Bedienung:**
-	- Klicken Sie auf *Datei*, um Optionen wie „Speichern unter“ oder „Drucken“ aufzurufen.
+	- Klicken Sie auf *Datei*, um Befehle wie „Speichern unter“ (bei eingeschaltetem AutoSpeichern: „Kopie speichern“), „Drucken“ oder „Optionen“ aufzurufen.

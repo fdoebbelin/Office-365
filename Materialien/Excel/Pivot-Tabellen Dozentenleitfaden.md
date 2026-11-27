@@ -76,7 +76,7 @@ Nach Abschluss dieser Unterrichtseinheit können die Teilnehmer:
 4. Handouts ausdrucken oder digital bereitstellen
 
 **Für Teilnehmer:**
-- Excel 2010 oder neuer (empfohlen: Excel 2016+)
+- Excel aus Microsoft 365 (die Anleitung folgt dessen Menüs; ältere Versionen weichen in Einzelheiten ab)
 - Übungsdatei mit Rohdaten
 - Optional: Zwei Monitore für Demonstration und eigene Arbeit
 
@@ -231,7 +231,7 @@ Schmidt   | März     | 2024 | 5200
    - Excel erkennt automatisch den Datenbereich
    - Zeigen Sie den markierten Bereich (gestrichelte Linie)
 
-2. **Gehen Sie zu: Einfügen → Pivot-Tabelle**
+2. **Gehen Sie zu: Einfügen → PivotTable → Aus Tabelle/Bereich**
    - Zeigen Sie, wo dieser Button ist
    - Erklären Sie den Dialog, der erscheint
 
@@ -475,7 +475,6 @@ Erklären Sie:
    - Irgendeine Zelle innerhalb der Pivot-Tabelle
 
 2. **Gehen Sie zu: PivotTable-Analyse → PivotChart**
-   - (In älteren Versionen: "Optionen" → "PivotChart")
 
 3. **Dialog "Diagramm einfügen" erscheint:**
    ```
@@ -518,7 +517,7 @@ Erklären Sie:
      - **Kreisdiagramm**: Nur eine Dimension (z.B. nur Regionen)
 
 3. **Farben anpassen:**
-   - Diagrammtools → Entwurf → Farben ändern
+   - Diagrammentwurf → Farben ändern
    - Zeigen Sie verschiedene Farbschemata
 
 4. **Achsenbeschriftungen:**
@@ -858,8 +857,8 @@ Tabellenform für Export und Weiterverarbeitung, Kompaktform für Präsentatione
 3. Oder: **Alt + F5** drücken
 
 **Profi-Tipp:** 
-- Datei → Optionen → Daten
-- "Beim Öffnen der Datei aktualisieren" aktivieren
+- Rechtsklick in die Pivot-Tabelle → „PivotTable-Optionen…“ → Registerkarte „Daten“
+- „Aktualisieren beim Öffnen der Datei“ aktivieren
 
 ### Fehler 3: Falsche Berechnung (Anzahl statt Summe)
 

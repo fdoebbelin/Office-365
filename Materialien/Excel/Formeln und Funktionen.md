@@ -37,9 +37,9 @@ Funktionen sind vordefinierte Formeln in Excel, die spezifische Berechnungen dur
 
 ### Tipps zur Fehlerbehebung in Formeln
 - **Überprüfen Sie die Formelsyntax**: Stellen Sie sicher, dass Ihre Formeln korrekt strukturiert sind und alle Klammern geschlossen sind.
-- **Verwenden Sie die Formelüberprüfung**: Excel bietet Tools zur Überprüfung von Formeln, die Ihnen helfen können, Fehler zu finden und zu korrigieren.
+- **Verwenden Sie die Formelüberwachung** (Registerkarte „Formeln“): Excel bietet Tools zur Überprüfung von Formeln, die Ihnen helfen können, Fehler zu finden und zu korrigieren.
 - **Achten Sie auf Fehlerindikatoren**: Excel markiert Zellen mit Fehlern mit einem kleinen grünen Dreieck in der oberen linken Ecke.
 
 ### Praktische Tipps:
 - **Formelassistent verwenden**: Excel's Funktionen-Assistent (fx) kann Ihnen helfen, Funktionen korrekt einzugeben.
-- **Dynamische Arrays**: Nutzen Sie Excel's Fähigkeit, Ergebnisse von Formeln, die mehrere Werte zurückgeben, über mehrere Zellen zu verteilen.
+- **Dynamische Arrays**: Formeln wie FILTER, SORTIEREN oder EINDEUTIG liefern mehrere Werte; Excel verteilt sie automatisch über die Nachbarzellen („Überlauf“). Siehe Aufbaumodul Excel, `02 Sortieren und Filtern.md`.

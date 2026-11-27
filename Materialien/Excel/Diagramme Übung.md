@@ -44,7 +44,7 @@
 
 **3.3 Anpassen der Diagrammstile.**
 
-- Wählen Sie das Diagramm aus und gehen Sie zur Registerkarte „Entwurf“ unter „Diagrammtools“. Hier können Sie aus verschiedenen vordefinierten Stilen und Farbschemata wählen.
+- Wählen Sie das Diagramm aus und gehen Sie zur Registerkarte „Diagrammentwurf“. Hier können Sie aus verschiedenen vordefinierten Stilen und Farbschemata wählen.
 
 **3.4 Hinzufügen von Datenbeschriftungen (optional).**
 

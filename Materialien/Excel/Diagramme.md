@@ -16,17 +16,17 @@
 
 ### Ändern des Diagrammstils
 - Excel bietet vorgefertigte Diagrammstile, die Sie nutzen können, um das Aussehen Ihres Diagramms schnell zu ändern.
-- Wählen Sie Ihr Diagramm aus und gehen Sie zur Registerkarte „Entwurf“ unter „Diagrammtools“.
+- Wählen Sie Ihr Diagramm aus und gehen Sie zur Registerkarte „Diagrammentwurf“.
 - Probieren Sie verschiedene Stile aus der Gruppe „Diagrammstile“ aus, um das Aussehen Ihres Diagramms zu verbessern.
 
 ### Anpassen der Diagrammelemente
 - Sie können Titel, Achsenbeschriftungen, Legenden und Datenbeschriftungen hinzufügen oder anpassen.
-- Wählen Sie das Diagramm aus und klicken Sie auf „Diagrammelement hinzufügen“ in der Registerkarte „Entwurf“.
+- Wählen Sie das Diagramm aus und klicken Sie auf „Diagrammelement hinzufügen“ in der Registerkarte „Diagrammentwurf“ – oder nutzen Sie die Schaltfläche **+** rechts neben dem Diagramm.
 - Wählen Sie die Elemente, die Sie hinzufügen oder anpassen möchten, und konfigurieren Sie sie nach Ihren Bedürfnissen.
 
 ### Formatierung von Diagrammelementen
 - Für detailliertere Anpassungen können Sie jedes Element des Diagramms individuell formatieren.
-- Klicken Sie auf das Element, das Sie ändern möchten, und verwenden Sie die Optionen auf der Registerkarte „Format“ unter „Diagrammtools“, um Farben, Schriftarten, Größe und mehr anzupassen.
+- Klicken Sie auf das Element, das Sie ändern möchten, und verwenden Sie die Optionen auf der Registerkarte „Format“ oder den Formatierungsbereich (Doppelklick auf das Element), um Farben, Schriftarten, Größe und mehr anzupassen.
 
 ## Tipps für effektive Diagramme
 - **Klarheit ist Schlüssel**: Verwenden Sie nicht zu viele Farben oder übermäßig komplexe Elemente, die das Verständnis des Diagramms erschweren könnten.

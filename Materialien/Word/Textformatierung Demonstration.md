@@ -15,13 +15,13 @@
   - Mit der Maus: Klicken und ziehen, um einen Textabschnitt zu markieren.
   - Mit Tastenkombinationen:
     - STRG+A: Gesamten Text markieren.
-    - SHIFT+Pfeiltasten: Einzelne Zeichen oder Wörter markieren.
+    - UMSCHALT+Pfeiltasten: Einzelne Zeichen oder Zeilen markieren.
 - Hinweis: *„Die Auswahl ist wichtig, da Änderungen nur auf den markierten Bereich angewendet werden.“*
 
 ### Schritt 3: Änderung der Schriftart
 - Zeigen Sie, wie man die Schriftart über das Menüband (Registerkarte *Start > Gruppe Schriftart*) ändert:
   - Markieren Sie den Text.
-  - Öffnen Sie das Dropdown-Menü für Schriftarten und wählen Sie eine andere Schriftart aus (z. B. Arial oder Times New Roman).
+  - Öffnen Sie das Dropdown-Menü für Schriftarten und wählen Sie eine andere Schriftart aus (z. B. Arial oder Times New Roman). Voreingestellt ist in Microsoft 365 „Aptos“.
 - Hinweis: *„Die Wahl der Schriftart sollte zum Zweck des Dokuments passen – z. B. seriös für Geschäftsbriefe oder kreativ für Einladungen.“*
 
 ### Schritt 4: Änderung der Schriftgröße

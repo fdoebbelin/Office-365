@@ -9,8 +9,9 @@
   - Dreifachklick: Absatz auswählen.
   - Ziehen mit der Maus: Beliebigen Textbereich auswählen.
 - **Tastatur**:
-  - Shift + Pfeiltasten: Text zeichenweise oder zeilenweise auswählen.
-  - Shift + F8: Text abschnittsweise auswählen.
+  - Umschalt + Pfeiltasten: Text zeichenweise oder zeilenweise auswählen.
+  - Strg + Umschalt + Pfeil links/rechts: wortweise auswählen.
+  - Strg + A: gesamten Text auswählen.
 
 ## Änderung von Schriftart, -größe und -farbe
 - **Menübefehle**:
@@ -18,9 +19,8 @@
     - Schriftart: Dropdown-Menü für Schriftarten.
     - Schriftgröße: Dropdown-Menü für Schriftgrößen.
     - Schriftfarbe: Dropdown-Menü für Schriftfarben.
-- **Tastaturkürzel**:
-  - Strg + Shift + >: Schriftgröße vergrößern.
-  - Strg + Shift + <: Schriftgröße verkleinern.
+- **Schriftgrad schrittweise ändern**:
+  - Schaltflächen „Schriftgrad vergrößern“ und „Schriftgrad verkleinern“ (A mit Pfeil) in der Gruppe „Schriftart“.
 
 ## Anwendung von Fett, Kursiv und Unterstrich
 - **Menübefehle**:
@@ -29,6 +29,7 @@
     - Kursiv: Schaltfläche „I“.
     - Unterstrich: Schaltfläche „U“.
 - **Tastaturkürzel**:
-  - Fett: Strg + B.
-  - Kursiv: Strg + I.
-  - Unterstrich: Strg + U.
+  - Fett: Strg + Umschalt + F.
+  - Kursiv: Strg + Umschalt + K.
+  - Unterstrich: Strg + Umschalt + U.
+  - Achtung: Englische Anleitungen nennen Strg + B / I / U. Im deutschen Word ist Strg + B der Blocksatz.

@@ -327,8 +327,8 @@ Erstes_Blatt : Letztes_Blatt ! Zellbezug
 |   | A | B |
 |---|---|---|
 | 1 | Produkt | Umsatz Q1 |
-| 2 | Laptop | `=SUM(Januar:März!B2)` → 18000 |
-| 3 | Monitor | `=SUM(Januar:März!B3)` → 7500 |
+| 2 | Laptop | `=SUMME(Januar:März!B2)` → 18000 |
+| 3 | Monitor | `=SUMME(Januar:März!B3)` → 7500 |
 
 ### Beispiel 2: Durchschnitt über mehrere Monate
 
@@ -336,8 +336,8 @@ Erstes_Blatt : Letztes_Blatt ! Zellbezug
 |   | A | B |
 |---|---|---|
 | 1 | Produkt | Durchschnitt |
-| 2 | Laptop | `=AVERAGE(Jan:Dez!B2)` |
-| 3 | Monitor | `=AVERAGE(Jan:Dez!B3)` |
+| 2 | Laptop | `=MITTELWERT(Jan:Dez!B2)` |
+| 3 | Monitor | `=MITTELWERT(Jan:Dez!B3)` |
 
 ### Beispiel 3: Maximum finden
 
@@ -365,11 +365,11 @@ Erstes_Blatt : Letztes_Blatt ! Zellbezug
 
 | Funktion | Syntax | Beschreibung |
 |----------|--------|--------------|
-| **SUM** | `=SUM(Jan:Dez!B2)` | Summiert Werte über alle Blätter |
-| **AVERAGE** | `=AVERAGE(Q1:Q4!C5)` | Durchschnitt über alle Blätter |
+| **SUMME** | `=SUMME(Jan:Dez!B2)` | Summiert Werte über alle Blätter |
+| **MITTELWERT** | `=MITTELWERT(Q1:Q4!C5)` | Durchschnitt über alle Blätter |
 | **MAX** | `=MAX(Filiale1:Filiale10!D3)` | Höchster Wert über alle Blätter |
 | **MIN** | `=MIN(Werk1:Werk5!E7)` | Niedrigster Wert über alle Blätter |
-| **COUNT** | `=COUNT(Tag1:Tag31!A1)` | Zählt Zahlen über alle Blätter |
+| **ANZAHL** | `=ANZAHL(Tag1:Tag31!A1)` | Zählt Zahlen über alle Blätter |
 
 ### Wann verwenden?
 
@@ -518,7 +518,7 @@ Excel fügt automatisch den vollständigen Pfad hinzu!
 | **Absolut** | `$A$1` | `=B2*$A$1` | Konstante Werte (MwSt, Kurse) |
 | **Gemischt (Spalte fix)** | `$A1` | `=$A2*B1` | Tabellen mit fester linker Spalte |
 | **Gemischt (Zeile fix)** | `A$1` | `=A2*B$1` | Tabellen mit fester oberer Zeile |
-| **3D** | `Blatt1:Blatt3!A1` | `=SUM(Jan:Dez!B2)` | Gleiche Daten über mehrere Blätter |
+| **3D** | `Blatt1:Blatt3!A1` | `=SUMME(Jan:Dez!B2)` | Gleiche Daten über mehrere Blätter |
 | **Extern** | `=[Datei.xlsx]Blatt!A1` | `=[Budget.xlsx]Q1!B5` | Daten aus anderen Dateien |
 
 ### F4-Taste: Schnell zwischen Bezugsarten wechseln
@@ -590,7 +590,7 @@ Statt `$B$1` können Sie Namen vergeben:
 
 ```
 1. Markieren Sie Zelle B1
-2. Klicken Sie ins Namensfeld (links neben der Formelleiste)
+2. Klicken Sie ins Namenfeld (links neben der Bearbeitungsleiste)
 3. Geben Sie "MwStSatz" ein
 4. Drücken Sie Enter
 
@@ -623,7 +623,7 @@ Jetzt können Sie schreiben:
 ### 6. 3D-Bezüge erweitern
 
 **Neues Blatt automatisch einbeziehen:**
-- Sie haben `=SUM(Jan:Dez!B2)`
+- Sie haben `=SUMME(Jan:Dez!B2)`
 - Fügen Sie ein neues Blatt zwischen Jan und Dez ein
 - Es wird automatisch in die Summe einbezogen! ✅
 
@@ -675,12 +675,12 @@ Excel zeigt eine Warnung und kann den Wert nicht berechnen.
 
 ❌ **Falsch:**
 ```
-=SUM(Dez:Jan!B2)    → Funktioniert nicht
+=SUMME(Dez:Jan!B2)    → Funktioniert nicht
 ```
 
 ✅ **Richtig:**
 ```
-=SUM(Jan:Dez!B2)    → Von links nach rechts
+=SUMME(Jan:Dez!B2)    → Von links nach rechts
 ```
 
 Die Blätter müssen in der Reihenfolge angegeben werden, wie sie im Register erscheinen!

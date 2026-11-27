@@ -21,6 +21,7 @@
    - Excel kopiert die Formel und passt die Zellbezüge entsprechend an, so dass in Zelle D2 das Ergebnis von `=C2*2` steht.
 
 ## Tipps zur Verwendung von Autofill:
+- **Blitzvorschau (Strg+E)**: Erkennt Muster in Texten. Beispiel: Steht in A2 „Anna Klein“ und tippen Sie in B2 „Anna“, füllt „Daten“ → „Blitzvorschau“ die Vornamen aller Zeilen aus.
 - **Erkennen von Mustern**: Excel ist sehr gut darin, Muster in den Daten zu erkennen, die Sie eingeben oder auswählen. Es kann Tage der Woche, Monate, Jahreszeiten und sogar benutzerdefinierte Listen automatisch ausfüllen.
 - **Benutzerdefinierte Listen**: Sie können eigene Listen erstellen (z.B. Abteilungsnamen oder Produktkategorien), die dann mit Autofill verwendet werden können. Diese finden Sie unter „Datei“ > „Optionen“ > „Erweitert“ > „Allgemein“ und „Bearbeiten der benutzerdefinierten Listen“.
 - **Formeln kopieren**: Beim Ziehen von Formeln passt Autofill die Zellreferenzen standardmäßig an (relative Referenzierung), es sei denn, Sie verwenden absolute Referenzen.

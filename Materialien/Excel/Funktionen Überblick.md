@@ -32,7 +32,8 @@ Funktionen sind vorgefertigte Formeln in Excel, die spezifische Aufgaben ausfüh
 
 **2. Textfunktionen:**
 
-- `VERKETTEN` oder `TEXTKETTE`: Verknüpft zwei oder mehr Textstrings miteinander.
+- `TEXTKETTE` (früher `VERKETTEN`): Verknüpft zwei oder mehr Texte miteinander; einfacher geht es mit `&`.
+- `TEXTVERKETTEN`: Verknüpft einen ganzen Bereich mit einem Trennzeichen.
 - `LINKS`, `RECHTS`, `TEIL`: Extrahiert einen Teil eines Textstrings.
 - `GLÄTTEN`: Entfernt alle Leerzeichen aus dem Text außer einfachen Leerzeichen zwischen Wörtern.
 
@@ -50,7 +51,8 @@ Funktionen sind vorgefertigte Formeln in Excel, die spezifische Aufgaben ausfüh
 
 **5. Lookup- und Referenzfunktionen:**
 
-- `SVERWEIS`: Sucht in der ersten Spalte eines Bereichs nach einem Schlüssel und gibt den Wert aus einer angegebenen Spalte zurück.
+- `XVERWEIS`: Sucht einen Wert in einer Spalte und gibt den Wert aus derselben Zeile einer anderen Spalte zurück – auch nach links; Standard in Microsoft 365.
+- `SVERWEIS`: Vorgänger von XVERWEIS; sucht nur in der ersten Spalte eines Bereichs und gibt einen Wert aus einer Spalte rechts davon zurück.
 - `INDEX`: Gibt den Wert an der Schnittstelle einer bestimmten Zeile und Spalte innerhalb eines Bereichs zurück.
 - `VERGLEICH`: Sucht nach einem Wert und gibt die relative Position dieses Wertes innerhalb eines Bereichs zurück.
 

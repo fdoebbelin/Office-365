@@ -14,7 +14,7 @@ Die Bildung von Zellbezügen in Microsoft Excel ist eine essenzielle Fähigkeit,
 
 #### 4. **3D-Bezüge**
 - Ein 3D-Bezug in Excel bezieht sich auf dieselbe Zelle oder denselben Zellbereich in mehreren Arbeitsblättern. Dies ist nützlich, um dieselbe Art von Daten aus verschiedenen Arbeitsblättern zu aggregieren.
-- **Beispiel**: `=SUM(Tabelle1:Tabelle3!A1)` summiert die Werte in Zelle A1 der Arbeitsblätter Tabelle1, Tabelle2 und Tabelle3.
+- **Beispiel**: `=SUMME(Tabelle1:Tabelle3!A1)` summiert die Werte in Zelle A1 der Arbeitsblätter Tabelle1, Tabelle2 und Tabelle3.
 
 #### 5. **Bezüge über Arbeitsmappen hinweg**
 - Sie können auch Bezüge auf Zellen oder Bereiche in anderen Arbeitsmappen erstellen. Diese Bezüge müssen den Pfad zur anderen Arbeitsmappe sowie den Dateinamen und das Arbeitsblatt enthalten.

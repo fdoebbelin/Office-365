@@ -42,10 +42,10 @@
 
 - Eine grafische Darstellung von Daten, die es ermöglicht, Muster, Trends und Vergleiche visuell zu analysieren. Excel bietet verschiedene Diagrammtypen wie Balken-, Linien- und Kreisdiagramme.
 
-**Name Box:**
+**Namenfeld (Name Box):**
 
 - Das Feld oberhalb der Spaltenbuchstaben, das die Adresse der aktuell ausgewählten Zelle oder des ausgewählten Zellbereichs anzeigt. Hier kann man auch benannte Bereiche schnell auswählen oder erstellen.
 
-**Formelleiste (Formula Bar):**
+**Bearbeitungsleiste (Formula Bar):**
 
 - Ein Bereich oberhalb der Zellen, der verwendet wird, um Formeln oder Inhalte der aktiven Zelle anzuzeigen und zu bearbeiten.

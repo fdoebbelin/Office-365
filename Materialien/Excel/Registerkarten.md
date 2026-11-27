@@ -5,8 +5,8 @@
 	- Öffnet eine bestehende Arbeitsmappe von Ihrem Computer oder aus der Cloud.
 - **Speichern**: 
 	- Speichert die aktuelle Arbeitsmappe.
-- **Speichern unter**: 
-	- Speichert die aktuelle Arbeitsmappe unter einem neuen Namen oder in einem anderen Format, auch an einem anderen Speicherort.
+- **Speichern unter** bzw. **Kopie speichern**: 
+	- Speichert die aktuelle Arbeitsmappe unter einem neuen Namen oder in einem anderen Format, auch an einem anderen Speicherort. Liegt die Mappe in OneDrive und ist AutoSpeichern eingeschaltet, heißt der Befehl „Kopie speichern“.
 - **Drucken**: 
 	- Ermöglicht das Drucken des aktuellen Arbeitsblatts oder der gesamten Arbeitsmappe.
 - **Schließen**: 
@@ -32,7 +32,7 @@
 
 ## Registerkarte „Einfügen“
 - **Tabellen**: 
-	- Einfügen von PivotTabellen und herkömmlichen Tabellen.
+	- Einfügen von PivotTables, empfohlenen PivotTables und Tabellen („Als Tabelle formatieren“).
 - **Illustrationen**: 
 	- Einfügen von Bildern, Formen, SmartArt und Screenshot.
 - **Diagramme**: 
@@ -40,7 +40,7 @@
 - **Links**: 
 	- Einfügen von Links zu Webseiten oder anderen Dokumenten.
 - **Text**: 
-	- Einfügen von Textboxen, Kopf- und Fußzeilen, WordArt und Signaturenlinien.
+	- Einfügen von Textfeldern, Kopf- und Fußzeilen, WordArt und Signaturzeilen.
 - **Symbole**: 
 	- Einfügen von mathematischen Symbolen und Symbolen aus anderen Zeichensätzen.
 
@@ -75,16 +75,18 @@
 ## Registerkarte „Überprüfen“
 - **Rechtschreibung**: 
 	- Überprüfung der Rechtschreibung in den Zellen des Arbeitsblatts.
-- **Änderungen**: 
-	- Nachverfolgen, Anzeigen und Verwalten von Änderungen in der Arbeitsmappe.
+- **Änderungen anzeigen**: 
+	- Zeigt, wer wann welche Zelle geändert hat – vor allem bei gemeinsam bearbeiteten Mappen in OneDrive.
 - **Kommentare**: 
-	- Hinzufügen, Bearbeiten oder Löschen von Kommentaren in Zellen.
+	- Kommentare sind Unterhaltungen: Man kann darauf antworten und sie als erledigt markieren.
+- **Notizen**: 
+	- Einfache Hinweise an einer Zelle, wie die früheren Kommentare (rotes Dreieck in der Zellecke).
 
 ## Registerkarte „Ansicht“
 - **Arbeitsmappenansichten**: 
-	- Wechsel zwischen Normalansicht, Seitenlayoutansicht und Seitenansicht.
+	- Wechsel zwischen Normal, Umbruchvorschau und Seitenlayout.
 - **Anzeigen/Verbergen**: 
-	- Steuern der Anzeige von Gitterlinien, Formelleisten, Kopf- und Fußzeilen.
+	- Steuern der Anzeige von Gitternetzlinien, Bearbeitungsleiste und Überschriften (Zeilen- und Spaltenköpfe).
 - **Zoom**: 
 	- Anpassen der Zoomstufe des Arbeitsblatts.
 - **Fenster**: 
