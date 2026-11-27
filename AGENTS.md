@@ -166,9 +166,9 @@ git -c core.quotePath=false ls-files | grep -vE '\.md$|^_config\.yml$|^_includes
 grep -rn "2019\|2016\|Office 20\|Tabellentools\|Diagrammtools" --include=*.md .   # alte Versionen/Menüs
 grep -rn "Strg *+ *[BIU]\b" --include=*.md .                      # englische Kürzel – Treffer einzeln prüfen
 grep -rnE "=(SUM|AVERAGE|COUNT|IF|VLOOKUP)\(" --include=*.md Aufbau-Excel Materialien/Excel Grundkurs   # englische Funktionen in Excel
-grep -rln "{{\|{%" --include=*.md . | grep -vE '^\./(index|AGENTS)\.md$|^\./Grundkurs/Block-[0-9]{2}\.md$'   # Liquid-Zeichen stören Jekyll – darf nichts liefern
+grep -rln "{{\|{%" --include=*.md . | grep -vE '^(\./)?(index|AGENTS)\.md$|^(\./)?Grundkurs/Block-[0-9]{2}\.md$'   # Liquid-Zeichen stören Jekyll – darf nichts liefern
 git -c core.quotePath=false ls-files '*.md' | grep -vE '^(AGENTS|CLAUDE|HANDOFF|README)\.md$|^_resources/|^Aufbau-|^Materialien/' | while IFS= read -r f; do head -1 "$f" | grep -qx -- '---' || echo "ohne Kopfzeile: $f"; done   # darf nichts liefern
-grep -rnE "[0-9]{1,2}:[0-9]{2}( |–|-)|Minuten|Min\b|Tag [12]\b" Grundkurs/Block-[0-9][0-9].md Grundkurs/*Uebungsblatt.md   # Zeitangaben in Lerneinheiten – darf nichts liefern
+grep -rnE "[0-9]{1,2}:[0-9]{2}( |–|-)|Minuten|Min\b|Tag [12]\b" Grundkurs/Block-[0-9][0-9].md Grundkurs/*Uebungsblatt.md | grep -vE 'Uhr|Minuten vorher'   # Zeitangaben in Lerneinheiten – darf nichts liefern (Uhrzeiten von Terminen mit „Uhr“ und Erinnerungen sind erlaubt)
 ```
 
 Dazu: Verweise auf andere Dateien (Dateinamen in Backticks, Links) existieren, Folien und Übungsdateien, die eine Lerneinheit nennt, liegen vor.
