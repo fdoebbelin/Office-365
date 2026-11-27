@@ -2,7 +2,7 @@
 
 | Merkmal | Details |
 |---|---|
-| **Programm** | Microsoft Outlook 2019 |
+| **Programm** | Microsoft Outlook (neues Outlook für Windows) |
 | **Dauer** | 80 Minuten (09:55 – 11:15) |
 | **Voraussetzung** | Block 01 abgeschlossen, Outlook gestartet |
 
@@ -10,7 +10,7 @@
 
 Nach diesem Block können die Teilnehmer:
 
-- Die Outlook-Oberfläche benennen (Navigationsbereich, Lesebereich, Menüband)
+- Die Outlook-Oberfläche benennen (App-Leiste, Ordnerbereich, Nachrichtenliste, Lesebereich, Menüband)
 - Eine neue E-Mail mit sinnvollem Betreff verfassen und absenden
 - Den Unterschied zwischen An, CC und BCC erklären und anwenden
 - Eine empfangene E-Mail weiterleiten und einen Kommentar ergänzen
@@ -22,7 +22,7 @@ Nach diesem Block können die Teilnehmer:
 
 **Vor Blockbeginn prüfen:**
 
-- Outlook ist auf allen Teilnehmer-PCs gestartet und zeigt den Posteingang
+- Das neue Outlook ist auf allen Teilnehmer-PCs gestartet und zeigt den Posteingang (nicht das klassische Outlook – erkennbar an der App-Leiste ganz links)
 - Testmail-Konten sind eingerichtet (alle Teilnehmer können sich gegenseitig mailen)
 - Beamer zeigt Ihren Outlook-Posteingang
 - Handout Block 02 liegt ausgedruckt bereit
@@ -33,8 +33,8 @@ Nach diesem Block können die Teilnehmer:
 
 | Person | Rolle | E-Mail |
 |---|---|---|
-| Thomas Berger | Hausmeister | t.berger@haus-lichtblick.de |
-| Petra Schönfeld | Hausverwaltung | p.schoenfeld@haus-lichtblick.de |
+| Thomas Weber | Hausmeister | thomas.weber@haus-lichtblick.de |
+| Petra Schönfeld | Hausverwaltung (Immobilien Fischer GmbH) | p.schoenfeld@fischer-immo.de |
 | Klara Nowak | Reinigung (Sauber & Rein GmbH) | k.nowak@sauber-rein.de |
 
 *Hinweis: Im Kurs verwenden die Teilnehmer ihre echten Kurs-E-Mail-Adressen. Die fiktiven Adressen stehen auf dem Übungsblatt als Szenario-Kontext.*
@@ -45,16 +45,16 @@ Nach diesem Block können die Teilnehmer:
 
 | Zeit | Min. | Phase | Aktivität |
 |---|---|---|---|
-| 09:55 | 0–10 | **Einstieg** | Outlook-Oberfläche zeigen: Navigationsbereich, Lesebereich, Menüband. Vergleich: „Outlook ist wie ein Schreibtisch – links die Schubladen (Ordner), rechts der Brief (Lesebereich), oben das Werkzeug (Menüband)." |
+| 09:55 | 0–10 | **Einstieg** | Outlook-Oberfläche zeigen: App-Leiste (ganz links: E-Mail, Kalender, Personen), Ordnerbereich, Nachrichtenliste, Lesebereich, Menüband. Vergleich: „Outlook ist wie ein Schreibtisch – links die Schubladen (Ordner), rechts der Brief (Lesebereich), oben das Werkzeug (Menüband)." |
 | 10:05 | 10–18 | **Zeigen** | E-Mail-Adresse erklären: „Wie eine Postanschrift – ohne korrekte Adresse kommt nichts an." Aufbau vorführen (name@firma.de). An/CC/BCC erklären: An = Hauptempfänger, CC = „zur Kenntnis", BCC = unsichtbare Kopie. |
-| 10:13 | 18–25 | **Zeigen** | Live neue E-Mail erstellen: Neue E-Mail → Empfänger eintippen → Betreff formulieren → Text schreiben → Absenden. Betonen: Betreff immer aussagekräftig! |
+| 10:13 | 18–25 | **Zeigen** | Live neue E-Mail erstellen: Start → Neue E-Mail → Empfänger eintippen → Betreff formulieren → Text schreiben → Senden. CC und BCC zeigen: Die Schaltflächen „Cc“ und „Bcc“ stehen rechts neben dem Feld „An“ und blenden die Zeile ein. Betonen: Betreff immer aussagekräftig! |
 | 10:20 | 25–30 | **Nachmachen** | Teilnehmer schreiben sich gegenseitig eine kurze Test-Mail. Sie gehen herum und helfen. |
 | 10:25 | 30–48 | **Selbst anwenden** | **Übung 1 – Störungsmeldung:** Teilnehmer schreiben eine E-Mail an den Hausmeister (= Sitznachbar). Aufgabenfolie am Beamer zeigen. |
 | 10:43 | 48–53 | **Besprechung** | Ergebnisse vergleichen: Wer hat einen guten Betreff gewählt? Gemeinsam optimieren. |
 | 10:48 | 53–58 | **Zeigen** | Antworten vs. Weiterleiten erklären. Live vorführen: Mail öffnen → Weiterleiten → neuen Empfänger eintragen → Kommentar über dem Originaltext ergänzen → Senden. |
 | 10:53 | 58–63 | **Nachmachen** | Teilnehmer leiten eine erhaltene Mail an ihren zweiten Nachbarn weiter. |
 | 10:58 | 63–75 | **Selbst anwenden** | **Übung 2 – Weiterleiten mit Kommentar:** Teilnehmer leiten die „Störungsmeldung" an die Hausverwaltung weiter und ergänzen einen Kommentar. |
-| 11:10 | 75–78 | **Zeigen** | Ordner anlegen: Rechtsklick auf Posteingang → Neuer Ordner → Namen vergeben. Mails verschieben per Drag & Drop. |
+| 11:10 | 75–78 | **Zeigen** | Ordner anlegen: Rechtsklick auf Posteingang → Neuen Unterordner erstellen → Namen vergeben → Enter. Mails verschieben per Drag & Drop. |
 | 11:13 | 78–80 | **Selbst anwenden** | **Übung 3 – Ordnung halten:** Ordner „Wartung 2025" anlegen und Mails verschieben. |
 
 ---
@@ -89,6 +89,7 @@ Nach diesem Block können die Teilnehmer:
 - **An/CC/BCC:** Nur kurz erklären, nicht vertiefen. BCC ist für die Zielgruppe selten relevant.
 - **Drag & Drop:** Manche Teilnehmer kennen das Konzept nicht. Zeigen Sie es am Beamer in Zeitlupe: „Klicken, Maustaste gedrückt halten, zur neuen Position ziehen, loslassen."
 - **Bildschirmübertragung:** Schließen Sie vor der Demo alle privaten Mails. Zeigen Sie den Posteingang nur mit den Kurs-Testmails.
+- **Neues und klassisches Outlook:** Manche Teilnehmende kennen das klassische Outlook vom Arbeitsplatz. Die wichtigsten Unterschiede kurz benennen: Die Bereiche E-Mail, Kalender und Personen wechselt man über die App-Leiste ganz links (früher unten links), Einstellungen liegen hinter dem Zahnrad oben rechts (früher Datei → Optionen). Die Grundlagen – Schreiben, Antworten, Weiterleiten, Ordner – funktionieren gleich.
 
 ---
 
@@ -104,8 +105,9 @@ Nach diesem Block können die Teilnehmer:
 
 | Problem | Lösung |
 |---|---|
-| Outlook zeigt keinen Posteingang | Klicken Sie unten links auf das Briefumschlag-Symbol im Navigationsbereich |
+| Outlook zeigt keinen Posteingang | Ganz links in der App-Leiste auf das Briefumschlag-Symbol (E-Mail) klicken, dann im Ordnerbereich auf „Posteingang“ |
 | Mail kommt nicht an | Ordner „Gesendete Elemente" prüfen. Empfängeradresse auf Tippfehler prüfen |
-| Menüband ist eingeklappt | Doppelklick auf eine Registerkarte (z. B. „Start") klappt das Menüband wieder auf |
-| Neuer-Ordner-Option fehlt | Rechtsklick direkt auf „Posteingang" (nicht auf eine Mail) |
+| Menüband zeigt nur eine schmale Zeile | Am rechten Ende des Menübands auf den kleinen Pfeil klicken und „Klassisches Menüband“ wählen |
+| Klassisches statt neues Outlook geöffnet | Oben rechts den Schalter „Neues Outlook“ einschalten bzw. das neue Outlook über das Startmenü starten |
+| „Neuen Unterordner erstellen“ fehlt | Rechtsklick direkt auf „Posteingang“ im Ordnerbereich (nicht auf eine Mail) |
 | Drag & Drop funktioniert nicht | Maustaste wirklich gedrückt halten. Alternative: Rechtsklick → Verschieben → Ordner wählen |

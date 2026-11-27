@@ -4,7 +4,7 @@
 |---|---|
 | **Block** | 5 von 12 |
 | **Titel** | Vorlagen und Struktur |
-| **Programm** | Microsoft Word 2019 |
+| **Programm** | Microsoft Word (Microsoft 365) |
 | **Dauer** | 65 Minuten (14:55 – 16:00 Uhr) |
 | **Tag** | Tag 1 |
 
@@ -29,14 +29,14 @@ Am Ende dieses Blocks können die Teilnehmer:
 **Dozenten-PC:**
 - `Loesung-07-Wartungsprotokoll.docx` bereithalten
 - `Loesung-08-Checkliste.docx` bereithalten
-- Word 2019 geöffnet, leeres Dokument sichtbar
+- Word geöffnet, leeres Dokument sichtbar
 
 **Drucker:**
 - Druckerverbindung prüfen (für Übung 8 – Ausdruck)
 - Testseite vorab drucken
 
 **Handouts:**
-- `Block-05-Handout.pdf` ausgedruckt und gestapelt bereithalten
+- Handout Block 05 ausgedruckt und gestapelt bereithalten
 
 ---
 
@@ -87,7 +87,7 @@ Am Ende dieses Blocks können die Teilnehmer:
 
 ### Seitenränder und Druckvorschau
 
-- Standard in Word: 2,5 cm rundum. „Schmal" = 1,27 cm – gut für Protokolle mit viel Inhalt.
+- Die Werte jeder Voreinstellung stehen im Menü „Seitenränder“ direkt daneben. „Schmal“ = 1,27 cm rundum – gut für Protokolle mit viel Inhalt.
 - Druckvorschau zeigen: Datei → Drucken. Die rechte Seite zeigt immer die Vorschau.
 - Hinweis: „Drucken Sie nie, ohne vorher die Vorschau zu prüfen – spart Papier!"
 

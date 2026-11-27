@@ -39,7 +39,7 @@ Die Teilnehmer können am Ende dieses Blocks:
 |------|------|-----------|--------|----------|
 | 15:40 | 0–10 | Dozent moderiert | Zusammenfassung beider Tage: „Was kann ich jetzt?" | Folie zeigen, Teilnehmer aktiv einbeziehen |
 | 15:50 | 10–20 | Dozent zeigt | Top 5 Tastenkombinationen + häufige Fehler | Faltblatt gemeinsam durchgehen |
-| 16:00 | 20–25 | Dozent erklärt | Ausblick: weiterführende Kurse | Kurz halten, nicht überfordern |
+| 16:00 | 20–25 | Dozent erklärt | Ausblick: Copilot in Microsoft 365, weiterführende Kurse | Kurz halten, nicht überfordern, keine Übung |
 | 16:05 | 25–35 | Teilnehmer | Feedbackrunde (schriftlich + kurzes mündliches Fazit) | Feedbackbögen austeilen |
 | 16:15 | 35–45 | Dozent | USB-Sticks und Kurzreferenz verteilen | Inhalt des USB-Sticks kurz erläutern |
 | 16:20 | 45–50 | Dozent | Teilnahmebestätigungen aushändigen, Verabschiedung | Persönlich, wertschätzend |
@@ -83,7 +83,7 @@ Mögliche Stichworte für die Zusammenfassung:
 | **Strg + Z** | Rückgängig | Alle drei |
 | **Strg + C / Strg + V** | Kopieren / Einfügen | Alle drei |
 | **Strg + P** | Drucken | Word, Excel |
-| **Strg + F** | Suchen | Word, Excel, Outlook |
+| **Strg + F** | Suchen | Word, Excel |
 
 ### Häufige Fehler und wie man sie vermeidet
 
@@ -95,11 +95,20 @@ Mögliche Stichworte für die Zusammenfassung:
 | E-Mail an falschen Empfänger | Adresse vor dem Senden prüfen |
 | Falscher Dateityp gespeichert | „Speichern unter" → Format prüfen |
 
+### Ausblick: Copilot (ca. 3 Minuten)
+
+Nur zeigen bzw. erzählen, nicht üben – die Kurskonten haben in der Regel keine Copilot-Lizenz.
+
+- **Was ist das?** Ein KI-Assistent in Word, Excel und Outlook. Er fasst lange E-Mails zusammen, entwirft Texte, schlägt Formeln vor oder erklärt eine Tabelle.
+- **Was braucht man?** Je nach Vertrag ist Copilot enthalten oder kostet extra; ob und in welchen Programmen er zur Verfügung steht, entscheidet der Arbeitgeber.
+- **Worauf achten?** Ergebnisse immer selbst prüfen – Copilot kann Fehler machen und Zahlen falsch übernehmen. Nur mit dem Arbeitskonto nutzen und keine personenbezogenen Daten (z. B. von Mietern) eingeben, wenn der Arbeitgeber das nicht ausdrücklich erlaubt.
+- **Merksatz:** „Copilot schreibt den Entwurf – Sie bleiben verantwortlich für das Ergebnis."
+
 ### Weiterführende Schulungsangebote
 
-- **Excel Aufbaukurs:** WENN-Funktion, SVERWEIS, Pivot-Tabellen
-- **Outlook Automatisierung:** Regeln einrichten, Abwesenheitsassistent
-- **Word Vorlagen:** Dokumentvorlagen, Serienbrief
+- **Aufbaumodule dieses Kurses:** Word (Tabellen, Felder, Vorlagen, Geschäftsbrief), Excel (WENN, XVERWEIS, Filter, bedingte Formatierung, Pivot-Tabellen), Programme verknüpfen (Serien-E-Mail)
+- **Outlook Automatisierung:** Regeln einrichten, automatische Antworten bei Abwesenheit
+- **Teams und OneDrive:** Dateien gemeinsam bearbeiten, Freigaben
 - **Windows-Grundkurs:** Datei- und Ordnerverwaltung, Netzwerkdrucker
 
 ---
@@ -118,7 +127,7 @@ Mögliche Stichworte für die Zusammenfassung:
 
 Formulierungsvorschlag für den Abschluss:
 
-> „Sie haben in den letzten zwei Tagen die wichtigsten Werkzeuge von Microsoft Office kennengelernt – und vor allem: Sie haben sie selbst ausprobiert. Das Wichtigste beim Lernen am Computer ist, es einfach zu tun. Nutzen Sie die Übungsdateien auf dem USB-Stick, um das Gelernte zu festigen. Und wenn Sie im Arbeitsalltag nicht weiterkommen: Das Kurzreferenz-Faltblatt hilft. Ich bedanke mich bei Ihnen für Ihre Aufmerksamkeit und Ihren Einsatz. Auf Wiedersehen!"
+> „Sie haben in den letzten zwei Tagen die wichtigsten Werkzeuge von Microsoft 365 kennengelernt – und vor allem: Sie haben sie selbst ausprobiert. Das Wichtigste beim Lernen am Computer ist, es einfach zu tun. Nutzen Sie die Übungsdateien auf dem USB-Stick, um das Gelernte zu festigen. Und wenn Sie im Arbeitsalltag nicht weiterkommen: Das Kurzreferenz-Faltblatt hilft. Ich bedanke mich bei Ihnen für Ihre Aufmerksamkeit und Ihren Einsatz. Auf Wiedersehen!"
 
 ---
 

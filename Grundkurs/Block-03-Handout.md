@@ -1,6 +1,7 @@
 # Block 03: Kalender und Termine
-**Microsoft Outlook 2019**
-*Haus Lichtblick – Office 2019 Grundkurs*
+
+**Microsoft Outlook (neues Outlook für Windows)**
+*Haus Lichtblick – Microsoft 365 Grundkurs*
 
 ---
 
@@ -9,7 +10,7 @@
 - Zwischen E-Mail-Ansicht und Kalender wechseln
 - Einen Termin mit Erinnerung anlegen
 - Wiederkehrende Termine (Serien) erstellen
-- Besprechungsanfragen an Kollegen senden
+- Kolleginnen und Kollegen zu einer Besprechung einladen
 - Die Kalenderansichten nutzen (Tag, Woche, Monat)
 - Unterschied zwischen Termin, Besprechung und ganztägigem Ereignis verstehen
 
@@ -19,23 +20,22 @@
 
 ### 1. Zum Kalender wechseln
 
-Der Kalender ist Teil von Outlook. Sie wechseln zwischen E-Mail und Kalender:
+Der Kalender ist Teil von Outlook. Sie wechseln zwischen E-Mail und Kalender über die **App-Leiste** ganz links:
 
-1. Unten links in der Navigationsleiste
-2. Klicken Sie auf das **Kalendersymbol** (sieht aus wie ein kleiner Kalender)
-3. Zurück zu E-Mails: Klicken Sie auf das **Briefsymbol**
-
-> **TIPP:** Mit der Tastenkombination `Strg+2` gelangen Sie direkt zum Kalender, mit `Strg+1` zurück zu den E-Mails.
+1. Klicken Sie auf das **Kalendersymbol** (sieht aus wie ein kleiner Kalender).
+2. Zurück zu den E-Mails: Klicken Sie auf das **Briefsymbol**.
 
 ---
 
-### 2. Termintypen unterscheiden
+### 2. Termin, Besprechung, ganztägiges Ereignis
 
-| Typ | Wann nutzen? |
-|---|---|
-| **Termin** | Nur für Sie. Andere sehen ihn nicht. *Beispiel: „Fluchtwege prüfen um 10 Uhr"* |
-| **Besprechung** | Mit anderen Personen. Wird als E-Mail-Einladung verschickt. *Beispiel: „Hausmeisterrunde Montag 9 Uhr"* |
-| **Ganztägiges Ereignis** | Kein fester Zeitpunkt, den ganzen Tag relevant. *Beispiel: „Aufzug gesperrt – Wartung"* |
+Jeder Eintrag beginnt mit **„Neues Ereignis“**. Was daraus wird, entscheiden Sie beim Ausfüllen:
+
+| Art | Wann nutzen? | Woran erkennen? |
+|---|---|---|
+| **Termin** | Nur für Sie. Andere sehen ihn nicht. *Beispiel: „Fluchtwege prüfen um 10 Uhr“* | Niemand eingeladen, Schaltfläche „Speichern“ |
+| **Besprechung** | Mit anderen Personen. Wird als E-Mail-Einladung verschickt. *Beispiel: „Hausmeisterrunde Montag 9 Uhr“* | Personen eingeladen, Schaltfläche „Senden“ |
+| **Ganztägiges Ereignis** | Kein fester Zeitpunkt, den ganzen Tag relevant. *Beispiel: „Aufzug gesperrt – Wartung“* | Schalter „Ganztägig“ eingeschaltet |
 
 ---
 
@@ -44,10 +44,10 @@ Der Kalender ist Teil von Outlook. Sie wechseln zwischen E-Mail und Kalender:
 Sie können den Kalender in verschiedenen Ansichten darstellen:
 
 - **Tag:** Zeigt alle Termine eines einzelnen Tages mit Uhrzeiten
-- **Woche:** Zeigt die ganze Woche auf einen Blick – sehr übersichtlich
+- **Woche** bzw. **Arbeitswoche:** Zeigt die (Arbeits-)Woche auf einen Blick – sehr übersichtlich
 - **Monat:** Zeigt den ganzen Monat – gut für langfristige Planung
 
-**Wechseln:** Im Ribbon unter „Start" finden Sie die Buttons „Tag", „Woche", „Monat".
+**Wechseln:** Oben im Kalender bzw. im Menüband unter „Start“ finden Sie die Auswahl der Ansicht.
 
 ---
 
@@ -55,13 +55,13 @@ Sie können den Kalender in verschiedenen Ansichten darstellen:
 
 ### Einen einfachen Termin anlegen
 
-1. Wechseln Sie zum Kalender (Kalendersymbol unten links)
-2. Klicken Sie auf **„Neuer Termin"** in der Symbolleiste
-3. Geben Sie im Feld „Betreff" den Titel des Termins ein
-4. Wählen Sie Datum und Uhrzeit (Start und Ende)
-5. Optional: Tragen Sie einen Ort ein
-6. Setzen Sie eine Erinnerung (Dropdown-Feld „Erinnerung")
-7. Klicken Sie auf **„Speichern und schließen"**
+1. Wechseln Sie zum Kalender (Kalendersymbol in der App-Leiste links).
+2. Klicken Sie auf **„Neues Ereignis“**.
+3. Geben Sie den Titel des Termins ein.
+4. Wählen Sie Datum und Uhrzeit (Beginn und Ende).
+5. Optional: Tragen Sie einen Ort ein.
+6. Stellen Sie die Erinnerung ein (Auswahlfeld „Erinnerung“).
+7. Klicken Sie auf **„Speichern“**.
 
 > **WICHTIG:** Der Termin erscheint jetzt in Ihrem Kalender. Nur Sie sehen ihn – er wird nicht an andere verschickt.
 
@@ -71,37 +71,37 @@ Sie können den Kalender in verschiedenen Ansichten darstellen:
 
 Für regelmäßige Termine (z. B. monatliche Wartung):
 
-1. Erstellen Sie einen neuen Termin (siehe oben)
-2. Geben Sie Betreff, Datum und Uhrzeit ein
-3. Klicken Sie im Ribbon auf **„Terminserie"** (Symbol mit kreisenden Pfeilen)
-4. Wählen Sie das Muster: Täglich, Wöchentlich, Monatlich oder Jährlich
-5. Bei Monatlich: Wählen Sie z. B. „Jeden ersten Montag"
-6. Legen Sie ein Enddatum fest oder wählen Sie „Kein Enddatum"
-7. Klicken Sie **OK**
-8. Setzen Sie die Erinnerung
-9. Klicken Sie **„Speichern und schließen"**
+1. Erstellen Sie ein neues Ereignis (siehe oben).
+2. Geben Sie Titel, Datum und Uhrzeit ein.
+3. Klicken Sie im Ereignisfenster auf **„Serie erstellen“** (in manchen Versionen „Wiederholen“).
+4. Wählen Sie das Muster: Täglich, Wöchentlich, Monatlich oder Jährlich.
+5. Bei Monatlich: Wählen Sie z. B. „Am ersten Montag“.
+6. Legen Sie ein Enddatum fest oder lassen Sie die Serie ohne Ende laufen.
+7. Bestätigen Sie die Serie.
+8. Stellen Sie die Erinnerung ein.
+9. Klicken Sie auf **„Speichern“**.
 
 > **TIPP:** Die Serie erscheint jetzt als mehrere Termine in Ihrem Kalender – einer für jeden Wiederholungstermin. Sie haben aber nur einmal Arbeit gehabt!
 
 ---
 
-### Eine Besprechungsanfrage senden
+### Eine Besprechung anlegen und Personen einladen
 
 Um andere Personen zu einem Termin einzuladen:
 
-1. Wechseln Sie zum Kalender
-2. Klicken Sie auf **„Neue Besprechung"** (NICHT „Neuer Termin"!)
-3. Tragen Sie die E-Mail-Adressen der Teilnehmer im Feld „An" ein
-4. Geben Sie den Betreff ein
-5. Tragen Sie einen Ort ein (z. B. „Besprechungsraum 2.OG")
-6. Wählen Sie Datum und Uhrzeit
-7. Optional: Schreiben Sie eine Nachricht im Textfeld
-8. Setzen Sie eine Erinnerung
-9. Klicken Sie auf **„Senden"** (nicht „Speichern"!)
+1. Wechseln Sie zum Kalender.
+2. Klicken Sie auf **„Neues Ereignis“**.
+3. Tragen Sie die E-Mail-Adressen im Feld **„Teilnehmende einladen“** ein.
+4. Geben Sie den Titel ein.
+5. Tragen Sie einen Ort ein (z. B. „Besprechungsraum 2.10“).
+6. Wählen Sie Datum und Uhrzeit.
+7. Optional: Schreiben Sie eine Nachricht in das Textfeld.
+8. Stellen Sie eine Erinnerung ein.
+9. Klicken Sie auf **„Senden“**.
 
-> **WICHTIG:** Bei einer Besprechung klicken Sie am Ende auf „Senden"! Nur so wird die Einladung an die Teilnehmer verschickt. Die Besprechung erscheint in Ihrem Kalender **UND** als E-Mail bei den eingeladenen Personen.
+> **WICHTIG:** Sobald Sie jemanden einladen, heißt die Schaltfläche „Senden“ statt „Speichern“. Nur so wird die Einladung verschickt. Die Besprechung erscheint in Ihrem Kalender **UND** als E-Mail bei den eingeladenen Personen.
 
-Die Teilnehmer erhalten eine E-Mail mit den Buttons **„Zusagen"**, **„Ablehnen"** oder **„Neuen Termin vorschlagen"**. Je nachdem wird der Termin in deren Kalender übernommen oder nicht.
+Die eingeladenen Personen erhalten eine E-Mail mit den Schaltflächen **„Zusagen“**, **„Mit Vorbehalt“** und **„Ablehnen“**; außerdem können sie eine andere Zeit vorschlagen. Je nach Antwort wird der Termin in ihren Kalender übernommen oder nicht.
 
 ---
 
@@ -109,7 +109,7 @@ Die Teilnehmer erhalten eine E-Mail mit den Buttons **„Zusagen"**, **„Ablehn
 
 ### Übung 4: Wartungstermin anlegen
 
-**Teil A:** Legen Sie einen einfachen Termin an (zur Übung)
+**Teil A:** Legen Sie einen einfachen Termin an (zur Übung).
 
 **Teil B:** Erstellen Sie einen wiederkehrenden Termin für die monatliche Heizungswartung in Haus Lichtblick – jeden ersten Montag im Monat, 08:00–09:30 Uhr, Erinnerung 1 Tag vorher.
 
@@ -117,9 +117,9 @@ Die Teilnehmer erhalten eine E-Mail mit den Buttons **„Zusagen"**, **„Ablehn
 
 ---
 
-### Übung 5: Raumbuchung per Besprechungsanfrage
+### Übung 5: Raumbuchung per Einladung
 
-Organisieren Sie eine Sicherheitsbegehung mit zwei Kollegen (thomas.mueller@haus-lichtblick.de und anna.schmidt@haus-lichtblick.de). Senden Sie eine Besprechungsanfrage für nächsten Donnerstag, 14:00–15:30 Uhr, Treffpunkt Haupteingang.
+Organisieren Sie eine Sicherheitsbegehung mit zwei Kollegen (thomas.weber@haus-lichtblick.de und jan.mueller@haus-lichtblick.de). Laden Sie die beiden für nächsten Donnerstag, 14:00–15:30 Uhr, ein. Treffpunkt: Eingangshalle.
 
 → Detaillierte Aufgabenstellung: Siehe `Uebung-05-Raumbuchung.docx`
 
@@ -127,33 +127,25 @@ Organisieren Sie eine Sicherheitsbegehung mit zwei Kollegen (thomas.mueller@haus
 
 ## Tipps und Tricks
 
-### Tastenkombinationen
-
-| Tastenkombination | Funktion |
-|---|---|
-| `Strg+1` | Zu E-Mails wechseln |
-| `Strg+2` | Zum Kalender wechseln |
-| `Strg+N` | Neuer Termin (wenn Sie im Kalender sind) |
-| `Strg+Shift+Q` | Neue Besprechung |
-
 ### Erinnerungen sinnvoll nutzen
 
 - Für regelmäßige Aufgaben: **1 Tag vorher**
 - Für wichtige Besprechungen: **15 Minuten** oder **1 Stunde**
-- Standard-Erinnerungszeit ändern: *Datei → Optionen → Kalender*
+- Standard-Erinnerungszeit ändern: *Einstellungen (Zahnrad oben rechts) → Kalender*
 
 ### Serien bearbeiten oder löschen
 
-Wenn Sie auf einen Termin einer Serie klicken, fragt Outlook: *„Nur diesen Termin öffnen oder die ganze Serie?"*
+Wenn Sie einen Termin einer Serie öffnen, ändern oder löschen, fragt Outlook, ob das nur für **dieses Ereignis**, für **dieses und alle folgenden** oder für **alle Ereignisse der Serie** gelten soll.
 
-- Wählen Sie **„Serie"**, um alle Termine zu ändern (z. B. neue Uhrzeit)
-- Beim Löschen fragt Outlook ebenfalls: Nur dieser oder alle Termine?
+- Wählen Sie die ganze Serie, um alle Termine zu ändern (z. B. neue Uhrzeit).
+- Beim Löschen fragt Outlook ebenso.
 
 ### Farben für Termine
 
-Sie können Terminen Farben zuweisen: **Rechtsklick auf Termin → Kategorien**
+Sie können Terminen Farben zuweisen: **Rechtsklick auf den Termin → Kategorisieren**
 
 Beispiele:
+
 - Wartung = Rot
 - Besprechungen = Blau
 - Kontrollgänge = Grün
@@ -164,20 +156,20 @@ So behalten Sie in einem vollen Kalender den Überblick.
 
 ## Häufige Fragen
 
-**Sehen andere Personen meinen ganzen Kalender, wenn ich eine Besprechung anlege?**
-Nein! Die anderen sehen nur den einen Termin, zu dem Sie sie einladen. Ihr restlicher Kalender bleibt privat. Nur wenn Ihr Unternehmen das Freigeben von Kalendern aktiviert hat, können Sie wählen, Ihren Kalender mit anderen zu teilen.
+**Sehen andere Personen meinen ganzen Kalender, wenn ich sie zu einer Besprechung einlade?**
+Nein! Die anderen sehen nur den einen Termin, zu dem Sie sie einladen. Ihr restlicher Kalender bleibt privat. Nur wenn Sie Ihren Kalender ausdrücklich freigeben, können andere mehr sehen.
 
-**Was ist der Unterschied zwischen „Termin" und „Besprechung"?**
-Ein Termin ist nur für Sie – wie eine Notiz in Ihrem Kalender. Eine Besprechung wird als E-Mail an andere Personen verschickt und erscheint auch in deren Kalendern (wenn sie zusagen).
+**Was ist der Unterschied zwischen „Termin“ und „Besprechung“?**
+Ein Termin ist nur für Sie – wie eine Notiz in Ihrem Kalender. Eine Besprechung wird als E-Mail an andere Personen verschickt und erscheint auch in deren Kalendern (wenn sie zusagen). Im neuen Outlook legen Sie beides mit „Neues Ereignis“ an; den Unterschied macht, ob Sie jemanden einladen.
 
 **Kann ich eine Serie auch wieder beenden?**
-Ja! Öffnen Sie die Serie (Doppelklick auf einen der Termine → „Serie öffnen"). Dann können Sie ein Enddatum festlegen.
+Ja! Öffnen Sie einen Termin der Serie und wählen Sie, dass die Änderung für die ganze Serie gilt. Dann können Sie ein Enddatum festlegen.
 
-**Was passiert, wenn ein Teilnehmer die Besprechung ablehnt?**
-Sie erhalten eine E-Mail mit der Absage. Der Termin bleibt in Ihrem Kalender bestehen, aber Sie sehen in der Teilnehmerliste, wer abgesagt hat. Sie können dann entscheiden, ob Sie einen neuen Termin vorschlagen.
+**Was passiert, wenn eine eingeladene Person ablehnt?**
+Sie erhalten eine E-Mail mit der Absage. Der Termin bleibt in Ihrem Kalender bestehen, aber Sie sehen bei den Teilnehmenden, wer abgesagt hat. Sie können dann entscheiden, ob Sie eine andere Zeit vorschlagen.
 
-**Kann ich auch Räume als Teilnehmer einladen?**
-Ja, wenn Ihr Unternehmen Raumpostfächer eingerichtet hat. Dann können Sie eine Raum-E-Mail-Adresse im An-Feld eingeben (z. B. besprechungsraum-2og@firma.de). Der Raum wird dann automatisch „gebucht".
+**Kann ich auch Räume einladen?**
+Ja, wenn Ihr Unternehmen Raumpostfächer eingerichtet hat. Dann können Sie die Raum-Adresse wie eine Person einladen (z. B. besprechungsraum-2og@firma.de). Der Raum wird dann automatisch „gebucht“.
 
 ---
 
@@ -185,12 +177,14 @@ Ja, wenn Ihr Unternehmen Raumpostfächer eingerichtet hat. Dann können Sie eine
 
 | Begriff | Erklärung |
 |---|---|
-| **Ribbon** | Das Menüband oben mit den Schaltflächen (auf Deutsch oft „Multifunktionsleiste") |
-| **Terminserie / Serie** | Ein wiederkehrender Termin (z. B. jeden Montag) |
+| **Menüband** | Die Leiste oben mit den Schaltflächen |
+| **App-Leiste** | Die schmale Leiste ganz links zum Wechseln zwischen E-Mail, Kalender und Personen |
+| **Ereignis** | Jeder Eintrag im Kalender – Termin, Besprechung oder ganztägiges Ereignis |
+| **Serie** | Ein wiederkehrender Termin (z. B. jeden Montag) |
 | **Serienmuster** | Wie oft der Termin wiederholt wird (täglich, wöchentlich, monatlich, jährlich) |
 | **Organisator** | Die Person, die eine Besprechung erstellt und verschickt hat |
-| **Teilnehmer** | Personen, die zu einer Besprechung eingeladen wurden |
-| **Zusagen / Ablehnen** | Antworten auf eine Besprechungsanfrage |
+| **Teilnehmende** | Personen, die zu einer Besprechung eingeladen wurden |
+| **Zusagen / Ablehnen** | Antworten auf eine Einladung |
 | **Ganztägiges Ereignis** | Termin ohne feste Uhrzeit, gilt den ganzen Tag |
 | **Kategorien** | Farbige Markierungen für Termine zur besseren Übersicht |
 

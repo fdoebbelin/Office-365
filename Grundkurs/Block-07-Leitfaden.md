@@ -48,16 +48,16 @@
 ### Was wurde an Tag 1 behandelt?
 
 **Outlook – E-Mail:**
-- Oberfläche: Navigationsbereich, Lesebereich, Menüband
+- Oberfläche: App-Leiste, Ordnerbereich, Lesebereich, Menüband
 - E-Mail schreiben, senden, weiterleiten
 - Unterschied An / CC / BCC
 - Ordner anlegen, Mails verschieben
 
 **Outlook – Kalender:**
 - Zwischen Mail und Kalender wechseln
-- Termin vs. Besprechung vs. Ganztägiges Ereignis
-- Wiederkehrenden Termin anlegen
-- Besprechungsanfrage mit Einladung versenden
+- Neues Ereignis: Termin (niemand eingeladen), Besprechung (Personen eingeladen), ganztägiges Ereignis
+- Wiederkehrenden Termin (Serie) anlegen
+- Einladung zu einer Besprechung versenden
 
 **Word – Grundlagen:**
 - Oberfläche: Menüband, Lineal, Statusleiste
@@ -76,7 +76,7 @@
 
 - „Outlook ist wie ein digitales Postfach – Eingang, Ausgang, Ablage."
 - „Der Kalender in Outlook funktioniert wie ein Wandkalender, nur dass er Erinnerungen schicken kann."
-- „Word speichert Dokumente wie eine Schreibmaschine mit Gedächtnis – aber erst wenn Sie Strg+S drücken."
+- „Word speichert Dokumente wie eine Schreibmaschine mit Gedächtnis – aber erst wenn Sie Strg+S drücken oder AutoSpeichern eingeschaltet ist."
 
 ---
 

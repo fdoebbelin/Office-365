@@ -4,7 +4,7 @@
 |---|---|
 | **Blocknummer** | 9 |
 | **Titel** | Rechnen und Auswerten |
-| **Programm** | Microsoft Excel 2019 |
+| **Programm** | Microsoft Excel (Microsoft 365) |
 | **Dauer** | 75 Minuten (11:15 – 12:30 Uhr) |
 | **Folgt auf** | Block 8 – Excel-Grundlagen (Pause 15 Min.) |
 
@@ -110,7 +110,7 @@ Am Ende dieses Blocks können die Teilnehmer:
 |---|---|
 | Formel zeigt #WERT! | Prüfen ob alle Zellen im Bereich Zahlen enthalten (kein Text). |
 | Formel zeigt #DIV/0! | Division durch Null – tritt bei MITTELWERT auf, wenn Bereich leer ist. Bereich prüfen. |
-| Füllkästchen nicht sichtbar | Excel-Optionen → Erweitert → „Ausfüllkästchen und Drag & Drop von Zellen aktivieren" prüfen. Alternativ: Kopieren (Strg+C) → Zielbereich markieren → Einfügen (Strg+V). |
+| Füllkästchen nicht sichtbar | Datei → Optionen → Erweitert → „Ausfüllkästchen und Drag & Drop von Zellen aktivieren" prüfen. Alternativ: Kopieren (Strg+C) → Zielbereich markieren → Einfügen (Strg+V). |
 | Filter zeigt keine Ergebnisse | Prüfen ob Tippfehler im Filter-Wert. Filter über „Alle" wieder aufheben und neu setzen. |
 | Teilnehmer hat falsche Datei geöffnet | Datei schließen, über Datei → Öffnen → `C:\Kurs\Uebungen` navigieren. |
 | AutoFilter-Pfeile nicht sichtbar | Zelle innerhalb der Tabelle anklicken, dann Daten → Filtern. |

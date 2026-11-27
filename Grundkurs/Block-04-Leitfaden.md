@@ -6,7 +6,7 @@
 |---------|---------|
 | **Blocknummer** | 4 |
 | **Titel** | Texte erstellen, formatieren und speichern |
-| **Programm** | Microsoft Word 2019 |
+| **Programm** | Microsoft Word (Microsoft 365) |
 | **Dauer** | 75 Minuten (13:30 – 14:45 Uhr) |
 | **Pause** | 10 Min. nach Block (14:45 – 14:55 Uhr) |
 
@@ -25,8 +25,9 @@ Am Ende dieses Blocks können die Teilnehmer:
 
 ### Vor Blockbeginn prüfen:
 
-- [ ] Word 2019 ist auf allen Teilnehmer-PCs installiert und startet fehlerfrei
-- [ ] Standardschriftart ist "Calibri", Standardgröße "11 pt"
+- [ ] Word ist auf allen Teilnehmer-PCs installiert, startet fehlerfrei und ist mit dem Kurskonto angemeldet
+- [ ] Standardschriftart ist "Aptos", Standardgröße "11 pt" (heute Standard in Microsoft 365; ältere Vorlagen zeigen noch Calibri)
+- [ ] AutoSpeichern ist für den Kurs aus, Speicherort `C:\Kurs\Uebungen` (siehe „Dateien und Speichern“)
 - [ ] Rechtschreibprüfung ist aktiviert (deutsche Sprache)
 - [ ] Drucker ist einsatzbereit, ausreichend Papier vorhanden
 - [ ] Beamer zeigt Dozenten-Bildschirm korrekt an
@@ -52,7 +53,7 @@ Am Ende dieses Blocks können die Teilnehmer:
 | 13:35 | 5–15 | Dozent zeigt | Word starten, Oberfläche zeigen: Menüband, Lineal, Statusleiste | Langsam mit Mauszeiger die Bereiche abfahren, benennen |
 | 13:45 | 15–20 | TN machen nach | Word selbst starten, Oberfläche betrachten | Einzeln durchgehen, sicherstellen dass alle Word offen haben |
 | 13:50 | 20–25 | Dozent zeigt | Folie: "Was ist eine Datei?" – Konzept Speichern erklären | Analogie: Datei = Dokument im Aktenschrank |
-| 13:55 | 25–35 | Dozent zeigt | Neue Datei erstellen, Text eingeben, speichern als "Test.docx" | Datei > Speichern unter > Ort wählen > Namen vergeben |
+| 13:55 | 25–35 | Dozent zeigt | Neue Datei erstellen, Text eingeben, speichern als "Test.docx" | Strg+S → Namen vergeben → Speicherort wählen (bei Bedarf „Weitere Speicheroptionen“) |
 | 14:05 | 35–40 | TN machen nach | Text eingeben: "Haus Lichtblick", speichern als "Mein-Test.docx" | Kontrollieren: Wer hat Schwierigkeiten beim Speichern? |
 | 14:10 | 40–45 | Dozent zeigt | Folie: Grundformatierung – Schriftart, Größe, Fett/Kursiv/Unterstrichen | Menüband > Start > Gruppe Schriftart zeigen |
 | 14:15 | 45–55 | Dozent zeigt | Text markieren, fett/kursiv/unterstrichen formatieren | WICHTIG: Erst markieren, dann formatieren |
@@ -87,7 +88,12 @@ Am Ende dieses Blocks können die Teilnehmer:
 
 **Speicherpfad erklären:**
 - Analogie: Aktenschrank (PC) > Schublade (Ordner) > Akte (Datei)
-- Standardort: Dokumente-Ordner – dort finden Teilnehmer ihre Dateien wieder
+- Beim ersten Speichern schlägt Word OneDrive vor. Im Kurs speichern wir lokal in `C:\Kurs\Uebungen` – über „Weitere Speicheroptionen“ bzw. „Durchsuchen“.
+
+**AutoSpeichern (oben links in der Titelleiste):**
+- Liegt eine Datei in OneDrive oder SharePoint, speichert Word jede Änderung automatisch; der Schalter steht dann auf „Ein“.
+- Bei lokal gespeicherten Dateien ist AutoSpeichern aus – hier gilt weiterhin: früh und oft Strg+S.
+- Mit AutoSpeichern heißt „Speichern unter“ im Datei-Menü „Kopie speichern“: Man arbeitet danach in der Kopie weiter, nicht im Original.
 - Dateiname: Aussagekräftig wählen ("Aushang_Aufzug" statt "Dokument1")
 
 **Dateiformat .docx:**
@@ -101,8 +107,8 @@ Am Ende dieses Blocks können die Teilnehmer:
 - Mit Tastatur: Shift + Pfeiltasten
 
 **Schriftart ändern:**
-- Menüband Start > Gruppe Schriftart > Dropdown "Calibri"
-- Für Aushänge: Gut lesbare Schrift wählen (Arial, Calibri)
+- Menüband Start > Gruppe Schriftart > Dropdown "Aptos"
+- Für Aushänge: Gut lesbare Schrift wählen (Aptos, Arial, Calibri)
 
 **Schriftgröße:**
 - Standard: 11 pt (gut für Fließtext)
@@ -261,8 +267,9 @@ Am Ende dieses Blocks können die Teilnehmer:
 **Symptom:** "Wo ist mein Aushang hin?"
 
 **Lösung:**
-- Datei > Zuletzt verwendet → dort taucht die Datei auf
-- Oder: Datei > Öffnen > Durchsuchen → Dokumente-Ordner
+- Startseite von Word bzw. Datei > Öffnen > Zuletzt verwendet → dort taucht die Datei auf
+- Oder: Suchfeld oben in der Titelleiste – Dateiname eintippen
+- Oder: Datei > Öffnen > Durchsuchen → `C:\Kurs\Uebungen`
 - Für nächstes Mal: Immer denselben Ordner verwenden (z.B. C:\Kurs\Uebungen)
 
 ### Problem: Übung 6 ist zu schwer

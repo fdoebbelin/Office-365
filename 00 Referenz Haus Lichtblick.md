@@ -52,7 +52,8 @@
 - **Techniker:** Jan Müller (jan.mueller@haus-lichtblick.de)
 
 ### Externe Dienstleister
-- **Hausverwaltung:** Immobilien Fischer GmbH (verwaltung@fischer-immo.de)
+- **Hausverwaltung:** Immobilien Fischer GmbH, Ansprechpartnerin Petra Schönfeld (p.schoenfeld@fischer-immo.de)
+- **Gebäudereinigung:** Sauber & Rein GmbH, Ansprechpartnerin Klara Nowak (k.nowak@sauber-rein.de)
 - **Heizungswartung:** Heizungstechnik Berlin (service@heizung-berlin.de)
 - **Elektriker:** Elektro Schulze (info@elektro-schulze.de)
 - **Aufzugswartung:** Lift-Service Nord (wartung@lift-service.de)

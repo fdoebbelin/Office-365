@@ -3,7 +3,7 @@
 | Merkmal | Details |
 |---|---|
 | **Block** | 10 von 12 |
-| **Programm** | Microsoft Excel 2019 |
+| **Programm** | Microsoft Excel (Microsoft 365) |
 | **Zeit** | 13:30 – 14:30 Uhr (60 Minuten) |
 | **Vorgänger** | Block 9 – Rechnen und Auswerten |
 | **Nachfolger** | Block 11 – Programme verknüpfen |
@@ -29,7 +29,7 @@ Am Ende dieses Blocks können die Teilnehmer:
 - Excel geöffnet, Datei noch nicht geöffnet
 
 **Ausdrucken:**
-- Block-10-Handout.pdf (1× pro Teilnehmer)
+- Handout Block 10 (1× pro Teilnehmer)
 
 ---
 
@@ -72,7 +72,7 @@ Am Ende dieses Blocks können die Teilnehmer:
 → Immer die Beschriftungsspalte (Monate) UND die Datenspalte (Verbrauch in kWh) gemeinsam markieren. Nicht die Zwischensummen-Zeile mitmarkieren.
 
 **„Wo finde ich Achsentitel?"**
-→ Nach Diagramm-Klick erscheint oben der Reiter „Diagrammentwurf". Dort → „Diagrammelement hinzufügen" → „Achsentitel".
+→ Nach Diagramm-Klick erscheint oben der Reiter „Diagrammentwurf". Dort → „Diagrammelement hinzufügen" → „Achsentitel". Schneller: die Schaltfläche **+** rechts neben dem Diagramm → Häkchen bei „Achsentitel".
 
 **„Kann ich das Diagramm verschieben?"**
 → Ja, einfach auf den Rand des Diagramms klicken und ziehen.

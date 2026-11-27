@@ -29,7 +29,7 @@ Die Teilnehmer können am Ende dieses Blocks:
 
 **Prüfen vor dem Block:**
 - Beide Dateien auf allen PCs vorhanden?
-- Outlook geöffnet und konfiguriert? (fiktive E-Mail-Adresse: `thomas.berger@haus-lichtblick.de`)
+- Outlook geöffnet und konfiguriert? (fiktive E-Mail-Adresse des Hausmeisters: `thomas.weber@haus-lichtblick.de`; der Bericht geht an die Hausverwaltung `p.schoenfeld@fischer-immo.de`)
 - Excel und Word lassen sich gleichzeitig öffnen? (Taskleiste testen)
 
 **Materialien:**
@@ -68,7 +68,7 @@ Die Teilnehmer können am Ende dieses Blocks:
 3. Word öffnen → Cursor an die gewünschte Stelle setzen
 4. `Strg+V` (Einfügen) → Tabelle erscheint in Word
 
-**Wichtiger Hinweis:** Office bietet beim Einfügen verschiedene Optionen an (Symbol unten rechts erscheint). Für Einsteiger empfehlen Sie:
+**Wichtiger Hinweis:** Word bietet beim Einfügen verschiedene Optionen an (Symbol unten rechts erscheint). Für Einsteiger empfehlen Sie:
 - „Ursprüngliche Formatierung beibehalten" – sieht sofort gut aus
 
 ### Excel → Word: Diagramm einfügen
@@ -84,14 +84,17 @@ Die Teilnehmer können am Ende dieses Blocks:
 **Methode 1 (einfachste für Einsteiger):**
 1. Outlook öffnen
 2. „Neue E-Mail" → Betreff und Text schreiben
-3. Registerkarte „Einfügen" → „Datei anfügen" → Datei im Explorer suchen und doppelklicken
-4. Anhang erscheint im E-Mail-Header
+3. Registerkarte „Einfügen" → „Datei anfügen" → „Diesen PC durchsuchen" → Datei suchen und doppelklicken
+4. Anhang erscheint unter dem Betreff
 
-**Methode 2 (direkter aus Word):**
-- Word: Datei → Freigeben → E-Mail → Als Anlage senden
-- Outlook öffnet sich automatisch mit der Word-Datei als Anhang
+Alternativ lässt sich die Datei aus dem Explorer direkt in die geöffnete E-Mail ziehen.
 
-**Empfehlung für Einsteiger:** Methode 1 zeigen – sie ist universell.
+**Methode 2 (Link statt Anhang, nur mit OneDrive):**
+- Liegt der Bericht in OneDrive, schickt man statt einer Kopie einen Link: In Word oben rechts **Freigeben** → Personen eintragen → Senden.
+- Vorteil: Alle arbeiten mit derselben Datei, keine Versionen im Postfach. Nachteil: Empfänger brauchen Zugriff, extern oft nicht erlaubt.
+- Nur zeigen, nicht üben – im Kurs liegen die Dateien lokal.
+
+**Empfehlung für Einsteiger:** Methode 1 – sie funktioniert immer, auch bei Empfängern außerhalb der eigenen Organisation.
 
 ---
 

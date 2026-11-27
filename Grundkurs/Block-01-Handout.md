@@ -3,21 +3,21 @@
 **Programm:** Übergreifend
 **Dauer:** 45 Minuten
 **Thema:** Den Computer als Werkzeug verstehen
-*Haus Lichtblick – Office 2019 Grundkurs*
+*Haus Lichtblick – Microsoft 365 Grundkurs*
 
 ---
 
 ## Was Sie in diesem Block lernen
 
-In diesem ersten Block machen Sie sich mit den drei wichtigsten Office-Programmen vertraut: Outlook für E-Mails und Termine, Word für Texte und Dokumente, Excel für Zahlen und Listen. Sie lernen, wie Sie Programme starten, zwischen ihnen wechseln und Fenster auf dem Bildschirm anordnen.
+In diesem ersten Block machen Sie sich mit den drei wichtigsten Programmen aus Microsoft 365 vertraut: Outlook für E-Mails und Termine, Word für Texte und Dokumente, Excel für Zahlen und Listen. Sie lernen, wie Sie Programme starten, zwischen ihnen wechseln und Fenster auf dem Bildschirm anordnen.
 
 ---
 
 ## Wichtige Begriffe
 
-### Was ist Office?
+### Was ist Microsoft 365?
 
-Office ist ein Programmpaket von Microsoft mit mehreren Programmen für verschiedene Aufgaben im Büroalltag. Vergleichbar mit einem Werkzeugkasten: Jedes Werkzeug (Programm) hat seinen eigenen Zweck.
+Microsoft 365 ist ein Programmpaket von Microsoft mit mehreren Programmen für verschiedene Aufgaben im Büroalltag. Früher hieß es „Office“. Vergleichbar mit einem Werkzeugkasten: Jedes Werkzeug (Programm) hat seinen eigenen Zweck. Zu Microsoft 365 gehört außerdem ein Online-Speicher, OneDrive, in dem Sie Dateien ablegen können.
 
 ### Die drei Programme
 
@@ -31,11 +31,11 @@ Der Desktop (englisch für Schreibtisch) ist die Arbeitsfläche auf Ihrem Bildsc
 
 ### Taskleiste
 
-Die Taskleiste ist die Leiste am unteren Bildschirmrand. Sie zeigt, welche Programme gerade geöffnet sind. Links in der Taskleiste finden Sie das Windows-Symbol (Startmenü).
+Die Taskleiste ist die Leiste am unteren Bildschirmrand. Sie zeigt, welche Programme gerade geöffnet sind. In der Taskleiste finden Sie auch das Windows-Symbol (Startmenü) – unter Windows 11 meist in der Mitte.
 
 ### Startmenü
 
-Das Startmenü öffnen Sie durch Klick auf das Windows-Symbol unten links. Es ist wie ein Inhaltsverzeichnis: Hier finden Sie alle installierten Programme.
+Das Startmenü öffnen Sie durch Klick auf das Windows-Symbol in der Taskleiste. Es ist wie ein Inhaltsverzeichnis: Hier finden Sie alle installierten Programme.
 
 ---
 
@@ -43,8 +43,8 @@ Das Startmenü öffnen Sie durch Klick auf das Windows-Symbol unten links. Es is
 
 ### Programme starten
 
-1. Klicken Sie auf das Windows-Symbol unten links in der Taskleiste.
-2. Das Startmenü öffnet sich. Scrollen Sie in der Programmliste nach unten oder nutzen Sie das Suchfeld.
+1. Klicken Sie auf das Windows-Symbol in der Taskleiste.
+2. Das Startmenü öffnet sich. Tippen Sie den Programmnamen ins Suchfeld oder klicken Sie auf „Alle“ und scrollen Sie in der Liste.
 3. Klicken Sie einmal auf den Programmnamen (z. B. „Outlook“, „Word“ oder „Excel“).
 4. Das Programm öffnet sich in einem neuen Fenster.
 
@@ -59,7 +59,7 @@ Das Startmenü öffnen Sie durch Klick auf das Windows-Symbol unten links. Es is
 
 **Methode 1: Manuell ziehen**
 
-1. Klicken Sie auf die Titelleiste des Fensters (die blaue Leiste ganz oben).
+1. Klicken Sie auf die Titelleiste des Fensters (die Leiste ganz oben mit dem Dateinamen).
 2. Halten Sie die Maustaste gedrückt.
 3. Ziehen Sie das Fenster an die gewünschte Position.
 4. Lassen Sie die Maustaste los.
@@ -70,6 +70,12 @@ Das Startmenü öffnen Sie durch Klick auf das Windows-Symbol unten links. Es is
 2. Ziehen Sie das Fenster zum rechten oder linken Bildschirmrand.
 3. Das Fenster rastet automatisch ein und nimmt die halbe Bildschirmbreite ein.
 4. Lassen Sie die Maustaste los.
+
+**Methode 3: Andocklayouts (Windows 11)**
+
+1. Halten Sie die Maus kurz über die Schaltfläche „Maximieren“ (das Quadrat oben rechts im Fenster).
+2. Es erscheinen mehrere Layouts. Klicken Sie auf ein Feld, z. B. links in einem Layout mit drei Spalten.
+3. Windows zeigt die übrigen offenen Programme an. Klicken Sie sie nacheinander an, um die freien Felder zu füllen.
 
 ### Programme schließen
 

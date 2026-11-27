@@ -58,8 +58,8 @@ Führen Sie den Rückblick als **gelenktes Gespräch**, nicht als Vortrag:
 **Lernpunkte Tag 1 im Überblick:**
 
 - **Block 1 – Orientierung:** Desktop, Taskleiste, Programme öffnen/wechseln
-- **Block 2 – Outlook E-Mail:** Posteingang, E-Mail schreiben, Anhang, Ordner anlegen
-- **Block 3 – Outlook Kalender:** Termin/Besprechung anlegen, Erinnerungen, Einladungen
+- **Block 2 – Outlook E-Mail:** Posteingang, E-Mail schreiben, weiterleiten, Ordner anlegen
+- **Block 3 – Outlook Kalender:** Termin, Serie und Besprechung anlegen, Erinnerungen, Einladungen
 - **Block 4 – Word Grundlagen:** Datei erstellen/speichern, Formatierung, Strg+Z
 - **Block 5 – Word Struktur:** Listen, Tabellen, Überschriften, Drucken
 
@@ -74,7 +74,7 @@ Führen Sie den Rückblick als **gelenktes Gespräch**, nicht als Vortrag:
 |---|---|
 | „Wie finde ich meine gespeicherten Dateien wieder?" | Explorer öffnen → Zuletzt verwendet, oder Speicherort merken |
 | „Kann ich Outlook auch auf dem Handy nutzen?" | Ja, Outlook-App – aber das ist kein Kursthema |
-| „Was ist, wenn ich Strg+Z nicht mehr rückgängig machen kann?" | Bei gespeicherter Datei ist die Versionsgeschichte begrenzt – daher: erst denken, dann speichern |
+| „Was ist, wenn ich Strg+Z nicht mehr rückgängig machen kann?" | Nach dem Schließen ist Strg+Z verloren. Liegt die Datei in OneDrive, hilft der Versionsverlauf (Datei → Informationen → Versionsverlauf). Bei lokalen Dateien: vor großen Änderungen eine Kopie speichern |
 | „Wird das alles morgen wiederholt?" | Block 7 beginnt mit einer kurzen Wiederholung |
 
 ### Ausblick Tag 2
