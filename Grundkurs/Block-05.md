@@ -181,4 +181,4 @@ Wo Sie unsicher sind: den Abschnitt oben noch einmal lesen und die passende Aufg
 
 ## Weiter
 
-[Block 06 – Tagesrückblick und Fragen](Block-06.md) fasst Outlook und Word zusammen.
+In [Block 06 – Praxis Outlook und Word](Block-06.md) setzen Sie alles aus Outlook und Word an einem Fall ein: von der Störungsmeldung bis zum Protokoll.

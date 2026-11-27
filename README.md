@@ -12,7 +12,7 @@ Kursmaterial für Einsteigerinnen und Einsteiger: ein **Grundkurs** mit zwölf B
 | [Aufbau-Verknüpfung](Aufbau-Verknüpfung/) | Kassenbuch mit Datenüberprüfung und Schutz, Excel-Tabellen in Word einfügen, einbetten oder verknüpfen, Serien-E-Mail |
 | [Materialien](Materialien/) | Nachschlage- und Vertiefungsmaterial: Oberflächen, Befehle, Begriffe, Zellbezüge (Handout, Arbeitsblatt, Dozentenfassung), Diagramme, Dozentenleitfaden Pivot-Tabellen |
 
-Jeder Block des Grundkurses wird zu einer **Lerneinheit** auf einer Seite: Erklärungen mit Folienabbildungen, Schritt-für-Schritt-Anleitungen, farbige Hinweiskästen, Selbstcheck und Hinweise für Coaching. Dazu gehören ein **Übungsblatt** (als Seite und als Word-Datei) und **Übungsdateien** in Word und Excel. Umgestellt sind **Block 01 bis 05 und 08 bis 12**; die übrigen Blöcke haben noch einen Leitfaden mit Zeitplan für Gruppenkurse. Die Aufbaumodule beginnen mit `00 Ablauf.md`.
+Jeder Block des Grundkurses ist eine **Lerneinheit** auf einer Seite: Erklärungen mit Folienabbildungen, Schritt-für-Schritt-Anleitungen, farbige Hinweiskästen, Selbstcheck und Hinweise für Coaching. Dazu gehören ein **Übungsblatt** (als Seite und als Word-Datei) und **Übungsdateien** in Word und Excel. Alle zwölf Blöcke sind umgestellt; Block 06 und 07 sind Übungsblöcke (Praxisfall und Selbsttest zu Outlook und Word). Die Aufbaumodule beginnen mit `00 Ablauf.md`.
 
 Die Gebäudedaten, Kontakte, Mieterliste, Inventar, Energieverbrauch und Checklisten des Szenarios stehen in [`00 Referenz Haus Lichtblick.md`](00%20Referenz%20Haus%20Lichtblick.md). Alle Namen, Firmen und Adressen sind erfunden.
 
@@ -44,13 +44,12 @@ Diese Angaben ließen sich beim Umstellen auf Microsoft 365 nicht an einer laufe
 - Block 09 (Excel): im Dialog „Sortieren“ die Reihenfolge „Nach Größe (aufsteigend)“, im Filtermenü „Nach Größe sortieren (aufsteigend)“ und „Von A bis Z sortieren“, Schaltflächen „Dezimalstelle hinzufügen/löschen“, Ergebnis der Schaltfläche „1.000er-Trennzeichen“ (zwei Nachkommastellen?)
 - Block 10 (Excel): „Säulen- oder Balkendiagramm einfügen“ → „Gruppierte Säulen“, „Kreis- oder Ringdiagramm einfügen“, Datenbeschriftungen → „Weitere Optionen“ mit „Prozentsatz“ und „Wert“, beim Drucken „Ausgewähltes Diagramm drucken“
 - Block 11: im neuen Outlook „Einfügen“ → „Datei anfügen“ → „Diesen PC durchsuchen“; in Word die Einfügeoptionen beim Einfügen eines Excel-Diagramms (Standard eingebettet? Option „Bild“) und einer Tabelle („Ursprüngliche Formatierung beibehalten“, „Nur den Text übernehmen“)
+- Block 07: E-Mail nur mit Bcc und leerem „An“ lässt sich im neuen Outlook senden
 
 ## Fehlende Dateien
 
-Die Leitfäden verweisen auf Übungs- und Lösungsdateien, Präsentationen und Handouts, die im Archiv nicht enthalten waren und neu erstellt werden müssen:
+Im Grundkurs fehlt nichts mehr: Folien, Übungsblätter und Übungsdateien aller zwölf Blöcke liegen vor. Die Aufbaumodule verweisen noch auf Dateien, die im Archiv nicht enthalten waren:
 
-- **Folien und Übungsblätter:** die Blöcke 06 und 07 – entstehen beim Umstellen auf Lerneinheiten (Folien als SVG, Übungsblatt als Seite und `.docx`)
-- **Übungen Grundkurs:** `Uebung-07-Quiz.docx` mit Lösung (Block 07). Sie entstehen beim Umstellen der Blöcke neu nach dem Schema `Block-NN-Thema`.
 - **Übungen Aufbau-Word:** `Uebung-A1-Hausordnung.docx`, `Uebung-A7-Betriebshandbuch.docx` – der Text steht jeweils in der Einheit und lässt sich auch abtippen
 - **Bild** der früheren Briefvorlage nach DIN 5008
 
